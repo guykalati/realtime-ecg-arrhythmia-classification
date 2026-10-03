@@ -228,6 +228,16 @@
       "bytes": 2548
     },
     {
+      "source_relative_path": "ECG_SUBJECT_ADVERSARY_PROTOCOL_2026-10-03.md",
+      "sha256": "42e36b89aa83bc973fe718c028f66c9413dc80a3014be4bf2fc0bd83cf81e29e",
+      "bytes": 3035
+    },
+    {
+      "source_relative_path": "ECG_SUBJECT_ADVERSARY_RESULT_2026-10-03.md",
+      "sha256": "b76653824e9582361df6b5f55e863c573a9e161ef2b8067b0e958a8bec5d7148",
+      "bytes": 3382
+    },
+    {
       "source_relative_path": "EDB_ARRAY_QUALITY_PROTOCOL_2026-10-02.md",
       "sha256": "741746f521a7d25f8723277f91abfa1808959f9510141b64cf4cf39d00218736",
       "bytes": 754
@@ -498,6 +508,11 @@
       "bytes": 6631
     },
     {
+      "source_relative_path": "implementation/audit_ecg_subject_adversary.py",
+      "sha256": "45b282a6394c976394450c1cf739af6e1a52bdb6fe78318404460fead3f5207e",
+      "bytes": 6382
+    },
+    {
       "source_relative_path": "implementation/audit_longruns_2026-09-30.py",
       "sha256": "407beb039d773511058a7040d2d6917c50cccb44189de63cf378f7a6b4b3d828",
       "bytes": 7195
@@ -658,6 +673,26 @@
       "bytes": 2815
     },
     {
+      "source_relative_path": "implementation/ecg_subject_adversary.py",
+      "sha256": "8a3c5e32b94110adbd1b2e625cc9d377d3dfe26476ed6304c353239d6f3d7752",
+      "bytes": 8292
+    },
+    {
+      "source_relative_path": "implementation/ecg_subject_adversary_audit_2026-10-03.json",
+      "sha256": "15871662a3f1d00b47f7c654de86ec9bf837600cd784e496dbe1ac6cd8ca080b",
+      "bytes": 7223
+    },
+    {
+      "source_relative_path": "implementation/ecg_subject_adversary_manifest_2026-10-03.json",
+      "sha256": "8ecc27442fe92a300e63987f55cedb97b868313cec654cdf2f45b9108322eaa2",
+      "bytes": 82763
+    },
+    {
+      "source_relative_path": "implementation/ecg_subject_adversary_submission_2026-10-03.json",
+      "sha256": "223c1ab087e463e968103db0a2e6d1bfed7d884839fbfc3460c42dca6b8e559d",
+      "bytes": 348
+    },
+    {
       "source_relative_path": "implementation/ecg_subject_label_audit.py",
       "sha256": "1999a578cd5a8dbb81d754a6b0b5837eadfd9f494596b32caf40bf4db37ecea2",
       "bytes": 2940
@@ -666,6 +701,11 @@
       "source_relative_path": "implementation/ecg_subject_label_audit_2026-09-29.json",
       "sha256": "921e57976ad50ffb6fb2e477fee79bfdf2577714ec403161df0dcce42f024e62",
       "bytes": 18416
+    },
+    {
+      "source_relative_path": "implementation/ecg_subject_zero_control_audit_2026-10-03.json",
+      "sha256": "831c17daf8d09fcbec8ab916dfe12609a74aba4c8abc028bbe874217c09f29b4",
+      "bytes": 1845
     },
     {
       "source_relative_path": "implementation/ecg_waveform_transform.py",

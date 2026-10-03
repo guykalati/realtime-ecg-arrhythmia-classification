@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "six_controls": [
+    {
+      "split": "a",
+      "seed": 20260929,
+      "validation_ce_abs_difference": 0.0,
+      "same_selected_epoch": true,
+      "mit_development_same_confusion": true,
+      "incart_development_same_confusion": true
+    },
+    {
+      "split": "a",
+      "seed": 20260930,
+      "validation_ce_abs_difference": 0.0,
+      "same_selected_epoch": true,
+      "mit_development_same_confusion": true,
+      "incart_development_same_confusion": true
+    },
+    {
+      "split": "a",
+      "seed": 20261001,
+      "validation_ce_abs_difference": 0.0,
+      "same_selected_epoch": true,
+      "mit_development_same_confusion": true,
+      "incart_development_same_confusion": true
+    },
+    {
+      "split": "b",
+      "seed": 20260929,
+      "validation_ce_abs_difference": 0.0,
+      "same_selected_epoch": true,
+      "mit_development_same_confusion": true,
+      "incart_development_same_confusion": true
+    },
+    {
+      "split": "b",
+      "seed": 20260930,
+      "validation_ce_abs_difference": 0.0,
+      "same_selected_epoch": true,
+      "mit_development_same_confusion": true,
+      "incart_development_same_confusion": true
+    },
+    {
+      "split": "b",
+      "seed": 20261001,
+      "validation_ce_abs_difference": 0.0,
+      "same_selected_epoch": true,
+      "mit_development_same_confusion": true,
+      "incart_development_same_confusion": true
+    }
+  ],
+  "previous_rr_raw_sha256": "7220a311009eaa948c664e2f520f590ca4e3674ed09c73389c7fa9e1d9001a2e",
+  "new_raw_sha256": "822ea09eb9471cc196a2d2abc299609bab9543b821c24748f76b79e2f904d179",
+  "limitations": "Same development splits/seeds and selected epochs, nearly identical validation CE and exactly identical per-source confusion counts. Does not establish independent replication or every probability/checkpoint equality."
+}

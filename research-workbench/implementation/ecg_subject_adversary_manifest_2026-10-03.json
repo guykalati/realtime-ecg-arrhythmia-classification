@@ -1,0 +1,3309 @@
+{
+  "seeds": [
+    20260929,
+    20260930,
+    20261001
+  ],
+  "splits": [
+    {
+      "id": "a",
+      "context": "past_context_a.csv",
+      "context_sha256": "94d5d9c7064f5c9e4c33921f8f140670f4a1e8605b807cd21259c9865562d089",
+      "split": "candidate_split_a.csv",
+      "split_sha256": "192f31b83654a6779e1fd79bb97e6b47646709097695d9ca2a449652f9d0e6b3",
+      "expected_counts": {
+        "train": 69842,
+        "validation": 13708,
+        "test": 17029
+      }
+    },
+    {
+      "id": "b",
+      "context": "past_context_b.csv",
+      "context_sha256": "e319f034f64e5684cf63c4f05584711177eb0c4a848aab63a7f82f9e8493ebe6",
+      "split": "candidate_split_b.csv",
+      "split_sha256": "ff5c79f50489072d3a38a03a5f8bd9409a0a2a8a5a2aa7efa9b5dcf9ba813ac2",
+      "expected_counts": {
+        "train": 69544,
+        "validation": 13708,
+        "test": 17327
+      }
+    }
+  ],
+  "max_runs": 18,
+  "epochs": 12,
+  "max_gpu_minutes": 15,
+  "max_internal_seconds": 780,
+  "output_byte_cap": 80000000,
+  "source_sha256": {
+    "ecg_waveform_transform.py": "377c29762ab2aede062f6c580181a565775a84b07f0c8002cf7ffcb04e3c77ae",
+    "ecg_subject_adversary.py": "8a3c5e32b94110adbd1b2e625cc9d377d3dfe26476ed6304c353239d6f3d7752",
+    "ecg_baseline.py": "e977a776e965312c6a98a47c3948e54e1e0042fe647f05096197b02b6e559c51",
+    "ecg_rr_compare.py": "dfdef70776333c4bb9e917eda03628739187877cdf1e63513b49f8939a226343",
+    "ecg_context_compare.py": "8940c48a740ae3b4f79240344cf726b23eb894aedaa26d5cd1169ae474cd87fd",
+    "run.sbatch": "10c02a34fd28c8ff6f30260b33d6f8a91d0c9bfb6a5996941647daf45afa2d0b"
+  },
+  "waveform_sources": [
+    {
+      "name": "MIT",
+      "root": "/home/guykalat/codex_ecg_baseline_20260928",
+      "csv_sha256": "1ea7bbff25b363d8f6e7503bd069294a10f5b13c18cb5c76a7f47f0304e00b00",
+      "array_sha256": {
+        "100": "abcd2eb9708085e032d70130927d805e3bdfde624f56bd952f4a7cd4726be70f",
+        "101": "cb47cb41b456c1c05ef1c5f649cf20d6cbd9e9dcc980026ff7f18689a90a550a",
+        "102": "3e141ca512857b9a56bb42aba1c1587093f54543c2afe1bccbff6b3234e10bca",
+        "103": "22a2b79b2627f10d55326fd92acec9f37e99dfd499c9aa07c069b66db73ff028",
+        "104": "4383c47e31f28ed8dcb9cd64698ec59d288e0794b19c24cc2167108cff6becb0",
+        "105": "68ff2e781881a9694d226fce00281b699583dc1946eed88afdf4f84457c45dce",
+        "106": "06d21e7cfdd80d1337ff55fb2842cc89d7840407e316b3f4900e23cea8ceec4d",
+        "107": "dce5a910dee2f6dcda6bcffe0b2c29c1eef3718923003b6a6703585ab95f7f01",
+        "108": "55671948e96d5e1803cf62e355ec4562746652200ea120d39a6ee7ae4824f4e5",
+        "109": "80fde034662f4f6cf3abce6d267daa8fb4a67ffb5aa8bee8b9cf98b71d061e63",
+        "111": "b4f6812e8c582c794fe30d8efe13f263808ce3323ad69c02f627a606c455ec23",
+        "112": "0e314fba841cfa69c6520dba364a5d210d2b61af5364c6df58fe40686b0ac7be",
+        "113": "eca2d46b7c7a76b9687b95e2871b5f8b2f589bdcc8f386cc8e72aca3deaed181",
+        "114": "f722f5517524b0f76c8a5d384254873e222880ac0739f665df8fd61ac8d24e6e",
+        "115": "0f1e947d81a188c9fc3edba199f77baa857474a716dc6468a94ec5e83e1f5192",
+        "116": "fc66be38bf73c72953ecd02bec742f30e3345bc5884a67c906f03922cdf3c29f",
+        "117": "3b67ed682f85dea7883edba4393c09109efa132fd542a11bc42218235755eed8",
+        "118": "2838494b7c652a5909e01665b948d7bd9b31ac47b8f07394c9bd975bec0e71cb",
+        "119": "cb5f45b72110e77a2070acd670576bb031f7977f2ebe8fbb67eb60f85470e8c9",
+        "121": "63e305cedf4d105b7ddddfd02bf7cc085f403b5cbcdec8131bf5cd81e21c7141",
+        "122": "5825a446e2f64df01b4dc3088a9648afec05e7adfe56230055776706dd2807c7",
+        "123": "618bcfa72588a70b1fc95d9022de5a329b58214e40f849f6762f90389aa517bb",
+        "124": "0f81ba6f6f506cd158f3b583990515038ea756121034975b35bfac0035ae123b",
+        "200": "5fba62b423c8135214709a5ec9e4add4d2516c0613400b1c82715fc4323b9270",
+        "201": "8339ff8b3d46a7b78d6d279e11d23d69dcc92b49996801aa2e6a514af0d15291",
+        "202": "a6473212cbdedba7cbb5ae1c6edc3cb6b6151c3e74c303290939418eda13bc81",
+        "203": "b2a900c06519eec78620a30ba703e05dbb8d65dc3ea61bbe436efadd0a799c0c",
+        "205": "558815468c0b6c93f7b36ec1ae5ec2c4cdb3808ffbcd4ce71cd15273ad3805ac",
+        "207": "384a7d38d9c68e8fc9426d5c44af6ba52c0a5d86e7dd140400573eaf1a86170a",
+        "208": "e3d9269423782c6c4244369048afdaa2dfed863b384a7618aef434a101d10c34",
+        "209": "cea8a95fdc68af155d374ea8195723a6213c77b3b20894bfad05c9784694adc4",
+        "210": "0b7368c3b261a61436435ac22eecd5d41f6f7ab0d4a27752b35eeeb45906d1e7",
+        "212": "65d5312f95bbc61456d765670f170824ccfd63e6742e7865cc4d37783c904281",
+        "213": "ccbb85794bafbe1e9ac14665ea078b68ad5b88c7dc84fc7aab353e05007a6831",
+        "214": "947d81325637298b5244d967e77ce3670532c30473b38fe6d77c291cc5ebaf6c",
+        "215": "6d55c58657ff0a5b333e2f2a4a533923a72622608eec0a4d5be5bfdb5d22c394",
+        "217": "2db6412cc6901df8ff655cf51cdbab8fa3ff850c1d758ef2febec08daca404a6",
+        "219": "762ea7f8fe2dc34fe16a920e081e70add41e7e747ff5726ba10f67d44e019049",
+        "220": "0c5e56337842d1b2e469c83b6e7faf75e8737b55d43c9670ed6dbd1433914d24",
+        "221": "f087dd14df4957f336a9f39eaadef2dac2a3eab9a59a6bff78578517bfc3b868",
+        "222": "3815feb1cb4f1105559ffb5a09f5d5ab13f6efe380ba1aca531d00d5565d315a",
+        "223": "9885f9073a8dcb730ee3bef7d2bf331ef267e6f94fad8b204e0d88608c983485",
+        "228": "6f959d1b4006e44ee982b1bb6d95b1e7b0562d2aa33e3cf52c22102a61c18f03",
+        "230": "e1f412efdd80704bccca9adae908c9d5bda94e9d266046429b9f2631de3a4176",
+        "231": "3c4e91245050da6c09ce065f8c233b73392a5458f4ad9361f5294faaba4cb19c",
+        "232": "e81f6e2df074144c22b1655c8d852687cebb3cbc74e3ad3db392d58f2b8ccb75",
+        "233": "9c804053881fa2b49c20ee2bf31215788c720c9a9e65bdcfbec08580d7fe38a7",
+        "234": "de2f8c7cddc17de93219a8b261e2eb47c754cf77deeb39068513c26e407ea0ac"
+      },
+      "record_column": "record_id",
+      "group_column": "subject_group",
+      "lead_column": "lead_name",
+      "class_column": "class_5"
+    },
+    {
+      "name": "INCART",
+      "root": "/home/guykalat/codex_ecg_incart_external_20260929",
+      "csv_sha256": "03074e47abfa84ce101ab93db1c1085cfd29407689e5393e602f57b3134d432a",
+      "array_sha256": {
+        "I01": "9ca13bad06e13cba19cf8958538dd95db8db94d48188080a6c0da04a3cb15cb3",
+        "I02": "f8c40b81afc939cb2aaf3a7a1e05fa3204d4fcf6ca23cfb673aa87b7af1c1898",
+        "I03": "02e476ac01d96abd81307409ad418bd65087ec0f9b5311de483841b9634044e1",
+        "I04": "b443cd4a085ba6b69297ecd9e4763272043e8aa352447bca1615c5eb7f770897",
+        "I05": "2f27705e4fdb2060ed60ebd377d9f520ced652c032972c4be0bcdbbd976ff745",
+        "I06": "db8b7e21abac5f5210ea66553bf67484c2c7754a4a95f1fc10c7f9338785de46",
+        "I07": "45bf221eeae16a316898f87be72c22189f7d67df8936cb1e529f1a7889327959",
+        "I08": "e9d9eb1ba0fa802920c31796afd99362a9de76e6d28a346db1d71ed0ba004730",
+        "I09": "d67b6f1045a52840a15cefe740f713600839fcd399774f582398b990254671db",
+        "I10": "c154f5ec5814003e2c856987f24964ea9e54b0c90b7fa623b67ff26436de5a20",
+        "I11": "bd43633288052943c34b987894117ca80ecc3b29441c89b8897293600bd97f7f",
+        "I12": "bf75c012ae90c3f2253187c4b8c267795afd7915841aa75a420a3d8158c7ec36",
+        "I13": "63a9f9737aacfc2f8ae4cf20a26f1ce996d569ea3b856d541439d8b4eace60cf",
+        "I14": "c881bce45db92be7e0a1166afb2e4b53840232faf398868ec0cb39fd3bdb2219",
+        "I15": "4daf78fe95180d317784401ea661e5577d3f8075275b9a2fb34f031fea7321eb",
+        "I16": "bb8ddf8b180dedef488b36251aa3403e22812310eeb281a04145d229c9737699",
+        "I17": "dfba43f39ebfcba4305946cc56788937dd197810ff184dda991f65873d6c5cc2",
+        "I18": "3985319b8b6fc23081a1a9ffa0ef3734a8b7a527ff9172c54f2149c5acbbcce8",
+        "I19": "ce253ed12e02b7401f88e7d4f4f24415dccb2531513aa080d9bf72863f7f0fb5",
+        "I20": "70d2d1694d4663819ea7bace96db890519e915c50f11550cb5b5dcf9030afd16",
+        "I21": "6daf26f70ab9fd0776fca87b27141736c39108bdf8082abf03ccd7816be02d74",
+        "I22": "8da7e228b1a0cbfe90670f905facb14a213b66ca3c646451bb280102e410fcfb",
+        "I23": "cd2ef3a6c4a7dcea3a89d7b84192a09ec11ac4340cc97a17be5edabf266c5246",
+        "I24": "ff3a98094bc27e3d33f60e7c8f117418759785b73850656c42aaac0bbeaa548c",
+        "I25": "b3b3a0082eddde560ed4b9a5707c18236a31180135f22a61bebb423f4a1a2c6f",
+        "I26": "efd3b96c084b3c9ef190a6e22e7bf00ffaa5287aab63611644190ef75533a04b",
+        "I27": "53da64976ff111c5fcf0ad19a9a2949a98818dd636091cd7f227337b6fae7f49",
+        "I28": "3ee6d2126b340bcdc08a4223cb75415ad15c691e3dbf006cc8fa1907ecf66e6c",
+        "I29": "e1df746cac2fb6a36dda319603b1b55632fcc19f4b07146f9578419691c542bd",
+        "I30": "dc62c0733b8334c142965d628b616312ad14c74bedf7f7265551558e0b530b4c",
+        "I31": "0b0ce4ce4e35dfd191b14f3cccfb0f3aff9c459b1e8bb76a135530dd8aa3e1c3",
+        "I32": "a4d44b2f2913f883086f073c1766761bbf87772192068d7ac9dc359384ed00e3",
+        "I33": "73aa82677853865c1656bf0719a5c6a4989e11a4c56b0e5722a6c64c1770f1b0",
+        "I34": "f1032d4f7a3204ff1ed344a4240836121890358f22bacdfd802427b539e1ceee",
+        "I35": "04afcee550add1efcd1bda90dd6ad74f171c83f3ea570cd4bdabae440c3f9b74",
+        "I36": "f738433ffdf98b79fcdb54ff50cab8326e7ac4698bd31abc6671a90a0454b968",
+        "I37": "b31a6e92e11448f66111d5c24eb8d005e231f43d5d4303b16ae80dda5790fec4",
+        "I38": "61bfe4a39c77c1d9cbf6b57ce3852c8e7ddc57004ebeefd2b71e49a188c56ca4",
+        "I39": "1b63736cbc45b8da6c1b85883948a9d3e1564c1dca56a69f52387e1906519a69",
+        "I40": "aefe771572fb32fc279f8b329bedc5daa99e12ba8d344b0c993ed08a99951299",
+        "I41": "532af9e5dfaf7ffdf405cf0c31f8a895da87bf5ba8f193a16768641ce0018b76",
+        "I42": "66bb739bae9a87028127bb3eec5519887efdc56aa1882b7bc084805f80eee8ae",
+        "I43": "7accf568036f4226b0d31543c34855b7eba44b13b6571d50a4673530ad6b1069",
+        "I44": "a6fff662351ab0d27e52dea2ec61c9ffdcc0995d7198ce36f3da3e156d569702",
+        "I45": "dcfc9e625605f9ef9226e8204eb4df789a9fc1bf065642d7b93de3c2ef1ce2af",
+        "I46": "cc5eb613bbbe9d37fcdf9910451bdb9719702ee04102043e2ffda9613537041c",
+        "I47": "60c209aa61023c61048de90602e03329c99ebf35b004b04fdac9c3a606b36690",
+        "I48": "2143f2c4c233d7047331e36f3979c8e3961a6543157f3aea54ef36d25eaebb86",
+        "I49": "48324e7bb8f0f7cf70f2eea6bda2c033d69d7e4570bfe1cff5eb9990a5e110d8",
+        "I50": "3dcebce43251879f7ff24aa841093683722c897c7e3a293ec21e2e8747e73ba1",
+        "I51": "f45ebb1fb24ac884569f0e43e404356106c50f3d06385fde966a2b7bd42cc015",
+        "I52": "09996f5accf4c17f5380f0bce6a977ea1dd574b3bbe0cae9affb3f2aebd59017",
+        "I53": "f941038188ca7aeede8e278224dcbb659823e9647bf3b4672b3e4c946a16d1af",
+        "I54": "f3a3bb4a2f0439e16cb78d4067d3ea96ce84552e4edbfd4200c2ba088fc37a51",
+        "I55": "a0947bd910bd964b9fa04b9f3cda44d06e176f3e545adde0bc6a789ec2cce91c",
+        "I56": "169482994675ca3ba4e61e32f9c719dbb5530591e47ff468cb18adf2c13d3152",
+        "I57": "3b77c5b937b4a75ce1b83355c0011243de3f849a37189e38ede13482b9f922e5",
+        "I58": "e698556899778b77a7b35e1983bd8d782e253593a628583d0d9ac922ca486f08",
+        "I59": "b29e93538d8c01c047cd435a72f01092ddc9d0069cadb2ef8a98eeced819bd7f",
+        "I60": "c7eb0d29cfc4633da547ec8fbf765cae04b045589a64c0a8c2e1638d9ed29135",
+        "I61": "9b27cf19466150dde9c227902517128fac7bfe1ed1b3570510d95b7dab66dae2",
+        "I62": "126a7fbf85eef249d6c0cf10e7fa851fad22e7625658b8111218a29e5c4e5f20",
+        "I63": "7643918c3a145a4e8324929e248e1554f43de5482c654a1b71bd67563d29934f",
+        "I64": "c60faa4919bda2b91bf390593b86de74620496e44f52af4a865c98eb50fc1a88",
+        "I65": "5e8766349ee494b3de895ec5db65ddecaa6e04549418f7b491d94e8ab75e7c85",
+        "I66": "7e928ab3eb81e8e705ba9445b2d63ac35f5edffae95c875ac6043d53f69da5d6",
+        "I67": "621c6661e73817626d5fcf3ed9d92120e954ceb807c97e8d64827a15187d4fbc",
+        "I68": "45b52d4b5a5cdf60faa5465f3f4486ba9bf3b68f14ab064fca077a4cc85bb005",
+        "I69": "a61a4905f0167616078dbae0694e5366d6a7fb921fa68920c86bc476c0bef46b",
+        "I70": "cd1b4766b7baf2d41b39a868a348f52ccc1dfe26aed3cf4cbd7e76da836bfb8a",
+        "I71": "60945ceab85d411d6d0a610327ca6f586c0c1a09fdad57f2c1543dd953e25dd0",
+        "I72": "c1406fbccabfdf121141abb133065f3535a4fc6dd15e2472a81916d11440b1b3",
+        "I73": "25325877a5d47b9257f05ec064ce4753a358182b289f51907fd410c88aca220f",
+        "I74": "2c8cb5b60691c11815e9a354bff247509ed2fcb691f795a82433b1eba4b58f20",
+        "I75": "0dc33d231217bcd37ef8dc67addcebd20e742c373ced2187bace1bd29340cd65"
+      },
+      "record_column": "record_id",
+      "group_column": "patient_id",
+      "lead_column": "lead_name",
+      "class_column": "class_4"
+    }
+  ],
+  "timing_files": [
+    {
+      "source": "MIT",
+      "record": "100",
+      "windows": 2271,
+      "sha256": "4635075f83923c078fd08496e29f2fb7b07d99760fdb74c4b4b3fcc4e9a9b00b",
+      "bytes": 27380,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2261
+      },
+      "classes": {
+        "N": 2237,
+        "S": 33,
+        "V": 1
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 2239,
+        "A": 33,
+        "V": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "101",
+      "windows": 1864,
+      "sha256": "0fa9d4b42e7c7d209f74fa3e5cd55b2f8afae6e9fbcd3d01940b48abc01d808a",
+      "bytes": 22496,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1854
+      },
+      "classes": {
+        "N": 1859,
+        "Q": 2,
+        "S": 3
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 1860,
+        "~": 4,
+        "|": 4,
+        "Q": 2,
+        "A": 3
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "102",
+      "windows": 2185,
+      "sha256": "d456b7fa649a0c27303fa9f5d47136f6cdfa6317f85da43a10bd89ae950e82da",
+      "bytes": 26348,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2175
+      },
+      "classes": {
+        "Q": 2082,
+        "N": 99,
+        "V": 4
+      },
+      "annotation_symbols": {
+        "+": 5,
+        "/": 2028,
+        "f": 56,
+        "N": 99,
+        "V": 4
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "103",
+      "windows": 2083,
+      "sha256": "54ce41fd68dbaeda14730ab1dca30b07a84fbd924a144ee427a97c5e7d6b9a5e",
+      "bytes": 25124,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2072
+      },
+      "classes": {
+        "N": 2081,
+        "S": 2
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 2082,
+        "~": 6,
+        "A": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "104",
+      "windows": 2227,
+      "sha256": "34fb57c3b3ca57195be22efb0929113dcec0ee374e556ae806b3e66421a9bb80",
+      "bytes": 26852,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2217
+      },
+      "classes": {
+        "Q": 2062,
+        "N": 163,
+        "V": 2
+      },
+      "annotation_symbols": {
+        "+": 45,
+        "/": 1380,
+        "f": 666,
+        "~": 37,
+        "Q": 18,
+        "N": 163,
+        "V": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "105",
+      "windows": 2572,
+      "sha256": "4286e4d6bfdc5747805473bb424409dd942209d80a57045cba3786b30216abec",
+      "bytes": 30992,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2561
+      },
+      "classes": {
+        "N": 2526,
+        "V": 41,
+        "Q": 5
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 2526,
+        "V": 41,
+        "~": 88,
+        "|": 30,
+        "Q": 5
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "106",
+      "windows": 2027,
+      "sha256": "0ceb9865c14c640d56f09ad9c1b3e3f3dc1f353cd433ff30689a345360e600c0",
+      "bytes": 24452,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2016
+      },
+      "classes": {
+        "N": 1507,
+        "V": 520
+      },
+      "annotation_symbols": {
+        "~": 30,
+        "+": 41,
+        "N": 1507,
+        "V": 520
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "107",
+      "windows": 2136,
+      "sha256": "3826677294f2fcfae9267183b6865a234895d212635dc4572fccf5420258d051",
+      "bytes": 25760,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2126
+      },
+      "classes": {
+        "Q": 2077,
+        "V": 59
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "/": 2078,
+        "V": 59,
+        "~": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "108",
+      "windows": 1762,
+      "sha256": "05601457418d512c7f5f45785426c5d6b8d6fa94b8854b38edfeb37f6c83405b",
+      "bytes": 21272,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1752
+      },
+      "classes": {
+        "N": 1739,
+        "V": 17,
+        "F": 2,
+        "S": 4
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 1739,
+        "V": 17,
+        "x": 11,
+        "~": 41,
+        "|": 8,
+        "F": 2,
+        "A": 4,
+        "j": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "109",
+      "windows": 2530,
+      "sha256": "ca5ef7711e216abda2bcb4eb2575d6a0c5910d6120c96e0039baec07a70cf4fe",
+      "bytes": 30488,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2520
+      },
+      "classes": {
+        "N": 2490,
+        "F": 2,
+        "V": 38
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "L": 2492,
+        "F": 2,
+        "V": 38,
+        "~": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "111",
+      "windows": 2124,
+      "sha256": "f4fe1a664f46924df16e73de472decb838e16748a19f2e86fffde96f73842c8d",
+      "bytes": 25616,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2113
+      },
+      "classes": {
+        "N": 2123,
+        "V": 1
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "L": 2123,
+        "~": 8,
+        "V": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "112",
+      "windows": 2537,
+      "sha256": "6e2560862687e80dad301d7d09f7770af4b34b34c7e2a958eb03b0f56fc46e5f",
+      "bytes": 30572,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2527
+      },
+      "classes": {
+        "N": 2535,
+        "S": 2
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 2537,
+        "~": 10,
+        "A": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "113",
+      "windows": 1793,
+      "sha256": "ba263ec81f5945e2b6c3eef57765e6224999c730fa9b5bca00675141d37d8734",
+      "bytes": 21644,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1783
+      },
+      "classes": {
+        "N": 1787,
+        "S": 6
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 1789,
+        "a": 6
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "114",
+      "windows": 1879,
+      "sha256": "833cac9a28c85637d84647092c954ed1c33dec012018c26e4232abd434eed2d9",
+      "bytes": 22676,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1868
+      },
+      "classes": {
+        "N": 1820,
+        "V": 43,
+        "S": 12,
+        "F": 4
+      },
+      "annotation_symbols": {
+        "+": 3,
+        "N": 1820,
+        "V": 43,
+        "J": 2,
+        "F": 4,
+        "|": 1,
+        "~": 7,
+        "A": 10
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "115",
+      "windows": 1951,
+      "sha256": "53cf48dacacb29aef275a7584b4f0c0724b98ddb5808aea0b928711ed6384e3a",
+      "bytes": 23540,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1941
+      },
+      "classes": {
+        "N": 1951
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 1953,
+        "~": 2,
+        "|": 6
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "116",
+      "windows": 2411,
+      "sha256": "c482511937cd7f50fd88a431e94cff18a5fa1b6dd36dfc5cac4dbd4f949680b3",
+      "bytes": 29060,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2400
+      },
+      "classes": {
+        "N": 2301,
+        "V": 109,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 2302,
+        "V": 109,
+        "A": 1,
+        "~": 8
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "117",
+      "windows": 1534,
+      "sha256": "58b0dfb8863b9e612e9a4834e1e5d54abe2cdbc78ecffcfd7d6f78469b936412",
+      "bytes": 18536,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1523
+      },
+      "classes": {
+        "N": 1533,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 1534,
+        "~": 3,
+        "A": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "118",
+      "windows": 2277,
+      "sha256": "29a45f40a21d5e1186919800c15837198dbd0f50ed64a24d7bff01a898647ef4",
+      "bytes": 27452,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2267
+      },
+      "classes": {
+        "N": 2165,
+        "V": 16,
+        "S": 96
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "R": 2166,
+        "V": 16,
+        "A": 96,
+        "x": 10,
+        "~": 12
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "119",
+      "windows": 1987,
+      "sha256": "e81a50afd249d272bceb5b54bcca633e9dbbfbbc2c0de51094de86e545ea3b1a",
+      "bytes": 23972,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1976
+      },
+      "classes": {
+        "N": 1543,
+        "V": 444
+      },
+      "annotation_symbols": {
+        "+": 103,
+        "N": 1543,
+        "V": 444,
+        "~": 4
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "121",
+      "windows": 1861,
+      "sha256": "b05cead69d0119e750a327c73ccfffafa3f0591e0d90e8113966bb15e7e99f94",
+      "bytes": 22460,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1851
+      },
+      "classes": {
+        "N": 1859,
+        "S": 1,
+        "V": 1
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 1861,
+        "~": 12,
+        "A": 1,
+        "V": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "122",
+      "windows": 2474,
+      "sha256": "72291077d643b3ad295f1e8943c8e0bd387c306018df84700b88ee1b893edc27",
+      "bytes": 29816,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2464
+      },
+      "classes": {
+        "N": 2474
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 2476,
+        "|": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "123",
+      "windows": 1517,
+      "sha256": "38c7d235032b6a57a4d51865c268d69385690909b7967e519dc704a025601d43",
+      "bytes": 18332,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1507
+      },
+      "classes": {
+        "N": 1514,
+        "V": 3
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 1515,
+        "V": 3
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "124",
+      "windows": 1618,
+      "sha256": "cdfff1e1ea9b1f26e3a29a09bffa9f9171c774162c42655ad0d05e6a5638dabd",
+      "bytes": 19544,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1607
+      },
+      "classes": {
+        "N": 1535,
+        "S": 31,
+        "V": 47,
+        "F": 5
+      },
+      "annotation_symbols": {
+        "+": 13,
+        "R": 1531,
+        "J": 29,
+        "V": 47,
+        "F": 5,
+        "A": 2,
+        "~": 2,
+        "j": 5
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "200",
+      "windows": 2600,
+      "sha256": "7906fed7528a9dc384110a23db0b93a15a02e9225b493b1a0da0276959328c3e",
+      "bytes": 31328,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2589
+      },
+      "classes": {
+        "V": 826,
+        "N": 1742,
+        "S": 30,
+        "F": 2
+      },
+      "annotation_symbols": {
+        "+": 148,
+        "V": 826,
+        "N": 1743,
+        "A": 30,
+        "~": 43,
+        "F": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "201",
+      "windows": 1962,
+      "sha256": "f51eae055417a6c737c1b11584eae483385c3b92333c2a60657db69c9c0b55dc",
+      "bytes": 23672,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1952
+      },
+      "classes": {
+        "N": 1634,
+        "S": 128,
+        "V": 198,
+        "F": 2
+      },
+      "annotation_symbols": {
+        "+": 35,
+        "N": 1625,
+        "a": 97,
+        "j": 10,
+        "V": 198,
+        "x": 37,
+        "A": 30,
+        "J": 1,
+        "~": 4,
+        "F": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "202",
+      "windows": 2135,
+      "sha256": "b26dc41e3eaa59c85e9067ebae412aac7ab3ac16dce192482e9353cf1e8d9be7",
+      "bytes": 25748,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2124
+      },
+      "classes": {
+        "N": 2060,
+        "V": 19,
+        "S": 55,
+        "F": 1
+      },
+      "annotation_symbols": {
+        "+": 8,
+        "N": 2061,
+        "V": 19,
+        "A": 36,
+        "|": 2,
+        "a": 19,
+        "F": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "203",
+      "windows": 2979,
+      "sha256": "f520c0cf653f46f6ac8fa620dcd914633bcff84ea0448d5ce8fa02a5328a7a3e",
+      "bytes": 35876,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2969
+      },
+      "classes": {
+        "N": 2528,
+        "V": 444,
+        "S": 2,
+        "Q": 4,
+        "F": 1
+      },
+      "annotation_symbols": {
+        "+": 45,
+        "~": 57,
+        "N": 2529,
+        "V": 444,
+        "a": 2,
+        "|": 26,
+        "Q": 4,
+        "F": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "205",
+      "windows": 2655,
+      "sha256": "7a1e68bbf295924a9db3c365f4fea735f6b1f07b259abc32def4f8e452057eb2",
+      "bytes": 31988,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2644
+      },
+      "classes": {
+        "N": 2570,
+        "V": 71,
+        "S": 3,
+        "F": 11
+      },
+      "annotation_symbols": {
+        "+": 13,
+        "N": 2571,
+        "V": 71,
+        "A": 3,
+        "F": 11,
+        "~": 2,
+        "|": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "207",
+      "windows": 1859,
+      "sha256": "d06b27ac448ae0f473f006c6d8d26ab62ee382d1ca9d60ce9715e3d8d3f190d7",
+      "bytes": 22436,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 6,
+        "clipped_ratio": 1,
+        "complete_history": 1849
+      },
+      "classes": {
+        "V": 210,
+        "N": 1542,
+        "S": 107
+      },
+      "annotation_symbols": {
+        "+": 24,
+        "R": 86,
+        "V": 105,
+        "L": 1457,
+        "[": 6,
+        "!": 472,
+        "]": 6,
+        "~": 15,
+        "|": 2,
+        "E": 105,
+        "A": 107
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "208",
+      "windows": 2953,
+      "sha256": "1fbf5b13b8df7ddb539573f73e2bbe3b6546b49e73b2137a03891ca0d134c19b",
+      "bytes": 35564,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2943
+      },
+      "classes": {
+        "V": 992,
+        "N": 1585,
+        "F": 372,
+        "S": 2,
+        "Q": 2
+      },
+      "annotation_symbols": {
+        "+": 53,
+        "F": 373,
+        "V": 992,
+        "N": 1586,
+        "~": 24,
+        "|": 8,
+        "S": 2,
+        "Q": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "209",
+      "windows": 3004,
+      "sha256": "74157d4ffb6c175d1b6c53ff06b3b96080b8a5fcf31b8c501c07591d16ec8edd",
+      "bytes": 36176,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2993
+      },
+      "classes": {
+        "N": 2620,
+        "S": 383,
+        "V": 1
+      },
+      "annotation_symbols": {
+        "+": 21,
+        "N": 2621,
+        "A": 383,
+        "|": 7,
+        "~": 19,
+        "V": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "210",
+      "windows": 2648,
+      "sha256": "77cb6a8a8826e937693180f44dbaa57d4a5b04b22f0fc3c82ae25c1f1dd419e8",
+      "bytes": 31904,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2638
+      },
+      "classes": {
+        "N": 2421,
+        "V": 195,
+        "F": 10,
+        "S": 22
+      },
+      "annotation_symbols": {
+        "+": 17,
+        "N": 2423,
+        "V": 194,
+        "F": 10,
+        "~": 17,
+        "a": 22,
+        "|": 1,
+        "E": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "212",
+      "windows": 2747,
+      "sha256": "b7191ee6dde74b7af6afb2fdcb314f1abe7fc195a56bcdd0280dea72b2901bb9",
+      "bytes": 33092,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2736
+      },
+      "classes": {
+        "N": 2747
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "R": 1825,
+        "N": 923,
+        "~": 13,
+        "|": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "213",
+      "windows": 3249,
+      "sha256": "2156def969578558f2732b9b52919536e41c7e3135fa95882309e05b556cb324",
+      "bytes": 39116,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3239
+      },
+      "classes": {
+        "N": 2639,
+        "F": 362,
+        "S": 28,
+        "V": 220
+      },
+      "annotation_symbols": {
+        "+": 43,
+        "N": 2641,
+        "F": 362,
+        "A": 25,
+        "V": 220,
+        "a": 3
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "214",
+      "windows": 2260,
+      "sha256": "e117dd81931723ad13b37eb130a825b9b6c672002224d465d852ec9d4bfee224",
+      "bytes": 27248,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2250
+      },
+      "classes": {
+        "N": 2001,
+        "V": 256,
+        "Q": 2,
+        "F": 1
+      },
+      "annotation_symbols": {
+        "+": 25,
+        "L": 2003,
+        "V": 256,
+        "~": 4,
+        "|": 5,
+        "Q": 2,
+        "\"": 1,
+        "F": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "215",
+      "windows": 3361,
+      "sha256": "2a3010e335127fbbca8776a242a0381b9b24fe04a4b12295e60b8f1fd3e86456",
+      "bytes": 40460,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3351
+      },
+      "classes": {
+        "N": 3193,
+        "V": 164,
+        "S": 3,
+        "F": 1
+      },
+      "annotation_symbols": {
+        "+": 5,
+        "N": 3195,
+        "V": 164,
+        "~": 30,
+        "A": 3,
+        "\"": 2,
+        "F": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "217",
+      "windows": 2208,
+      "sha256": "95daa8440befadb53c4f0394e7a97f9e36daf056047b17dfe0a3f4a10497f7a3",
+      "bytes": 26624,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2197
+      },
+      "classes": {
+        "Q": 1802,
+        "V": 162,
+        "N": 244
+      },
+      "annotation_symbols": {
+        "+": 67,
+        "/": 1542,
+        "f": 260,
+        "V": 162,
+        "N": 244,
+        "~": 4,
+        "|": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "219",
+      "windows": 2154,
+      "sha256": "d1715b848dd90b1dfc7d819e555e13ef2564864a16a44ddc222eade348fb3018",
+      "bytes": 25976,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2143
+      },
+      "classes": {
+        "N": 2082,
+        "V": 64,
+        "F": 1,
+        "S": 7
+      },
+      "annotation_symbols": {
+        "+": 21,
+        "N": 2082,
+        "V": 64,
+        "F": 1,
+        "\"": 4,
+        "A": 7,
+        "x": 133
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "220",
+      "windows": 2046,
+      "sha256": "96fe685bf20a0a6c2ba9eb47a72b22d63b0a99d6d8c328689601fd4e21d0ee4e",
+      "bytes": 24680,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2036
+      },
+      "classes": {
+        "N": 1952,
+        "S": 94
+      },
+      "annotation_symbols": {
+        "+": 17,
+        "N": 1954,
+        "A": 94,
+        "~": 4
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "221",
+      "windows": 2427,
+      "sha256": "a471fe4b4cfd53518f56b6e737dfd63eb1c315b28fe09eb738a8f1fc1da18539",
+      "bytes": 29252,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2416
+      },
+      "classes": {
+        "N": 2031,
+        "V": 396
+      },
+      "annotation_symbols": {
+        "+": 23,
+        "N": 2031,
+        "V": 396,
+        "~": 12
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "222",
+      "windows": 2481,
+      "sha256": "1f5f5816b3f0895d5ed6c86dea9d7346bbf7437982ed02f87cd92c945dee3cda",
+      "bytes": 29900,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2471
+      },
+      "classes": {
+        "N": 2272,
+        "S": 209
+      },
+      "annotation_symbols": {
+        "+": 136,
+        "N": 2062,
+        "~": 15,
+        "A": 208,
+        "j": 212,
+        "J": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "223",
+      "windows": 2604,
+      "sha256": "18225af696c9ee39c064d438dea27650b5cad2b4d58a1c9cad26e7c8939aa49c",
+      "bytes": 31376,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2593
+      },
+      "classes": {
+        "N": 2044,
+        "V": 473,
+        "S": 73,
+        "F": 14
+      },
+      "annotation_symbols": {
+        "+": 28,
+        "N": 2029,
+        "V": 473,
+        "A": 72,
+        "e": 16,
+        "F": 14,
+        "~": 10,
+        "a": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "228",
+      "windows": 2052,
+      "sha256": "9a0556b3f61370925915089d3700028f0e7b23529ada15cbef8ebc9a45e8abe7",
+      "bytes": 24752,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2042
+      },
+      "classes": {
+        "N": 1687,
+        "V": 362,
+        "S": 3
+      },
+      "annotation_symbols": {
+        "+": 41,
+        "N": 1688,
+        "|": 24,
+        "V": 362,
+        "~": 20,
+        "A": 3,
+        "\"": 3
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "230",
+      "windows": 2255,
+      "sha256": "12827ab3b3482054d814217c818ca7b0ebf6ec4394f3b9c03e493fef0a819ac4",
+      "bytes": 27188,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2245
+      },
+      "classes": {
+        "N": 2254,
+        "V": 1
+      },
+      "annotation_symbols": {
+        "+": 207,
+        "N": 2255,
+        "~": 2,
+        "|": 1,
+        "V": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "231",
+      "windows": 1570,
+      "sha256": "70799a0f3b58a8cd0260c7e08218db4ba3e12900356dc2df7ee2332d0ea12194",
+      "bytes": 18968,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1559
+      },
+      "classes": {
+        "N": 1567,
+        "S": 1,
+        "V": 2
+      },
+      "annotation_symbols": {
+        "+": 11,
+        "R": 1254,
+        "\"": 427,
+        "N": 314,
+        "x": 2,
+        "A": 1,
+        "V": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "232",
+      "windows": 1780,
+      "sha256": "7fa9b6eada532d3a825edc7c69737bedb8a547f50c0673ff833f10b4af89cb6f",
+      "bytes": 21488,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 3,
+        "clipped_ratio": 0,
+        "complete_history": 1769
+      },
+      "classes": {
+        "N": 398,
+        "S": 1382
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "R": 397,
+        "A": 1382,
+        "~": 35,
+        "j": 1
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "233",
+      "windows": 3077,
+      "sha256": "3c0d396dcbe0b48c90d3b010b57c02d4c57bd3fa1c5540a52569c763516bd6b7",
+      "bytes": 37052,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3067
+      },
+      "classes": {
+        "N": 2229,
+        "V": 830,
+        "S": 7,
+        "F": 11
+      },
+      "annotation_symbols": {
+        "+": 71,
+        "V": 831,
+        "N": 2230,
+        "A": 7,
+        "F": 11,
+        "|": 2
+      }
+    },
+    {
+      "source": "MIT",
+      "record": "234",
+      "windows": 2752,
+      "sha256": "d88fe246feee0ade1ee93987b0fcb9242ac2741ecc8693e9a19b14b617933902",
+      "bytes": 33152,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2742
+      },
+      "classes": {
+        "N": 2699,
+        "S": 50,
+        "V": 3
+      },
+      "annotation_symbols": {
+        "+": 3,
+        "N": 2700,
+        "~": 8,
+        "J": 50,
+        "V": 3
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I01",
+      "windows": 2756,
+      "sha256": "b8901b348e13544b19ffe297a1fa1ae57b0602a0bc19913a9412cd8354c42418",
+      "bytes": 33200,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2746
+      },
+      "classes": {
+        "N": 2412,
+        "V": 344
+      },
+      "annotation_symbols": {
+        "N": 2413,
+        "V": 344
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I02",
+      "windows": 2673,
+      "sha256": "01ece64cd0df93480a8be989f1a74643f0194735046e1b60782b35636a4aebef",
+      "bytes": 32204,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2663
+      },
+      "classes": {
+        "N": 2444,
+        "V": 229
+      },
+      "annotation_symbols": {
+        "N": 2445,
+        "V": 229
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I03",
+      "windows": 2451,
+      "sha256": "2be44533ed85539b92d93c2fcbf49434b1affebb414413daddee0fa2b0197804",
+      "bytes": 29540,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2441
+      },
+      "classes": {
+        "N": 2324,
+        "V": 125,
+        "S": 2
+      },
+      "annotation_symbols": {
+        "N": 2325,
+        "V": 125,
+        "A": 2
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I04",
+      "windows": 2422,
+      "sha256": "1fb495e5859e38ac5877861770af737e91384c2ed2f4eb55d5f8487eee82787e",
+      "bytes": 29192,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2412
+      },
+      "classes": {
+        "N": 2268,
+        "F": 17,
+        "S": 16,
+        "V": 121
+      },
+      "annotation_symbols": {
+        "N": 2270,
+        "F": 17,
+        "A": 16,
+        "V": 121
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I05",
+      "windows": 1775,
+      "sha256": "0b3602257813ae4a9e5c1fee0c665822cb7166c820af5e41ca6aba978b3e0a92",
+      "bytes": 21428,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1765
+      },
+      "classes": {
+        "N": 1519,
+        "V": 247,
+        "F": 9
+      },
+      "annotation_symbols": {
+        "N": 1520,
+        "V": 247,
+        "F": 9
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I06",
+      "windows": 2492,
+      "sha256": "d324f42d0dafba1bc27b970f7b5debcada487890009c34ba8060bd33066dde33",
+      "bytes": 30032,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2481
+      },
+      "classes": {
+        "N": 2435,
+        "S": 48,
+        "V": 9
+      },
+      "annotation_symbols": {
+        "N": 2436,
+        "A": 48,
+        "V": 9
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I07",
+      "windows": 2704,
+      "sha256": "f1de0aa5d14f2f7412dc5ba5ace0f8b80e74c13f08bb3a7cb919a7d584fb3f91",
+      "bytes": 32576,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2694
+      },
+      "classes": {
+        "N": 2638,
+        "S": 65,
+        "V": 1
+      },
+      "annotation_symbols": {
+        "N": 2640,
+        "A": 65,
+        "V": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I08",
+      "windows": 2129,
+      "sha256": "e3387ba85da1d26717dbc7b82a33eea67cff020c9830e2422931f42d9516bf4e",
+      "bytes": 25676,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2119
+      },
+      "classes": {
+        "N": 1776,
+        "V": 351,
+        "S": 2
+      },
+      "annotation_symbols": {
+        "N": 1777,
+        "V": 351,
+        "A": 2,
+        "Q": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I09",
+      "windows": 2988,
+      "sha256": "3497f96b4fc9e7d710b15a1f7f50ae3ec03974cfbcd65e92d9cfae7604b3d1ce",
+      "bytes": 35984,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2978
+      },
+      "classes": {
+        "N": 2947,
+        "V": 41
+      },
+      "annotation_symbols": {
+        "N": 2948,
+        "V": 41,
+        "n": 8
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I10",
+      "windows": 3680,
+      "sha256": "240bcfd0b1cdc38519e5e7a6bdd50b47af0edb5b791103dcdbf1dc5af20e9605",
+      "bytes": 44288,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3670
+      },
+      "classes": {
+        "N": 3597,
+        "V": 83
+      },
+      "annotation_symbols": {
+        "N": 3599,
+        "V": 83
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I11",
+      "windows": 2081,
+      "sha256": "a41b779f0907d2ed7e1c53bdc19c54833e2f259295af05f98dae801832629818",
+      "bytes": 25100,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2071
+      },
+      "classes": {
+        "N": 2077,
+        "V": 4
+      },
+      "annotation_symbols": {
+        "N": 2078,
+        "n": 24,
+        "V": 4
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I12",
+      "windows": 2807,
+      "sha256": "910349e7549c7f1094c1b909ed35e8ea9234359b3583561455d940add07f4130",
+      "bytes": 33812,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2797
+      },
+      "classes": {
+        "N": 2798,
+        "V": 6,
+        "F": 2,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "N": 2800,
+        "V": 6,
+        "F": 2,
+        "A": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I13",
+      "windows": 2023,
+      "sha256": "504d94983effa13ab2a93e08d4a808f230c5b644e77931a650fafbd5af5f180a",
+      "bytes": 24404,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2012
+      },
+      "classes": {
+        "N": 1793,
+        "V": 230
+      },
+      "annotation_symbols": {
+        "N": 1793,
+        "V": 230
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I14",
+      "windows": 1864,
+      "sha256": "ca2e77efe0bde9fd3dbd1c471fac2a8383a422dbf7e80650ec926bd43d27659c",
+      "bytes": 22496,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1854
+      },
+      "classes": {
+        "N": 1800,
+        "V": 64
+      },
+      "annotation_symbols": {
+        "N": 1802,
+        "V": 64
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I15",
+      "windows": 2633,
+      "sha256": "8d75bd70720895f4661dd9c33676141381a81a88a958b2d9c87a2e54a954743a",
+      "bytes": 31724,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2623
+      },
+      "classes": {
+        "N": 2630,
+        "V": 3
+      },
+      "annotation_symbols": {
+        "N": 2632,
+        "V": 3
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I16",
+      "windows": 1522,
+      "sha256": "380318f25cb0d3d1d3dd8ab9e81fd1b0ec341e928964327868f14e8fa9a4a4d9",
+      "bytes": 18392,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1511
+      },
+      "classes": {
+        "N": 1520,
+        "V": 2
+      },
+      "annotation_symbols": {
+        "R": 1520,
+        "V": 2
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I17",
+      "windows": 1672,
+      "sha256": "0b37babf3c7bdd33fb3e36cb8d367818a2beae49475d283ad81bfa0b66154355",
+      "bytes": 20192,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1662
+      },
+      "classes": {
+        "N": 1645,
+        "V": 27
+      },
+      "annotation_symbols": {
+        "R": 1646,
+        "V": 27
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I18",
+      "windows": 3083,
+      "sha256": "1c7b1859a6c81e95c323d605be7ac6eae524b4d8ea4c3cfcabd91821d98adb65",
+      "bytes": 37124,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3072
+      },
+      "classes": {
+        "N": 2661,
+        "V": 366,
+        "F": 56
+      },
+      "annotation_symbols": {
+        "N": 2662,
+        "V": 366,
+        "F": 56
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I19",
+      "windows": 2062,
+      "sha256": "1d3e53442c16e6361d688fe8b03626c93442450da70890c90538194f411ec157",
+      "bytes": 24872,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2051
+      },
+      "classes": {
+        "N": 1212,
+        "V": 850
+      },
+      "annotation_symbols": {
+        "N": 1212,
+        "V": 850,
+        "B": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I20",
+      "windows": 2650,
+      "sha256": "71a26f817493b8e72e565b12ef84d13e9b0537edf3330cc46dcb982a5ffd5e21",
+      "bytes": 31928,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2640
+      },
+      "classes": {
+        "N": 2360,
+        "S": 179,
+        "V": 110,
+        "F": 1
+      },
+      "annotation_symbols": {
+        "N": 2361,
+        "A": 179,
+        "V": 111,
+        "F": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I21",
+      "windows": 2183,
+      "sha256": "8c21f90c0a4348ca7150ae41d66f29000a61664adcf39c1e30dc2875b290c1ce",
+      "bytes": 26324,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2172
+      },
+      "classes": {
+        "N": 2071,
+        "S": 104,
+        "V": 8
+      },
+      "annotation_symbols": {
+        "N": 2072,
+        "A": 104,
+        "V": 8
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I22",
+      "windows": 3126,
+      "sha256": "21ba906318656e98ac9771a5268814f143c39e8c77df50957ee92dd7b8166081",
+      "bytes": 37640,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3115
+      },
+      "classes": {
+        "N": 2816,
+        "V": 185,
+        "S": 124,
+        "F": 1
+      },
+      "annotation_symbols": {
+        "N": 2816,
+        "V": 185,
+        "A": 124,
+        "F": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I23",
+      "windows": 2204,
+      "sha256": "7f9af0f3f909ec95cdb852b08fd1084e1d1084275994505f279ca6927ff3c858",
+      "bytes": 26576,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2193
+      },
+      "classes": {
+        "N": 2191,
+        "V": 13
+      },
+      "annotation_symbols": {
+        "N": 2192,
+        "V": 13
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I24",
+      "windows": 2569,
+      "sha256": "b3753cc329d152444a304b987ad6eb48fcd36b27888253464f295aaa2aa0c138",
+      "bytes": 30956,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2559
+      },
+      "classes": {
+        "N": 2563,
+        "V": 6
+      },
+      "annotation_symbols": {
+        "N": 2565,
+        "V": 6
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I25",
+      "windows": 1711,
+      "sha256": "2fa325a607ca21d6437febb2e5c459714992d220abdfad36d858d2ba461d110c",
+      "bytes": 20660,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1701
+      },
+      "classes": {
+        "N": 1704,
+        "V": 5,
+        "S": 2
+      },
+      "annotation_symbols": {
+        "N": 1705,
+        "V": 5,
+        "A": 2
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I26",
+      "windows": 1509,
+      "sha256": "e91b3faa820a4850c9fda658ebf871f3aeaa93dfd748b6994b66e85ca91282d9",
+      "bytes": 18236,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1498
+      },
+      "classes": {
+        "N": 1498,
+        "V": 4,
+        "S": 7
+      },
+      "annotation_symbols": {
+        "N": 1498,
+        "V": 4,
+        "A": 5,
+        "S": 2
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I27",
+      "windows": 2604,
+      "sha256": "996b3f0bbf4db73119ba23c6f7d344203c9314fc6e14cea3a36fc1c1b30a13e3",
+      "bytes": 31376,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2594
+      },
+      "classes": {
+        "N": 1884,
+        "V": 720
+      },
+      "annotation_symbols": {
+        "N": 1885,
+        "V": 720
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I28",
+      "windows": 1716,
+      "sha256": "79981fb39359d42870a500e8b076dd73a16709e01c7dbcafc9636edf2e64b4c3",
+      "bytes": 20720,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1706
+      },
+      "classes": {
+        "N": 1712,
+        "V": 4
+      },
+      "annotation_symbols": {
+        "N": 1713,
+        "V": 4
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I29",
+      "windows": 2618,
+      "sha256": "f32bba9662e61731531f8cf8b3c42d76b8b79f3d8a20fdc133f2f6f4c91773ef",
+      "bytes": 31544,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2608
+      },
+      "classes": {
+        "N": 1835,
+        "V": 783
+      },
+      "annotation_symbols": {
+        "N": 1837,
+        "V": 783,
+        "Q": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I30",
+      "windows": 2460,
+      "sha256": "a0a5db58f6a904f51aa1986f99a48daa5d348adc406d6ff6d1871af7fc71ec7d",
+      "bytes": 29648,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2450
+      },
+      "classes": {
+        "N": 1705,
+        "V": 755
+      },
+      "annotation_symbols": {
+        "N": 1706,
+        "V": 756
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I31",
+      "windows": 3208,
+      "sha256": "8c9682f2070b74daf13d40c5a55d01d5350f2ed9c9adaeb7585d868a9214f60b",
+      "bytes": 38624,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3198
+      },
+      "classes": {
+        "V": 1365,
+        "N": 1843
+      },
+      "annotation_symbols": {
+        "N": 1844,
+        "V": 1365,
+        "Q": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I32",
+      "windows": 1618,
+      "sha256": "a25202dd8c18ec0f4f0b482932ad39bedcea03e6524e1ad62ce4ffffd40e78bb",
+      "bytes": 19544,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1608
+      },
+      "classes": {
+        "N": 1561,
+        "V": 57
+      },
+      "annotation_symbols": {
+        "N": 1562,
+        "V": 57
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I33",
+      "windows": 1835,
+      "sha256": "90a915fc634c38687c997198468755a5038dca24b87d7ce89682c1208df8fe00",
+      "bytes": 22148,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1825
+      },
+      "classes": {
+        "N": 1245,
+        "S": 589,
+        "V": 1
+      },
+      "annotation_symbols": {
+        "A": 591,
+        "N": 1245,
+        "V": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I34",
+      "windows": 1964,
+      "sha256": "807d50152044093e927b3bf3d303632ad50b88b1bd763445d081840d68890d2b",
+      "bytes": 23696,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1954
+      },
+      "classes": {
+        "N": 1428,
+        "S": 536
+      },
+      "annotation_symbols": {
+        "N": 1429,
+        "A": 536
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I35",
+      "windows": 3674,
+      "sha256": "db2c567aa223e6fee17f5431c25279f775c1da26ad5c8ba817b8309393297863",
+      "bytes": 44216,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3664
+      },
+      "classes": {
+        "N": 3199,
+        "V": 457,
+        "F": 18
+      },
+      "annotation_symbols": {
+        "V": 458,
+        "N": 3200,
+        "F": 18
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I36",
+      "windows": 3908,
+      "sha256": "743909bea536f2eabe40b4f735adc2fa34ee274649949bf940978815ba592aae",
+      "bytes": 47024,
+      "stats": {
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3899
+      },
+      "classes": {
+        "N": 3446,
+        "V": 450,
+        "F": 12
+      },
+      "annotation_symbols": {
+        "N": 3449,
+        "V": 450,
+        "F": 12
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I37",
+      "windows": 2461,
+      "sha256": "9375cdbf8873c74c770316846aebfa7e54d4037ef4420cb2c6f345349e68a8c8",
+      "bytes": 29660,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2450
+      },
+      "classes": {
+        "N": 2009,
+        "V": 452
+      },
+      "annotation_symbols": {
+        "N": 2009,
+        "V": 452
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I38",
+      "windows": 2697,
+      "sha256": "c259ce945b8aacddc86b8e604853c36d28e02d569db00267d28ecd01adcb2401",
+      "bytes": 32492,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2687
+      },
+      "classes": {
+        "V": 544,
+        "N": 2153
+      },
+      "annotation_symbols": {
+        "V": 545,
+        "N": 2153,
+        "Q": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I39",
+      "windows": 1774,
+      "sha256": "80173fe8d106ed76d010c553e69ec4d605ee5b13579d5917612a95660c0b85d5",
+      "bytes": 21416,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1764
+      },
+      "classes": {
+        "N": 1461,
+        "V": 313
+      },
+      "annotation_symbols": {
+        "N": 1462,
+        "V": 313
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I40",
+      "windows": 2665,
+      "sha256": "54ed0fd5df372f2bb7c1c27fa86520bdc951be70fc53e2249e5ecc9ecbe99cee",
+      "bytes": 32108,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2654
+      },
+      "classes": {
+        "N": 2567,
+        "S": 6,
+        "V": 92
+      },
+      "annotation_symbols": {
+        "N": 2568,
+        "A": 6,
+        "V": 92
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I41",
+      "windows": 1630,
+      "sha256": "31f1627e8273b9687b04bc76abccd05452d2594d1cc34073827c83bfe2865557",
+      "bytes": 19688,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1619
+      },
+      "classes": {
+        "N": 1624,
+        "S": 5,
+        "V": 1
+      },
+      "annotation_symbols": {
+        "N": 1624,
+        "A": 5,
+        "V": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I42",
+      "windows": 3107,
+      "sha256": "b3f90db1b858cf3e12801ab850ae499765d3b4a11e0d856cec03a70b8f7567d6",
+      "bytes": 37412,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 3097
+      },
+      "classes": {
+        "V": 1554,
+        "N": 1544,
+        "F": 9
+      },
+      "annotation_symbols": {
+        "N": 1546,
+        "V": 1554,
+        "F": 9
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I43",
+      "windows": 2208,
+      "sha256": "f0870ea396d5cf589c13338d60dc0de90f99f0a1876b1a566c8e322309a4ecbd",
+      "bytes": 26624,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2198
+      },
+      "classes": {
+        "V": 1120,
+        "N": 1086,
+        "F": 2
+      },
+      "annotation_symbols": {
+        "N": 1087,
+        "V": 1120,
+        "F": 2
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I44",
+      "windows": 2494,
+      "sha256": "8d4c2a2db393e815ddaab1cfc755a13dd46f55ae716210a2304e6d861fdacb91",
+      "bytes": 30056,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2484
+      },
+      "classes": {
+        "N": 1803,
+        "V": 683,
+        "S": 8
+      },
+      "annotation_symbols": {
+        "V": 684,
+        "N": 1803,
+        "A": 8
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I45",
+      "windows": 1926,
+      "sha256": "137b49f2d62c656b9b27a1187dd4338dd673dacefda8b475e616a820f66c3721",
+      "bytes": 23240,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1916
+      },
+      "classes": {
+        "N": 1435,
+        "V": 491
+      },
+      "annotation_symbols": {
+        "N": 1437,
+        "V": 491
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I46",
+      "windows": 2657,
+      "sha256": "07ca02b003a20b5a43ebbce5c8ce06c1c580d7e8e39f0518365117b0aa7a51aa",
+      "bytes": 32012,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2646
+      },
+      "classes": {
+        "N": 2231,
+        "V": 422,
+        "F": 3,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "N": 2232,
+        "V": 422,
+        "F": 3,
+        "A": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I47",
+      "windows": 1951,
+      "sha256": "c6a69fc4626e78c5adf569349d9a899c5d2cddc7ddc82bbd85ecb33442da1dba",
+      "bytes": 23540,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1941
+      },
+      "classes": {
+        "V": 93,
+        "N": 1857,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "N": 1859,
+        "V": 93,
+        "A": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I48",
+      "windows": 2356,
+      "sha256": "6636e9942b4ef09a09fcca87498c85708b9fad6db692050521a1fbe2df657145",
+      "bytes": 28400,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2345
+      },
+      "classes": {
+        "N": 2118,
+        "V": 235,
+        "F": 1,
+        "S": 2
+      },
+      "annotation_symbols": {
+        "N": 2119,
+        "V": 235,
+        "F": 1,
+        "A": 2
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I49",
+      "windows": 2146,
+      "sha256": "4b6b969f787740f35a64fc5ad5e04674d0c48f751d04e8932aa2ccc8cb5e8b0f",
+      "bytes": 25880,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2136
+      },
+      "classes": {
+        "N": 2119,
+        "V": 27
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 2120,
+        "V": 27
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I50",
+      "windows": 2997,
+      "sha256": "0555549e1c03326db6e025efccd42ed64cf4941837f946684d30627546aa0ae2",
+      "bytes": 36092,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2986
+      },
+      "classes": {
+        "N": 2993,
+        "V": 4
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 2994,
+        "V": 4
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I51",
+      "windows": 2775,
+      "sha256": "a018a72d1d3e7294f7725c793736adc96e144c4a4f552767f2974c042da1ce96",
+      "bytes": 33428,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2765
+      },
+      "classes": {
+        "N": 1969,
+        "V": 802,
+        "F": 1,
+        "S": 3
+      },
+      "annotation_symbols": {
+        "V": 803,
+        "N": 1970,
+        "F": 1,
+        "A": 3
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I52",
+      "windows": 1746,
+      "sha256": "32590a238319aa8fb3adbc7d156744e0969a41ef6fac006e30b219cba78f4575",
+      "bytes": 21080,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1735
+      },
+      "classes": {
+        "N": 1609,
+        "V": 137
+      },
+      "annotation_symbols": {
+        "N": 1610,
+        "V": 137
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I53",
+      "windows": 2260,
+      "sha256": "2d44a0a75ccb458bf8985d0f08cce9070ed6079dc4d30dc6558b1b2303d054f3",
+      "bytes": 27248,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2250
+      },
+      "classes": {
+        "V": 1110,
+        "N": 1150
+      },
+      "annotation_symbols": {
+        "N": 1151,
+        "V": 1111
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I54",
+      "windows": 2362,
+      "sha256": "a75590a261931f10bf24d1723ebfb055cc8a5535e8fadf6829f172518791e8dc",
+      "bytes": 28472,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2351
+      },
+      "classes": {
+        "N": 2339,
+        "V": 22,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "N": 2340,
+        "V": 22,
+        "A": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I55",
+      "windows": 2165,
+      "sha256": "02d603fccf27c98cb0c703d265e26330bbf935b94c7f1b8d2d189d7c50950cd2",
+      "bytes": 26108,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2155
+      },
+      "classes": {
+        "N": 2147,
+        "V": 17,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "N": 2148,
+        "V": 17,
+        "A": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I56",
+      "windows": 1704,
+      "sha256": "cea4bc14c345fe001dec43f4cd2c7abdd81ebbfcef049c9f8a39ee11a8c337bd",
+      "bytes": 20576,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1694
+      },
+      "classes": {
+        "N": 1671,
+        "V": 7,
+        "S": 26
+      },
+      "annotation_symbols": {
+        "N": 1672,
+        "V": 7,
+        "A": 26
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I57",
+      "windows": 2867,
+      "sha256": "c17ea465b8804be14dcbbe15e6bf09070161e3b575f05bfb03265c953fd59a3d",
+      "bytes": 34532,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2857
+      },
+      "classes": {
+        "N": 2840,
+        "V": 21,
+        "F": 3,
+        "S": 3
+      },
+      "annotation_symbols": {
+        "N": 2842,
+        "V": 21,
+        "F": 3,
+        "Q": 2,
+        "A": 3
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I58",
+      "windows": 2323,
+      "sha256": "923ac4b4f8daa3d3655e0f5f78748360c68a576c96d56ab808f1ff2be80384d2",
+      "bytes": 28004,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2313
+      },
+      "classes": {
+        "N": 2311,
+        "V": 12
+      },
+      "annotation_symbols": {
+        "N": 2313,
+        "V": 12
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I59",
+      "windows": 2147,
+      "sha256": "4fa8d5bd0e372632575202529a4974f24a7bc9dbd7eb3cf240e29185e44a0cac",
+      "bytes": 25892,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2137
+      },
+      "classes": {
+        "N": 2066,
+        "V": 81
+      },
+      "annotation_symbols": {
+        "N": 2026,
+        "j": 41,
+        "V": 81
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I60",
+      "windows": 2474,
+      "sha256": "c8946ca6f9d929fb675316287480937b3da58104ebedcaf3d673b801a7b21f58",
+      "bytes": 29816,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2464
+      },
+      "classes": {
+        "N": 2474
+      },
+      "annotation_symbols": {
+        "N": 2424,
+        "j": 51
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I61",
+      "windows": 1453,
+      "sha256": "980b3926b223ac329e3d26d21728cebc3d5896499a952cdd5afa6eaf585a805f",
+      "bytes": 17564,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1443
+      },
+      "classes": {
+        "N": 1452,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "N": 1453,
+        "A": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I62",
+      "windows": 2269,
+      "sha256": "734a0413d282f2cb9201b18f5b10d511f8e1190ac756b656b7a480c20c9ec5bf",
+      "bytes": 27356,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2258
+      },
+      "classes": {
+        "N": 1453,
+        "S": 9,
+        "V": 795,
+        "F": 12
+      },
+      "annotation_symbols": {
+        "N": 1453,
+        "A": 5,
+        "V": 795,
+        "F": 12,
+        "S": 4
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I63",
+      "windows": 1992,
+      "sha256": "828f0af443b4e913167cbe4ee665b195ff7dfc074b3c298a4c58ae70bf67515e",
+      "bytes": 24032,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1982
+      },
+      "classes": {
+        "N": 1845,
+        "V": 138,
+        "S": 1,
+        "F": 8
+      },
+      "annotation_symbols": {
+        "N": 1847,
+        "V": 138,
+        "S": 1,
+        "F": 8
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I64",
+      "windows": 1911,
+      "sha256": "dc241e377b0e1afe249d26b1442b06c413f9b047f8cae0cbfab7a67397280280",
+      "bytes": 23060,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1901
+      },
+      "classes": {
+        "N": 1885,
+        "V": 23,
+        "F": 3
+      },
+      "annotation_symbols": {
+        "N": 1887,
+        "V": 23,
+        "F": 3
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I65",
+      "windows": 2664,
+      "sha256": "34acdfe8e641abdddb0af0b49c45a254d39791470b2b7815b3a0b1ee7ba3c127",
+      "bytes": 32096,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2653
+      },
+      "classes": {
+        "N": 2273,
+        "V": 382,
+        "S": 5,
+        "F": 4
+      },
+      "annotation_symbols": {
+        "N": 2273,
+        "V": 382,
+        "A": 2,
+        "F": 4,
+        "S": 3
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I66",
+      "windows": 2338,
+      "sha256": "00284aa0d9e7ba6d4a465e6b3621f97246d828243673fead390a4c9b872c9abd",
+      "bytes": 28184,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2328
+      },
+      "classes": {
+        "N": 2137,
+        "V": 200,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "N": 2139,
+        "V": 200,
+        "S": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I67",
+      "windows": 2974,
+      "sha256": "d0e83570538e06ddda67869a36edad60748ef23cdde56caa85da1886af8f7c79",
+      "bytes": 35816,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2964
+      },
+      "classes": {
+        "N": 2437,
+        "V": 531,
+        "S": 5,
+        "F": 1
+      },
+      "annotation_symbols": {
+        "N": 2438,
+        "V": 531,
+        "S": 5,
+        "F": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I68",
+      "windows": 2644,
+      "sha256": "41ae8a4be047eed2057c896c73ce0bb65d90d2a53a05cefe0b55576adfef3bb2",
+      "bytes": 31856,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2633
+      },
+      "classes": {
+        "N": 2481,
+        "V": 161,
+        "S": 2
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 2481,
+        "V": 161,
+        "A": 2
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I69",
+      "windows": 2168,
+      "sha256": "6701a118c20c33351fbcb115ef7f7dbbab8f76e61d18749717ee47556260cb65",
+      "bytes": 26144,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2158
+      },
+      "classes": {
+        "N": 1999,
+        "V": 167,
+        "F": 1,
+        "S": 1
+      },
+      "annotation_symbols": {
+        "N": 2000,
+        "+": 1,
+        "V": 167,
+        "F": 1,
+        "A": 1
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I70",
+      "windows": 1665,
+      "sha256": "2b07d8b28ec2fbb53846ca928ed8c031fc8bf2c828339c0615731cfdd93e7c25",
+      "bytes": 20108,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1655
+      },
+      "classes": {
+        "N": 1539,
+        "S": 126
+      },
+      "annotation_symbols": {
+        "+": 1,
+        "N": 1540,
+        "A": 126
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I71",
+      "windows": 1668,
+      "sha256": "b73d20c9f077db98bc4d1f07c39e6f7411627253c408722e17d7b4635bd84e5b",
+      "bytes": 20144,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1658
+      },
+      "classes": {
+        "N": 1633,
+        "S": 35
+      },
+      "annotation_symbols": {
+        "+": 7,
+        "N": 1627,
+        "A": 35,
+        "R": 8
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I72",
+      "windows": 2268,
+      "sha256": "24e5fe8f3fe2913d1a7037018f3436e31f3519cc8bc150258f491fbc285d4cfe",
+      "bytes": 27344,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2258
+      },
+      "classes": {
+        "N": 1874,
+        "V": 386,
+        "S": 8
+      },
+      "annotation_symbols": {
+        "N": 1876,
+        "V": 386,
+        "A": 8
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I73",
+      "windows": 1992,
+      "sha256": "963f035405a20ca4c934f7fbbc8c3ffa7f700021b3347d6aefcba6847f856764",
+      "bytes": 24032,
+      "stats": {
+        "no_previous_beat": 1,
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 1981
+      },
+      "classes": {
+        "N": 1890,
+        "V": 70,
+        "S": 32
+      },
+      "annotation_symbols": {
+        "N": 1890,
+        "V": 70,
+        "A": 32
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I74",
+      "windows": 2403,
+      "sha256": "5cc176a04fa82bdd985dd4f2345bc4a2960e68af8250e22a5c740c747394d90a",
+      "bytes": 28964,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2393
+      },
+      "classes": {
+        "N": 2081,
+        "V": 274,
+        "F": 48
+      },
+      "annotation_symbols": {
+        "N": 2083,
+        "V": 274,
+        "F": 48
+      }
+    },
+    {
+      "source": "INCART",
+      "record": "I75",
+      "windows": 2102,
+      "sha256": "3b40557f2d3682f840d7697db3dd23dee7e8719664cf848e93c80df16db559fa",
+      "bytes": 25352,
+      "stats": {
+        "no_baseline_history": 1,
+        "partial_history": 9,
+        "clipped_pre_rr": 0,
+        "clipped_ratio": 0,
+        "complete_history": 2092
+      },
+      "classes": {
+        "V": 613,
+        "N": 1482,
+        "F": 7
+      },
+      "annotation_symbols": {
+        "N": 1483,
+        "V": 613,
+        "F": 7
+      }
+    }
+  ],
+  "timing_audit_sha256": "14b8af1c98263c49e0046033e16fc7c0430d45f1f5238a93aa3b3a17fba5dcda",
+  "primary_outcome": "Validation-selected weight versus zero-weight objective control; mean per-source macroF1/S F1 deltas and F/Brier/false-positive guards. All inspected development, no confirmation.",
+  "provisional_acceptance": "Weight chosen exclusively by six-cell mean validation CE (tie smaller weight). Nonzero candidate requires positive mean macro/S F1, nondecreasing F recall/precision, nonincreasing Brier and <=110% S/F false-positive counts on each source. Otherwise retain combined reference.",
+  "adversarial_weights": [
+    0,
+    0.05,
+    0.2
+  ],
+  "protocol_sha256": "42e36b89aa83bc973fe718c028f66c9413dc80a3014be4bf2fc0bd83cf81e29e"
+}

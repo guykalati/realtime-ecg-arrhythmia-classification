@@ -1,0 +1,9 @@
+{
+  "job_id": "22007333",
+  "state": "COMPLETED",
+  "exit_code": "0:0",
+  "allocated_elapsed_seconds": 391,
+  "remote_directory": "/home/guykalat/codex_ecg_subject_adversary_20261003",
+  "selfcheck": "paired initial logits; reversal sign/scale; ordinary subject-head gradient; zero encoder-gradient control passed",
+  "training_admission": false
+}

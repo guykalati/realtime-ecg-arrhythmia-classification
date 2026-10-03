@@ -1,5 +1,7 @@
 # Current status — 3 October 2026
 
-The18-cell timing ablation completed and passed its audit (job22001343,307GPU-seconds). The combined waveform/past-RR model passed the frozen provisional rule:mean INCART macroF1 rose0.396→0.498 and S F1 rose0.024→0.274 across six comparisons. Rare F remains weak (mean recall0.18% MIT/4.95% INCART), with substantial false alarms. Exact cross-source input screen covers771,896windows with zero matches; it does not establish patient independence. EDB remains unscored and SVDB reserved.
+Past-only timing remains the provisional development reference with the existing CNN. The 18-cell subject-adversarial objective test completed job 22007333 in 391 GPU seconds. All six zero-penalty controls reproduced prior confusion counts. Validation selected weight 0.05, improving mean macro F1 from 0.5843 to 0.6005 on MIT and 0.4984 to 0.5168 on INCART. It nevertheless failed the frozen MIT F false-positive limit (9.67 versus 5.83), so retain the existing combined model. F detection remains poor; no clinical or fresh-confirmation claim follows.
 
-The HTML walkthrough is the earlier snapshot. Read the dated continuation reports for subsequent repairs/results; historical pending states remain preserved.
+Read [the full subject-objective result](ECG_SUBJECT_ADVERSARY_RESULT_2026-10-03.md) for S/F precision/recall, false positives, mixed effects and independent checks. Exact-input checks previously found no cross-source identical windows; transformed-record/patient independence is still unproven. EDB remains unscored and SVDB sealed. Annotation-assisted peaks and centered waveform latency remain explicit limitations.
+
+The HTML walkthrough and earlier reports remain historical snapshots.
