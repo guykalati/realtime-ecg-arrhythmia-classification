@@ -1,0 +1,199 @@
+{
+  "status": "audited_complete",
+  "raw_sha256": "7220a311009eaa948c664e2f520f590ca4e3674ed09c73389c7fa9e1d9001a2e",
+  "manifest_sha256": "e21743744e2ad4f83e1e4c82972cff9bf90a6e9a595cfa9c80ebea7a53996990",
+  "runs": 18,
+  "gpu_name": "NVIDIA GeForce RTX 3090",
+  "elapsed_seconds": 302.1407146169804,
+  "summary": {
+    "mit_development": {
+      "waveform": {
+        "mean": {
+          "macro_f1": 0.557242294554684,
+          "S_f1": 0.4290489676055081,
+          "S_precision": 0.5179405197789881,
+          "S_recall": 0.5253302253302253,
+          "F_f1": 0.0,
+          "F_recall": 0.0,
+          "F_precision": 0.0,
+          "F_false_positives": 8.5,
+          "S_false_positives": 388.5,
+          "brier": 0.11474348023579424,
+          "nll": 0.2549641504883766
+        },
+        "macro_f1_range": [
+          0.41598398350788013,
+          0.6306018393462944
+        ]
+      },
+      "timing": {
+        "mean": {
+          "macro_f1": 0.3489169874626108,
+          "S_f1": 0.007224151894619466,
+          "S_precision": 0.015538667218146842,
+          "S_recall": 0.0050061050061050065,
+          "F_f1": 0.0,
+          "F_recall": 0.0,
+          "F_precision": 0.0,
+          "F_false_positives": 1.3333333333333333,
+          "S_false_positives": 66.33333333333333,
+          "brier": 0.1969639915043604,
+          "nll": 0.45495619376500446
+        },
+        "macro_f1_range": [
+          0.31254143484020985,
+          0.38943770173284953
+        ]
+      },
+      "combined": {
+        "mean": {
+          "macro_f1": 0.5842545996681336,
+          "S_f1": 0.4835583095662328,
+          "S_precision": 0.4415683553246145,
+          "S_recall": 0.707104007104007,
+          "F_f1": 0.0034410445908270256,
+          "F_recall": 0.0017593211527035055,
+          "F_precision": 0.11666666666666665,
+          "F_false_positives": 5.833333333333333,
+          "S_false_positives": 597.8333333333334,
+          "brier": 0.10544810040089721,
+          "nll": 0.22078229735294977
+        },
+        "macro_f1_range": [
+          0.5383753906066158,
+          0.6382706982944591
+        ]
+      },
+      "paired_combined_minus_waveform": [
+        {
+          "split": "a",
+          "seed": 20260929,
+          "delta_macro_f1": 0.027839424418477088
+        },
+        {
+          "split": "a",
+          "seed": 20260930,
+          "delta_macro_f1": 0.0009699812610451941
+        },
+        {
+          "split": "a",
+          "seed": 20261001,
+          "delta_macro_f1": 0.007668858948164714
+        },
+        {
+          "split": "b",
+          "seed": 20260929,
+          "delta_macro_f1": 0.14600860928804404
+        },
+        {
+          "split": "b",
+          "seed": 20260930,
+          "delta_macro_f1": -0.08673336715616786
+        },
+        {
+          "split": "b",
+          "seed": 20261001,
+          "delta_macro_f1": 0.06632032392113452
+        }
+      ],
+      "passes_frozen_source_rule": true
+    },
+    "incart_development": {
+      "waveform": {
+        "mean": {
+          "macro_f1": 0.3957016745481388,
+          "S_f1": 0.023917093570117398,
+          "S_precision": 0.014678552808240162,
+          "S_recall": 0.12572352740892068,
+          "F_f1": 0.003478518719653758,
+          "F_recall": 0.02815829528158295,
+          "F_precision": 0.0019415321986754345,
+          "F_false_positives": 3608.8333333333335,
+          "S_false_positives": 14339.666666666666,
+          "brier": 0.30515757360945145,
+          "nll": 0.6670948068300883
+        },
+        "macro_f1_range": [
+          0.36776855712049406,
+          0.40921080596417114
+        ]
+      },
+      "timing": {
+        "mean": {
+          "macro_f1": 0.469427421560995,
+          "S_f1": 0.04245695833640665,
+          "S_precision": 0.11418761573933989,
+          "S_recall": 0.03277153558052435,
+          "F_f1": 0.0,
+          "F_recall": 0.0,
+          "F_precision": 0.0,
+          "F_false_positives": 119.66666666666667,
+          "S_false_positives": 310.3333333333333,
+          "brier": 0.13172406422296362,
+          "nll": 0.3184441824754079
+        },
+        "macro_f1_range": [
+          0.4566888695474163,
+          0.4968669126375077
+        ]
+      },
+      "combined": {
+        "mean": {
+          "macro_f1": 0.49836913036857905,
+          "S_f1": 0.27410157599286444,
+          "S_precision": 0.18393080048603647,
+          "S_recall": 0.6699012597889001,
+          "F_f1": 0.00651370434699348,
+          "F_recall": 0.04946727549467275,
+          "F_precision": 0.0035749082750845557,
+          "F_false_positives": 2757.0,
+          "S_false_positives": 9132.333333333334,
+          "brier": 0.17574204354617898,
+          "nll": 0.38259124755859375
+        },
+        "macro_f1_range": [
+          0.43918856515958327,
+          0.5473911638764095
+        ]
+      },
+      "paired_combined_minus_waveform": [
+        {
+          "split": "a",
+          "seed": 20260929,
+          "delta_macro_f1": 0.1093683767966746
+        },
+        {
+          "split": "a",
+          "seed": 20260930,
+          "delta_macro_f1": 0.07142000803908921
+        },
+        {
+          "split": "a",
+          "seed": 20261001,
+          "delta_macro_f1": 0.14808906979305703
+        },
+        {
+          "split": "b",
+          "seed": 20260929,
+          "delta_macro_f1": 0.12058933756035883
+        },
+        {
+          "split": "b",
+          "seed": 20260930,
+          "delta_macro_f1": 0.05379041511690552
+        },
+        {
+          "split": "b",
+          "seed": 20261001,
+          "delta_macro_f1": 0.11274752761655632
+        }
+      ],
+      "passes_frozen_source_rule": true
+    }
+  },
+  "provisional_rule_passed": true,
+  "reference_decision": "provisional combined candidate; fresh confirmation still pending",
+  "limits": "Inspected development sets, annotation-assisted timing and centered waveform latency; no EDB/SVDB scoring or final confirmation. No INCART fitting.",
+  "job_id": "22001343",
+  "allocated_gpu_seconds": 307
+}

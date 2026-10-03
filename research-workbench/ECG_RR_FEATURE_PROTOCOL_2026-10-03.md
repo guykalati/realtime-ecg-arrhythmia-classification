@@ -1,0 +1,9 @@
+# Past-only timing artifact — finite CPU preparation
+
+Purpose: isolate beat timing from the unsuccessful neighboring-waveform architecture. The [primary-source methods review](ECG_NEXT_METHODS_RESEARCH_2026-10-03.md) motivates timing features, but its original full-record normalization is not reproduced.
+
+Read only known MIT-BIH48 and INCART75 public annotation caches and the previously verified window CSVs. Expected285,215 aligned rows:109,438 MIT and175,777 INCART. Verify original annotation and CSV SHA-256 before decoding. Use complete discrete-beat annotation streams, including non-target beat types; ignore rhythm changes, blocked P-waves, QRS-like artifacts and flutter markers. Fixed beat symbols are documented in WFDB Python4.3.1's annotation label table. [WFDB annotation specification](https://wfdb.io/spec/annotation-files.html) describes the event/time representation.
+
+Features: log preceding RR seconds (fixed clip0.05–5seconds), log ratio to median of up to ten previous intervals ending before the current interval (fixed ratio clip0.05–20), missing-history flag. Keep1–9-history startup rows and report them; neutral ratio with missing flag if no baseline exists. No full-record statistic, no next RR, no label-dependent timing selection, no fitted scaling. Keep unchanged window index alignment and class counts.
+
+One local CPU preparation,180-second internal cap and4MB feature-output cap, zeroGPU/training/model scores/downloads, no restart. Synthetic selfcheck verifies a premature interval, prefix invariance to added future data, and cold-start handling. EDB and SVDB untouched. Annotation-assisted features do not establish detector robustness; existing centered waveforms require approximately0.5seconds after R. A separate frozen waveform-only/timing-only/combined ablation is required before interpreting any improvement.

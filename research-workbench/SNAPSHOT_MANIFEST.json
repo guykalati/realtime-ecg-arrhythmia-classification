@@ -168,6 +168,11 @@
       "bytes": 4437
     },
     {
+      "source_relative_path": "ECG_NEXT_METHODS_RESEARCH_2026-10-03.md",
+      "sha256": "214e2497222148efc09367eb7ff157ceb80620cb456960f32d94e5f173fbdf5a",
+      "bytes": 12330
+    },
+    {
       "source_relative_path": "ECG_NEXT_STAGE_DECISION_2026-09-29.md",
       "sha256": "f9b33504af29fdb8aab1aa30a97269a8487a441fef7477a741d90391a9199ae8",
       "bytes": 6372
@@ -201,6 +206,21 @@
       "source_relative_path": "ECG_ROBUSTNESS_RESULT_2026-09-29.md",
       "sha256": "96364667818af0e9b80d909f909b17b7faff5cf8b4dc0db208efda6eb2d4d5d5",
       "bytes": 3930
+    },
+    {
+      "source_relative_path": "ECG_RR_COMPARISON_PROTOCOL_2026-10-03.md",
+      "sha256": "c355b396b6b1e300649b1a0b0c8822f8d5d637eb79774d89a19ef30665c18319",
+      "bytes": 2804
+    },
+    {
+      "source_relative_path": "ECG_RR_COMPARISON_RESULT_2026-10-03.md",
+      "sha256": "7e12404ef663de7f76e9693759696904631814f84ff8c339c01a900ccc6aa447",
+      "bytes": 3410
+    },
+    {
+      "source_relative_path": "ECG_RR_FEATURE_PROTOCOL_2026-10-03.md",
+      "sha256": "b73dc4021e0bb39f2754b1b5276b8f843f89d0d6d97c65d33b72bc22a7c5b6b7",
+      "bytes": 1865
     },
     {
       "source_relative_path": "ECG_SELECTION_RESULT_2026-09-30.md",
@@ -463,6 +483,16 @@
       "bytes": 2093
     },
     {
+      "source_relative_path": "implementation/audit_ecg_rr_compare.py",
+      "sha256": "686d7369e0118c555f707d5c63c9098ab1fcf11e318d3304e8e401a150255e9c",
+      "bytes": 5504
+    },
+    {
+      "source_relative_path": "implementation/audit_ecg_rr_features.py",
+      "sha256": "5bdbadfac559aff0f53eb0bc193fef31ea9e5a6aa55bd7bce06b46bf16ddb03d",
+      "bytes": 3113
+    },
+    {
       "source_relative_path": "implementation/audit_ecg_selection.py",
       "sha256": "1f2eb8e26f23cc0e113edc2800c22f2bf0b171b7f4dc9ab2eef61a92c7cd8046",
       "bytes": 6631
@@ -576,6 +606,36 @@
       "source_relative_path": "implementation/ecg_robustness_result_2026-09-29.json",
       "sha256": "7d3ae262ec3e2007cc9c9ba536cfd949db9a272288edb57a49d62add83b233ed",
       "bytes": 129771
+    },
+    {
+      "source_relative_path": "implementation/ecg_rr_compare.py",
+      "sha256": "dfdef70776333c4bb9e917eda03628739187877cdf1e63513b49f8939a226343",
+      "bytes": 8293
+    },
+    {
+      "source_relative_path": "implementation/ecg_rr_compare_audit_2026-10-03.json",
+      "sha256": "77cbc88c83482d1327c4d3b4860f5fd5094cf134d10086f16ecdb6b4ba7125bf",
+      "bytes": 5978
+    },
+    {
+      "source_relative_path": "implementation/ecg_rr_compare_manifest_2026-10-03.json",
+      "sha256": "e21743744e2ad4f83e1e4c82972cff9bf90a6e9a595cfa9c80ebea7a53996990",
+      "bytes": 82521
+    },
+    {
+      "source_relative_path": "implementation/ecg_rr_feature_audit_2026-10-03.json",
+      "sha256": "14b8af1c98263c49e0046033e16fc7c0430d45f1f5238a93aa3b3a17fba5dcda",
+      "bytes": 70627
+    },
+    {
+      "source_relative_path": "implementation/ecg_rr_feature_manifest_2026-10-03.json",
+      "sha256": "d4ed03c6e34b33b27484a9c148270e0f648028778c63842702bf0bd7cc7b3991",
+      "bytes": 11607
+    },
+    {
+      "source_relative_path": "implementation/ecg_rr_features.py",
+      "sha256": "80361f1e9363727386fd8415d7ed0c8f27f050cb4a162aca91e348f914aab047",
+      "bytes": 4236
     },
     {
       "source_relative_path": "implementation/ecg_selection_audit_2026-09-30.json",
