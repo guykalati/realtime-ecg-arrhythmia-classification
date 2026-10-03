@@ -2,7 +2,7 @@
 
 The CV functionality now has a real saved model and a working interface. The new patient-disjoint score differs from the historical beat-split result: **94.10% accuracy, macro F1 0.6722, weighted F1 0.9334 on 19,253 test beats**. This is a single-seed result. Fusion recall is **0/384** and must be disclosed alongside aggregate accuracy. Q includes paced and unclassified annotations. Total dataset: **109,438** beat windows, 48 records, 47 subject groups.
 
-The selected checkpoint is epoch9 of24, chosen solely by validation cross entropy. Source, split, waveform and checkpoint hashes are in `output/result.json`; all held-out predictions are in `output/test_predictions.npz`. The 50-beat replay is balanced for demonstration and is not the test distribution. NumPy inference matches an independent PyTorch float32 CPU reference within 0.000004 logits. Original GPU export used reduced-precision convolution arithmetic; the CPU export audit preserves that difference.
+The selected checkpoint is epoch 9 of 24, chosen solely by validation cross entropy. Source, split, waveform and checkpoint hashes are in `output/result.json`; all held-out predictions are in `output/test_predictions.npz`. The 50-beat replay is balanced for demonstration and is not the test distribution. NumPy inference matches an independent PyTorch float32 CPU reference within 0.000004 logits. Original GPU export used reduced-precision convolution arithmetic; the CPU export audit preserves that difference.
 
 ## Run the demo
 
@@ -14,11 +14,11 @@ python verify_results.py
 python demo.py --port 8793
 ```
 
-Open http://127.0.0.1:8793. Start/pause/reset, recorded-beat selection, waveform rendering and model-driven simulated alerts were verified in the browser (`output/browser_audit.json`, screenshot). Every request runs the saved model; predictions are not a hard-coded replay. Inference median was about0.51ms on this Mac over50small windows; this excludes browser/server overhead and is not a clinical response-time claim.
+Open http://127.0.0.1:8793. Start/pause/reset, recorded-beat selection, waveform rendering and model-driven simulated alerts were verified in the browser (`output/browser_audit.json`, screenshot). Every request runs the saved model; predictions are not a hard-coded replay. Inference median was about 0.51 ms on this Mac over 50 small windows; this excludes browser/server overhead and is not a clinical response-time claim.
 
 ## Reproduce data and training
 
-Requires NumPy, WFDB4.3.1 and PyTorch2.5.1+CUDA12.4 (original cluster environment). Use an allocated GPU, not a login node.
+Requires NumPy, WFDB 4.3.1 and PyTorch 2.5.1 + CUDA 12.4 (original cluster environment). Use an allocated GPU, not a login node.
 
 ```sh
 mkdir -p data

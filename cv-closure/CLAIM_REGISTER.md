@@ -11,4 +11,4 @@ Source CV SHA256: `16ad4fb13ce8c4df0ae8b43061c30dd7def08f2d11d42d9242a4c46e0dfcc
 
 Completion requires real execution, inspectable predictions/traces, data/config/source/artifact hashes, reproducible commands and honest limitations. Historical scores are not acceptance targets; measured scores may replace them.
 
-Verified: output/result_audit.json, output/numpy_inference_audit.json and output/browser_audit.json. Accuracy94.10%; fusion recall0/384; the old98.02% is not the new patient-disjoint score.
+Verified: output/result_audit.json, output/numpy_inference_audit.json and output/browser_audit.json. Accuracy 94.10%; fusion recall 0/384; the old 98.02% is not the new patient-disjoint score.

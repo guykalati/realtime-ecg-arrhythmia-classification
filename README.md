@@ -1,6 +1,6 @@
 # ECG CV evidence closure
 
-New verified five-class model and working replay monitor: [cv-closure](cv-closure/README.md). **109,438 beats; 94.10% patient-disjoint test accuracy; fusion recall0/384.** See full metrics before making performance claims.
+New verified five-class model and working replay monitor: [cv-closure](cv-closure/README.md). **109,438 beats; 94.10% patient-disjoint test accuracy; fusion recall 0/384.** See full metrics before making performance claims.
 
 ![Verified ECG replay interface](cv-closure/output/demo_verified.png)
 
