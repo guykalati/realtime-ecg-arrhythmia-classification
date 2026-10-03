@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "browser": "Codex in-app browser",
+  "url": "http://127.0.0.1:8793",
+  "checks": [
+    "Waveform rendered with millivolt range and 360 Hz label",
+    "50 recorded beats selectable",
+    "Actual selected-model prediction displayed",
+    "Start replay advanced from beat21 to26",
+    "Predicted V created simulated alert entries",
+    "Pause stopped replay and enabled Start",
+    "Reset cleared alert feed and returned to beat1"
+  ],
+  "screenshot_sha256": "87533a421caac6036cbd3a7ec94061417439353a5cb3ccc6e3cc83a7a0d148ad"
+}

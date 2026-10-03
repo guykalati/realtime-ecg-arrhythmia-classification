@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "cases": 50,
+  "original_gpu_vs_cpu_max_error": 0.0035238265991210938,
+  "model_sha256": "966ad08da3853821b6f7a2ca56e486abce51b5864efff4285aa463c2a95364d9",
+  "source_sha256": "7cb3578d9499f2c89284cc2ac168174721fd1ebffcdc5950b8f094a5e1ddc28b",
+  "replay_verified_sha256": "26ebc36f47c1735e1b903ea8fea767139f006275a49f024a6e66f211fcee7fe7",
+  "torch": "2.5.1+cu124"
+}

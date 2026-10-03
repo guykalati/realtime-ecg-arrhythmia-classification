@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "cases": 50,
+  "max_logit_error": 3.814697265625e-06,
+  "numpy_latency_median_ms": 0.5079585025669076,
+  "numpy_latency_p95_ms": 0.6612354482058435,
+  "numpy": "2.5.3"
+}
