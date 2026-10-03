@@ -1,0 +1,51 @@
+{
+  "status": "audited_complete",
+  "windows_per_source": {
+    "MIT": 109438,
+    "INCART": 175777,
+    "EDB": 486681
+  },
+  "constant_windows_skipped": {},
+  "cross_source_exact_groups": [],
+  "cross_source_exact_group_count": 0,
+  "records_per_source": {
+    "MIT": 48,
+    "INCART": 75,
+    "EDB": 51
+  },
+  "classes_per_source": {
+    "MIT": {
+      "N": 90582,
+      "S": 2781,
+      "V": 7235,
+      "Q": 8038,
+      "F": 802
+    },
+    "INCART": {
+      "N": 153594,
+      "V": 20006,
+      "S": 1958,
+      "F": 219
+    },
+    "EDB": {
+      "N": 481822,
+      "S": 388,
+      "V": 4128,
+      "F": 343
+    }
+  },
+  "source_sha256": "e2ab07dd74e9fcded5e5e7fbf1120de5f0962ab3afb494cd57549dc4b30407a2",
+  "manifest_sha256": "012bdbea9ef8aefda89eab2900bd7de7f32af05f06b620f7f08168737737024d",
+  "elapsed_seconds": 56.71897082898067,
+  "no_filtering": true,
+  "no_training": true,
+  "limits": "Exact nonconstant float32 one-second prepared windows, not aligned long-recording/near-duplicate screening or cross-release patient identity. Different leads/resampling/offsets can evade hashes. Zero matches does not establish independent people. MIT includes all48 prepared records, including paced/Q/V5 cases outside primary training scope. SVDB untouched.",
+  "raw_sha256": "159ff88337cf8b67043534c720692ec462e9913cf0b0cd16ee25094a4c603e74",
+  "job_id": "22000545",
+  "allocated_seconds": 57,
+  "failed_predecessor": {
+    "job_id": "22000244",
+    "allocated_seconds": 66,
+    "reason": "Manifest mixed complete-source and primary-subset class fields"
+  }
+}

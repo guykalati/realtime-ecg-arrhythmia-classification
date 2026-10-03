@@ -1,5 +1,5 @@
 # Current status — 3 October 2026
 
-The centered CNN remains the simple development reference. Patient/subject-separated experiments expose weak S/F recognition. INCART has been inspected and is development evidence. Multi-scale, longer-training, alternate checkpoint selection, and novelty abstention do not establish robust rare-class improvements. EDB has 486,681 verified finite resampled V5 windows, with zero constant/exact-duplicate windows found. No EDB training, cross-source independence guarantee, or final confirmation exists. SVDB remains reserved.
+The centered CNN remains the development reference; rare S/F performance is weak. EDB has 486,681 verified V5 windows and remains unevaluated. Corrected job 22000545 completed: 771,896 prepared windows across MIT-BIH, INCART and EDB, zero exact cross-source input matches, zero constants. This is not an aligned recording screen or proof of different people. The failed predecessor and corrected manifest are recorded. SVDB remains reserved.
 
-Cluster connection was restored via a shared SSH control connection. The latest check showed no active jobs. The HTML walkthrough explains the full history and proposed next steps.
+The HTML walkthrough records the earlier snapshot. Read the dated continuation reports for these subsequent runs. Historical pending statements are preserved.
