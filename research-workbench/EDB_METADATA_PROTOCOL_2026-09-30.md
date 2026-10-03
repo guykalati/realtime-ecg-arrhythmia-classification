@@ -1,0 +1,7 @@
+# European ST-T metadata-only inventory
+
+Question: can European ST-T enlarge the current N/S/V/F beat study with several independently grouped rare-class subjects? Inspect the fixed [PhysioNet EDB1.0.0 release](https://physionet.org/content/edb/1.0.0/), all90 headers and `.atr` files, without signals or inference. Preserve source/version, release checksums and all unmapped events. Download cap5 MB, four workers, one request per file without unbounded retries; no GPU allocation. Existing WFDB4.3.1 reads headers/annotations locally.
+
+Apply the source [annotation-code meanings](https://physionet.org/physiobank/database/edb/annotations.shtml): `N→N`, `a/J/S→S`, `V→V`, `F→F`; unclassifiable Q and nonbeat events remain unmapped. This is an operational compatibility inventory, not a new label-accuracy claim. Group the seven same-person record sets explicitly documented by the release and assert79 groups. Record all available lead names and II/MLII availability, counts by record/person and rare-class concentration. Sampling rate is250 Hz, different from MIT-BIH360 Hz.
+
+EDB's role remains unassigned pending the counts and a frozen experiment decision. Do not silently use it as both training and independent confirmation. No waveform checks or harmonized cross-source patient identity can be established from this inventory alone. SVDB stays sealed. ODC Attribution v1.0 requires retaining source attribution. The approximately465 MB signal release is outside this metadata-only step.

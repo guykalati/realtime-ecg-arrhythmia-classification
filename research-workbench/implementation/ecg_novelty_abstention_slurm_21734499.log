@@ -1,0 +1,11 @@
+------------------------------------
+Tue 29 Sep 2026 22:49:59 IDT
+SLURM_JOBID:		21734499
+SLURM_JOB_NODELIST:	cs-3090-03
+SLURM_SCRATCH_DIR:	/scratch/guykalat/21734499
+Allocated Resouces:	cpu - 2 / mem - 8192 MB / gpu - 1
+SLURM_GPU_INDEX:	3
+Running as guykalat from yshahar account with normal QOS
+------------------------------------
+NVIDIA GeForce RTX 3090
+{"complete": true, "selected_lambda": 0.25, "validation_mean_errors": {"0.0": 0.05749494844178251, "0.25": 0.050629895115105183, "0.5": 0.05360262273799534, "1.0": 0.05943474460234153}, "elapsed_seconds": 9.861852809000993}

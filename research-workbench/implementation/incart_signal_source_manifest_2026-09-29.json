@@ -1,0 +1,457 @@
+{
+  "source": "PhysioNet INCART 1.0.0 public AWS mirror",
+  "retrieved_at_utc": "2026-09-29T08:26:28.035210+00:00",
+  "files": [
+    {
+      "key": "incartdb/1.0.0/I01.dat",
+      "size": 11102400,
+      "etag": "836ee05afd8c66bbede8a4075da94c8f-2",
+      "sha256": "101f884d41f9e28a381bcfb90f706da907d34383ce7d799cbb13ff985757f061"
+    },
+    {
+      "key": "incartdb/1.0.0/I02.dat",
+      "size": 11102400,
+      "etag": "af01838570ed24e5ed4fdc4de3477065-2",
+      "sha256": "63415c543f8641cdc03a92af09a2e041a8eac0056595f1448e926cc749e99471"
+    },
+    {
+      "key": "incartdb/1.0.0/I03.dat",
+      "size": 11102400,
+      "etag": "14f130bb40a2d6dfe958e13bf78a41e7-2",
+      "sha256": "5d40077d3f11fa6029b7b0d889997f7ed8ff953d668ac3b1d799cd383c2120f8"
+    },
+    {
+      "key": "incartdb/1.0.0/I04.dat",
+      "size": 11102400,
+      "etag": "520927eca0786d57127e73776b74b35a-2",
+      "sha256": "caa43ababdc17f7a6e758b7dcc1b2140c11f9257d3d67a686b03bb5c96a3159b"
+    },
+    {
+      "key": "incartdb/1.0.0/I05.dat",
+      "size": 11102400,
+      "etag": "cdeebdce1224c57b9dcadbca47d57dcf-2",
+      "sha256": "e2fd0d9d723e940b371fdee4a7936c45be6b64a67e036b6f88c1c1f6ad3b7df3"
+    },
+    {
+      "key": "incartdb/1.0.0/I06.dat",
+      "size": 11102400,
+      "etag": "9c32715be8f68ddd81fa3f2d2d79d497-2",
+      "sha256": "e25c67410e6e376b523e961f191b0fb2f82c90f489aae39d475f36ac41d3a643"
+    },
+    {
+      "key": "incartdb/1.0.0/I07.dat",
+      "size": 11102400,
+      "etag": "e92b489365759ba8f7ce9461591de298-2",
+      "sha256": "8f3d49d724f9586e771604e657dabaebbb7b4e1c8e5183473da20e1205ce266b"
+    },
+    {
+      "key": "incartdb/1.0.0/I08.dat",
+      "size": 11102400,
+      "etag": "1a023c77e43076019bdb259eb82f2b56-2",
+      "sha256": "fc046a96e339e9f5cc6d96325a042fee9d9e69424c71a50d506dafa755fc8ffb"
+    },
+    {
+      "key": "incartdb/1.0.0/I09.dat",
+      "size": 11102400,
+      "etag": "b6fa0a493d67afbc18faf2c3dfe50c2d-2",
+      "sha256": "42f035b369d56798a5eadec6b9739b6ef71d8850b0dda77c432e8c75ef30856a"
+    },
+    {
+      "key": "incartdb/1.0.0/I10.dat",
+      "size": 11102400,
+      "etag": "aedccf7672fcabf6253db072a6cdef8e-2",
+      "sha256": "a4d70bae40833850ae7699f7ed71c922aee8dec702a402cfee1057fdab2be32c"
+    },
+    {
+      "key": "incartdb/1.0.0/I11.dat",
+      "size": 11102400,
+      "etag": "d91884d4b4e009005f5e67ad8df7d9c4-2",
+      "sha256": "77376f50a7339c8877edc112fada4df45d97f846fa8990739cd2020e543db178"
+    },
+    {
+      "key": "incartdb/1.0.0/I12.dat",
+      "size": 11102400,
+      "etag": "efc496019e55b9dc00a040b868468af2-2",
+      "sha256": "8e5f1946364b01a6308e3dfca5839795f274a152285266be0e0228cbfdcea765"
+    },
+    {
+      "key": "incartdb/1.0.0/I13.dat",
+      "size": 11102400,
+      "etag": "1c6cbe94ed0794fca17d6146e683c264-2",
+      "sha256": "e00ebdd32ddf660e0785d09b7e9bf713adc5f6e9a906e795e38fec8c5d771f7d"
+    },
+    {
+      "key": "incartdb/1.0.0/I14.dat",
+      "size": 11102400,
+      "etag": "7b9e8747563729a917b0ef0dd16ac28e-2",
+      "sha256": "e82b3ec1c770359ee6f1c5b34f0ccedd28b4741feba0375f29c841e9bc885510"
+    },
+    {
+      "key": "incartdb/1.0.0/I15.dat",
+      "size": 11102400,
+      "etag": "2f8b24dfcd3e7737d279042aca47acc9-2",
+      "sha256": "9c1f62447f60d3a052968ff01ac55809fce894b26e10ce9ce6c46325fb13cf5e"
+    },
+    {
+      "key": "incartdb/1.0.0/I16.dat",
+      "size": 11102400,
+      "etag": "53d04e51aff7ae0a3611f0f3c772442d-2",
+      "sha256": "406c55d22cd2d3a902297aca25d6ddfd05e592f09a2f196f904e4202b829b42f"
+    },
+    {
+      "key": "incartdb/1.0.0/I17.dat",
+      "size": 11102400,
+      "etag": "4184a78a7412533aa58048d19d7699d8-2",
+      "sha256": "c639402563bf012d48b4cfe7b919f9656ec8ea123172dcacf4e3fad7ae34373a"
+    },
+    {
+      "key": "incartdb/1.0.0/I18.dat",
+      "size": 11102400,
+      "etag": "f3bc7b61ed2e342564b5701fe76d2f68-2",
+      "sha256": "e4954b2d19803cdec22a66652c89560f2efb9d0bb853f4a1a949fb4fbefd615a"
+    },
+    {
+      "key": "incartdb/1.0.0/I19.dat",
+      "size": 11102400,
+      "etag": "cc38e98b8f55d0fa40a4a4a519c30448-2",
+      "sha256": "906c896a1fde495b0a5278cdc5f445686da54e2e7e75addaf8c120453de7eea5"
+    },
+    {
+      "key": "incartdb/1.0.0/I20.dat",
+      "size": 11102400,
+      "etag": "2bc582f546be64823f9546f2bd6b8a10-2",
+      "sha256": "9fda8a8f6202e2aa0f85e0ed400fc679044cb316a2614e4b3d27c89e5247206f"
+    },
+    {
+      "key": "incartdb/1.0.0/I21.dat",
+      "size": 11102400,
+      "etag": "ae4fb17ec1b717afb4dd8339c1d077d6-2",
+      "sha256": "0170ab752474a01323e7ab6b3aeae3d8c286445f1e3347aa241dc28fba9ecfbc"
+    },
+    {
+      "key": "incartdb/1.0.0/I22.dat",
+      "size": 11102400,
+      "etag": "6a5f616a8582f0adcb271692f9ec4636-2",
+      "sha256": "e3320a2f902b2ae0b1febd2f3d2e84f5a824e0e8bc5aabd15320b0ddd14956c1"
+    },
+    {
+      "key": "incartdb/1.0.0/I23.dat",
+      "size": 11102400,
+      "etag": "940f577c1e45f2ba6856ef7c9eb25281-2",
+      "sha256": "0f88f840a1d6e936504e2539dad9442831140226c12a6cf6ec6dbc1896164755"
+    },
+    {
+      "key": "incartdb/1.0.0/I24.dat",
+      "size": 11102400,
+      "etag": "0f1a038c474a6576ab4dfcf00593c428-2",
+      "sha256": "72bc571c9f5ae3cc57f2e2aea08893bed0661385b0a63a7922340c7b06c5b724"
+    },
+    {
+      "key": "incartdb/1.0.0/I25.dat",
+      "size": 11102400,
+      "etag": "97ba08409e55c164b3114d2b7ca4d47e-2",
+      "sha256": "eefd598588344b898ed68c8d4f4088ca420f127a913fd18ffa136e0b4b948479"
+    },
+    {
+      "key": "incartdb/1.0.0/I26.dat",
+      "size": 11102400,
+      "etag": "737cf29dd53772dbef65c3452648a0e1-2",
+      "sha256": "44a2af1fb4687ea342899005b7a0d50b5c3ed83e082ebe909cff04c92610dc2e"
+    },
+    {
+      "key": "incartdb/1.0.0/I27.dat",
+      "size": 11102400,
+      "etag": "1ddfc511d2737c99344a4992931c8e7d-2",
+      "sha256": "7a1e5ae242289ba3e8f91a07d08087f7f51b30debdb68d0094bec3f5c7460638"
+    },
+    {
+      "key": "incartdb/1.0.0/I28.dat",
+      "size": 11102400,
+      "etag": "2dfccd8ea08309a989e19cd0024bff89-2",
+      "sha256": "a3e24f518db68dd81bc786e252b9d12f16137658c26944a2cb0334c243358b58"
+    },
+    {
+      "key": "incartdb/1.0.0/I29.dat",
+      "size": 11102400,
+      "etag": "2db8fdef598f91977e56051ee3523bd1-2",
+      "sha256": "646d086efaa3e860e4d63af0342fcf987d2a1434d9e1ddc00c3653ccbfc8a170"
+    },
+    {
+      "key": "incartdb/1.0.0/I30.dat",
+      "size": 11102400,
+      "etag": "193d40d9bca3d661c109cad707e9f49c-2",
+      "sha256": "1f3e4e5c97139e37eef7f6d8ea49515faadd20f938bddd322ed3a291366a243d"
+    },
+    {
+      "key": "incartdb/1.0.0/I31.dat",
+      "size": 11102400,
+      "etag": "ca14c0b703d0f0793621c3feb57ac055-2",
+      "sha256": "295c733e9840e0daac2e99591eac2766664574b53a76b6c03eb18a77b0a4bad3"
+    },
+    {
+      "key": "incartdb/1.0.0/I32.dat",
+      "size": 11102400,
+      "etag": "90463d5af6564134a353cc22618cc9eb-2",
+      "sha256": "cca607402a5dcf6aa08349903cf523fdadf79b76448aef6d6499a8fde97d60c2"
+    },
+    {
+      "key": "incartdb/1.0.0/I33.dat",
+      "size": 11102400,
+      "etag": "d88a0ff2db9aa88528af17c283ebbfb4-2",
+      "sha256": "6c2a29a87cedf9d4d2ca36defb1bde846f3b305c42790f61201814d9e3760b9b"
+    },
+    {
+      "key": "incartdb/1.0.0/I34.dat",
+      "size": 11102400,
+      "etag": "6b9a07464bbfb850984287cbbf528ec6-2",
+      "sha256": "1f369a29e6af6ce2f94e653b281829f9cebb783024d8f90b7750ba0b7981d113"
+    },
+    {
+      "key": "incartdb/1.0.0/I35.dat",
+      "size": 11102400,
+      "etag": "3f108a88a84fb2df2e619d88e8041294-2",
+      "sha256": "b3d93152884827bb52cd6a94bffbc9b6186c7cc438be8e2d2fdb1a61c6e8762a"
+    },
+    {
+      "key": "incartdb/1.0.0/I36.dat",
+      "size": 11102400,
+      "etag": "cc06bffd4e015cd2ac44c21df0955b6f-2",
+      "sha256": "aac3c31eb9838583ecc08390b32535c194a4d4ff1ecce9b7f780e664b7f3534e"
+    },
+    {
+      "key": "incartdb/1.0.0/I37.dat",
+      "size": 11102400,
+      "etag": "f28f0ae51e98cbef526597b0419d8336-2",
+      "sha256": "01b72af56ec13bd71910f1d7423fab64bde86a74fafae582df49e67dd421665a"
+    },
+    {
+      "key": "incartdb/1.0.0/I38.dat",
+      "size": 11102400,
+      "etag": "b5646c01bb3b58f43bccc88585c9ab92-2",
+      "sha256": "bce6876878630a90430315a6aa0592e32a894613565ca8ea56f8f8e5ea983a07"
+    },
+    {
+      "key": "incartdb/1.0.0/I39.dat",
+      "size": 11102400,
+      "etag": "db541bd51bc7f243cabf27d167b592b4-2",
+      "sha256": "c8eaf04e4766036b16e616850c8ef8086f25eaada3034d6262b9ce283bbc995a"
+    },
+    {
+      "key": "incartdb/1.0.0/I40.dat",
+      "size": 11102400,
+      "etag": "709bda52ca6f10b0ad035e6682d18c7d-2",
+      "sha256": "416fd47b77a2d6709d94c3dcdd9a1ea9eda5611a6c4ffd8b57ba81b8a49fc55f"
+    },
+    {
+      "key": "incartdb/1.0.0/I41.dat",
+      "size": 11102400,
+      "etag": "093502bf424670b7c16974882b1a3538-2",
+      "sha256": "2c7ae73cae4db67365c1928c30b42f9ed8343d7d017f287b0ceb379de69cb895"
+    },
+    {
+      "key": "incartdb/1.0.0/I42.dat",
+      "size": 11102400,
+      "etag": "baa7f69bc4fdc8a6e5d8d37813c099ee-2",
+      "sha256": "1ed5c6039a2bbb6dd6932a6c45e05ecad2fedb054a479d2a0f444a9134429ede"
+    },
+    {
+      "key": "incartdb/1.0.0/I43.dat",
+      "size": 11102400,
+      "etag": "3a912513e5e5a0f9e7b2d73f78afb6a8-2",
+      "sha256": "55ccacb5cb8c8d2ec3afeeeb65e115ed31b59182e70a6bb0d1eca86b0d180a4b"
+    },
+    {
+      "key": "incartdb/1.0.0/I44.dat",
+      "size": 11102400,
+      "etag": "a04d52e2d987821f44aefd8ae5b145e1-2",
+      "sha256": "af5cd2747bce6ed243018631ca73c8ca1e6d4b1b76161d695bf0791c1bd4face"
+    },
+    {
+      "key": "incartdb/1.0.0/I45.dat",
+      "size": 11102400,
+      "etag": "f9d1a09c20521ad0470b6a8025fbf5a4-2",
+      "sha256": "7e301e3efc8c8231ef2f31b8e1708adcd7cc0e6a548089fcd96291ef8e905b68"
+    },
+    {
+      "key": "incartdb/1.0.0/I46.dat",
+      "size": 11102400,
+      "etag": "d20ac114e9a30ac1e4c0785da47e74fc-2",
+      "sha256": "1933369b0f2198d462715dfaf73dee6696cd7cf18470835df269739a985b235a"
+    },
+    {
+      "key": "incartdb/1.0.0/I47.dat",
+      "size": 11102400,
+      "etag": "2bc73554690dfff89ec6c8c6ffabca57-2",
+      "sha256": "518c638194d299edf0ecf42e71b6156b0cca5161f16e6d266b0a4f1c847c7128"
+    },
+    {
+      "key": "incartdb/1.0.0/I48.dat",
+      "size": 11102400,
+      "etag": "e14e8f299974421a7c840e7a90190d29-2",
+      "sha256": "1f7c58f2d570852f0f4a57535e7ffd5e2be5381786d6e905d49fcaceb175c59c"
+    },
+    {
+      "key": "incartdb/1.0.0/I49.dat",
+      "size": 11102400,
+      "etag": "08d41101eca412cff1cd4caf6cf834c8-2",
+      "sha256": "3d6a45a6d5c5ddef6c35dc294c26f1f926e2ffcce27512d8fbdf40c6736ed424"
+    },
+    {
+      "key": "incartdb/1.0.0/I50.dat",
+      "size": 11102400,
+      "etag": "29449b561745e1662c878f462d88f835-2",
+      "sha256": "124b7f3750c15a9fb916c482647ce40718e47eca27b42b183d8198192baeac90"
+    },
+    {
+      "key": "incartdb/1.0.0/I51.dat",
+      "size": 11102400,
+      "etag": "1210a5e34e51368e225b2c64bedb0c0c-2",
+      "sha256": "d1fecadf705d34d9feb550585ac32723f62e915eb0882c210e63120851f9d7c7"
+    },
+    {
+      "key": "incartdb/1.0.0/I52.dat",
+      "size": 11102400,
+      "etag": "cae3440d7d0e4996ffb5bcf53574e0b0-2",
+      "sha256": "9e2a6d535554ae11b7dd786c2a616053c86b2423be5f268d86997f637a4c6b1e"
+    },
+    {
+      "key": "incartdb/1.0.0/I53.dat",
+      "size": 11102400,
+      "etag": "d7981e0fa4e1c214934d614967857097-2",
+      "sha256": "b1e57d9adb1dbeede7ee697994df756f3541646ab1d29a8951be57519c5e805b"
+    },
+    {
+      "key": "incartdb/1.0.0/I54.dat",
+      "size": 11102400,
+      "etag": "3deeb55914125f12c77e7d72e7a947e6-2",
+      "sha256": "143683d40c79962bdfc88e37684cb73755911770018d435b1640c8d1710a2c5b"
+    },
+    {
+      "key": "incartdb/1.0.0/I55.dat",
+      "size": 11102400,
+      "etag": "a32cfd8334043f9d25551f2c0755b42f-2",
+      "sha256": "85e37cc7fe8e13814f8ed78aec7448923fd3f2de772ebb32543d3748631c7b4e"
+    },
+    {
+      "key": "incartdb/1.0.0/I56.dat",
+      "size": 11102400,
+      "etag": "c9b579bd4f1464eb805b466541f699ad-2",
+      "sha256": "423422e4928fdf457dc18b4734866d698a20d2a3f849856232b9f8296a54f11b"
+    },
+    {
+      "key": "incartdb/1.0.0/I57.dat",
+      "size": 11102400,
+      "etag": "ae1bae47e4c310d75ed78c74166bbdf8-2",
+      "sha256": "8ddb3aae6a134ab4767662d54f7613ee2548e8106da0af745af060ca5a46c31e"
+    },
+    {
+      "key": "incartdb/1.0.0/I58.dat",
+      "size": 11102400,
+      "etag": "c6c1fd90d61877df35f601c56c914be4-2",
+      "sha256": "1f7c8f08b0f8fe3d3ef84d91c0f268bc44705fc83ab3e59c9fcf1b3fdc12a8e1"
+    },
+    {
+      "key": "incartdb/1.0.0/I59.dat",
+      "size": 11102400,
+      "etag": "3ad8013c2c942c5e73452188cd15463c-2",
+      "sha256": "ce7a536b36f01a1d2917637391f9ddcbc3e2619930e1ce62a52ccc4f163326d8"
+    },
+    {
+      "key": "incartdb/1.0.0/I60.dat",
+      "size": 11102400,
+      "etag": "3d99a326094b060bc7a62ae5be14df61-2",
+      "sha256": "7b06dea7fc6e37477daf4afe410cfffb61283479241c2ed423ecb0190b69aac8"
+    },
+    {
+      "key": "incartdb/1.0.0/I61.dat",
+      "size": 11102400,
+      "etag": "6c22bb0aa4936d9c4de9fa29f8153d79-2",
+      "sha256": "47cf7af05bf8dddf01aa92e78ff978e3d926f297cc3ac39171ccda7e73074ecc"
+    },
+    {
+      "key": "incartdb/1.0.0/I62.dat",
+      "size": 11102400,
+      "etag": "b3a5232e37a30a370ffd8b37dd8f9a25-2",
+      "sha256": "b3d0790bb60d51375a80ef8ee3ba86367d1cfcbebbbf5e91babc64c1fe404439"
+    },
+    {
+      "key": "incartdb/1.0.0/I63.dat",
+      "size": 11102400,
+      "etag": "b338dadda892d44367dd8f2f92bd8943-2",
+      "sha256": "477f38d37b0265b0e0d574a6ce22ff751099dd930b61be6b9e9b76554859bf93"
+    },
+    {
+      "key": "incartdb/1.0.0/I64.dat",
+      "size": 11102400,
+      "etag": "f5cc6216374fedd98375fb344370d78e-2",
+      "sha256": "63d1bc9f58c4412aaa097aa5a1e20ee18ebcc8e25b431b04ef2cdb553c46312e"
+    },
+    {
+      "key": "incartdb/1.0.0/I65.dat",
+      "size": 11102400,
+      "etag": "045c27f610249b7c72d39a8f6b2c09b2-2",
+      "sha256": "5c34230a97bb1c592d452ccd1ba94423207918bb60159f2ce94499d6ae1d7473"
+    },
+    {
+      "key": "incartdb/1.0.0/I66.dat",
+      "size": 11102400,
+      "etag": "e7ec3a9629416b9391309a4e1b81b6f3-2",
+      "sha256": "1fcd9f2a38599b9ef22588528417ff93b64c5454cae71e4b9d593e73bab93f3c"
+    },
+    {
+      "key": "incartdb/1.0.0/I67.dat",
+      "size": 11102400,
+      "etag": "cb2ee1127b3c9b5e6bb3f97975bb43fc-2",
+      "sha256": "3b51970f6d42626db067ce891bc3c3f7588963ea8c0dafecf01a1582b1ae5b0f"
+    },
+    {
+      "key": "incartdb/1.0.0/I68.dat",
+      "size": 11102400,
+      "etag": "0841f0f9f7cd1db159ea17375ee12baf-2",
+      "sha256": "485c6c2f3b8e591067adcc7b7ee7469a5e91f077667e5927f74fcfd80c1f4e49"
+    },
+    {
+      "key": "incartdb/1.0.0/I69.dat",
+      "size": 11102400,
+      "etag": "19366f85efaae5d2e2569835969c4acf-2",
+      "sha256": "61ed97b5f47ff88b5c59cb199da8308c66b7d3231a67dc046ecfc21af7532980"
+    },
+    {
+      "key": "incartdb/1.0.0/I70.dat",
+      "size": 11102400,
+      "etag": "31f219f4864e6ffb8139d02d245c91d3-2",
+      "sha256": "c2d9a9d490853f8f667ddcde89f69924c076d60fa4a14ccb7ef827ddc4863551"
+    },
+    {
+      "key": "incartdb/1.0.0/I71.dat",
+      "size": 11102400,
+      "etag": "ddeabd2208e5aaf12a0ecb7df5492c7d-2",
+      "sha256": "ce4aa8526756d62985ad7bcdc87e6ef02d954b7403d6ac43d438bc719f0e8d35"
+    },
+    {
+      "key": "incartdb/1.0.0/I72.dat",
+      "size": 11102400,
+      "etag": "9c0768a32deca585b01ffc552a2ccf23-2",
+      "sha256": "79575b2bad8d91314a62babf19053832e91ba5ae0d9311b754b8835cb920c6c7"
+    },
+    {
+      "key": "incartdb/1.0.0/I73.dat",
+      "size": 11102400,
+      "etag": "3a2c54fb534d47da54be967f5fd45b1b-2",
+      "sha256": "aa66736229a1386386a5a4af4c51c809311efb43f4eb0fb0d5533d53106a2153"
+    },
+    {
+      "key": "incartdb/1.0.0/I74.dat",
+      "size": 11102400,
+      "etag": "9b158fe97e840ba62ed366c44a0ce4d1-2",
+      "sha256": "fb9c4db336c675f7df4f3365b3cefb5060c5d3705a4a901be028103a859eb603"
+    },
+    {
+      "key": "incartdb/1.0.0/I75.dat",
+      "size": 11102400,
+      "etag": "d93a69e4694ad7a7adfc84517d676d30-2",
+      "sha256": "cd7b707ad008d49d47c3a0b7fc29378d19761961542d9f677cb89d029f05a1dd"
+    }
+  ],
+  "bytes": 832680000
+}

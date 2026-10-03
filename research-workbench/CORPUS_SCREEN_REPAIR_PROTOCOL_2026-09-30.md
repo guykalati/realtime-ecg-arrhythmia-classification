@@ -1,0 +1,13 @@
+# Corpus screen repair protocol
+
+After the frozen 64-document baseline finishes, run a local-only development regression on the 20 existing reviewed articles plus nine specifically observed failure cases. Maximum 29 articles × two calls; pinned Gemma4 digest, temperature zero, saved raw responses and resumable per-article outputs. No cluster GPU allocation and no training data admission.
+
+The repair separates cardiovascular topical centrality from clinical study design and data origin. Clinical empirical labels require multiple human participants or directly sampled patient tissue; single cases, animal/cultured-cell experiments, agency protocols, reviews and guidelines remain distinct. Exact topic and design quotes plus cross-field checks are required. Add the first three extracted body paragraphs (maximum 4,000 characters), because a review can use misleading study-like language in its abstract. This changes both prompt and available evidence; any difference cannot be attributed to prompt wording alone.
+
+Compare with the same 20 single-agent development labels, inspect all nine failure cases and preserve unresolved/conflicting outputs. These examples informed the repair, so agreement is a regression check, not an independent accuracy estimate. The method must not automatically admit articles to the corpus; licensing, retraction, identity, language/body quality, deduplication and benchmark exclusion remain separate requirements. A fresh sample is required before broader model-assisted screening.
+
+## Diagnosed schema repair
+
+The first29-case regression finished with14 accepted source-quote/cross-field outputs and15 unresolved. On the20 reviewed cases it resolved nine negatives but left11 unresolved, including every primary clinical candidate; this is not a useful classifier improvement. A separately frozen two-call, one-case diagnostic included explicit schema strings and clarified single-center versus single-case and agency protocols versus treatment comparisons. Constrained output then correctly classified the238-person cohort; unconstrained output was invalid JSON. This is implementation diagnosis on one observed failure, not evidence of general accuracy.
+
+Run a **separate29-case schema-visible regression**, maximum58 local calls, preserving the earlier outputs and sample/body evidence. It adds the explicit enums/design definitions and prefers short exact quotes. No final training eligibility is assigned. Freeze the new source hash in `pmc_schema_screen_plan_2026-09-30.json` before calls; retain all unresolved cases and compare all20 development labels. Do not extend to the full corpus based on this regression alone.

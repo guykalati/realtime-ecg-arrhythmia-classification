@@ -1,0 +1,679 @@
+{
+  "generated_at_utc": "2026-09-29T08:28:02.973515+00:00",
+  "source": "PhysioNet INCART 1.0.0",
+  "source_metadata_sha256": "04c958d952b76cc2278602d9ddb375448bd986e0796f4c3e203ca5da3ffddd98",
+  "source_signals_manifest_sha256": "67c06065b4bbacd4def1109cb64cec62c04b4f352899585ce3badc53017ba941",
+  "window_rule": "257 lead-II mV samples [center-128,center+129), resample_poly(360,257)",
+  "window_samples": 360,
+  "wfdb_version": "4.3.1",
+  "scipy_version": "1.18.1",
+  "kept_classes": {
+    "F": 219,
+    "N": 153594,
+    "S": 1958,
+    "V": 20006
+  },
+  "excluded": {
+    "edge": 91,
+    "symbol:+": 12,
+    "symbol:B": 1,
+    "symbol:Q": 6,
+    "symbol:n": 32
+  },
+  "per_record": {
+    "I01": {
+      "patient_id": 1,
+      "windows": 2756,
+      "class_counts": {
+        "N": 2412,
+        "V": 344
+      }
+    },
+    "I02": {
+      "patient_id": 1,
+      "windows": 2673,
+      "class_counts": {
+        "N": 2444,
+        "V": 229
+      }
+    },
+    "I03": {
+      "patient_id": 2,
+      "windows": 2451,
+      "class_counts": {
+        "N": 2324,
+        "S": 2,
+        "V": 125
+      }
+    },
+    "I04": {
+      "patient_id": 2,
+      "windows": 2422,
+      "class_counts": {
+        "F": 17,
+        "N": 2268,
+        "S": 16,
+        "V": 121
+      }
+    },
+    "I05": {
+      "patient_id": 2,
+      "windows": 1775,
+      "class_counts": {
+        "F": 9,
+        "N": 1519,
+        "V": 247
+      }
+    },
+    "I06": {
+      "patient_id": 3,
+      "windows": 2492,
+      "class_counts": {
+        "N": 2435,
+        "S": 48,
+        "V": 9
+      }
+    },
+    "I07": {
+      "patient_id": 3,
+      "windows": 2704,
+      "class_counts": {
+        "N": 2638,
+        "S": 65,
+        "V": 1
+      }
+    },
+    "I08": {
+      "patient_id": 4,
+      "windows": 2129,
+      "class_counts": {
+        "N": 1776,
+        "S": 2,
+        "V": 351
+      }
+    },
+    "I09": {
+      "patient_id": 5,
+      "windows": 2988,
+      "class_counts": {
+        "N": 2947,
+        "V": 41
+      }
+    },
+    "I10": {
+      "patient_id": 5,
+      "windows": 3680,
+      "class_counts": {
+        "N": 3597,
+        "V": 83
+      }
+    },
+    "I11": {
+      "patient_id": 5,
+      "windows": 2081,
+      "class_counts": {
+        "N": 2077,
+        "V": 4
+      }
+    },
+    "I12": {
+      "patient_id": 6,
+      "windows": 2807,
+      "class_counts": {
+        "F": 2,
+        "N": 2798,
+        "S": 1,
+        "V": 6
+      }
+    },
+    "I13": {
+      "patient_id": 6,
+      "windows": 2023,
+      "class_counts": {
+        "N": 1793,
+        "V": 230
+      }
+    },
+    "I14": {
+      "patient_id": 6,
+      "windows": 1864,
+      "class_counts": {
+        "N": 1800,
+        "V": 64
+      }
+    },
+    "I15": {
+      "patient_id": 7,
+      "windows": 2633,
+      "class_counts": {
+        "N": 2630,
+        "V": 3
+      }
+    },
+    "I16": {
+      "patient_id": 8,
+      "windows": 1522,
+      "class_counts": {
+        "N": 1520,
+        "V": 2
+      }
+    },
+    "I17": {
+      "patient_id": 8,
+      "windows": 1672,
+      "class_counts": {
+        "N": 1645,
+        "V": 27
+      }
+    },
+    "I18": {
+      "patient_id": 9,
+      "windows": 3083,
+      "class_counts": {
+        "F": 56,
+        "N": 2661,
+        "V": 366
+      }
+    },
+    "I19": {
+      "patient_id": 9,
+      "windows": 2062,
+      "class_counts": {
+        "N": 1212,
+        "V": 850
+      }
+    },
+    "I20": {
+      "patient_id": 10,
+      "windows": 2650,
+      "class_counts": {
+        "F": 1,
+        "N": 2360,
+        "S": 179,
+        "V": 110
+      }
+    },
+    "I21": {
+      "patient_id": 10,
+      "windows": 2183,
+      "class_counts": {
+        "N": 2071,
+        "S": 104,
+        "V": 8
+      }
+    },
+    "I22": {
+      "patient_id": 10,
+      "windows": 3126,
+      "class_counts": {
+        "F": 1,
+        "N": 2816,
+        "S": 124,
+        "V": 185
+      }
+    },
+    "I23": {
+      "patient_id": 11,
+      "windows": 2204,
+      "class_counts": {
+        "N": 2191,
+        "V": 13
+      }
+    },
+    "I24": {
+      "patient_id": 11,
+      "windows": 2569,
+      "class_counts": {
+        "N": 2563,
+        "V": 6
+      }
+    },
+    "I25": {
+      "patient_id": 12,
+      "windows": 1711,
+      "class_counts": {
+        "N": 1704,
+        "S": 2,
+        "V": 5
+      }
+    },
+    "I26": {
+      "patient_id": 12,
+      "windows": 1509,
+      "class_counts": {
+        "N": 1498,
+        "S": 7,
+        "V": 4
+      }
+    },
+    "I27": {
+      "patient_id": 13,
+      "windows": 2604,
+      "class_counts": {
+        "N": 1884,
+        "V": 720
+      }
+    },
+    "I28": {
+      "patient_id": 13,
+      "windows": 1716,
+      "class_counts": {
+        "N": 1712,
+        "V": 4
+      }
+    },
+    "I29": {
+      "patient_id": 14,
+      "windows": 2618,
+      "class_counts": {
+        "N": 1835,
+        "V": 783
+      }
+    },
+    "I30": {
+      "patient_id": 14,
+      "windows": 2460,
+      "class_counts": {
+        "N": 1705,
+        "V": 755
+      }
+    },
+    "I31": {
+      "patient_id": 14,
+      "windows": 3208,
+      "class_counts": {
+        "N": 1843,
+        "V": 1365
+      }
+    },
+    "I32": {
+      "patient_id": 14,
+      "windows": 1618,
+      "class_counts": {
+        "N": 1561,
+        "V": 57
+      }
+    },
+    "I33": {
+      "patient_id": 15,
+      "windows": 1835,
+      "class_counts": {
+        "N": 1245,
+        "S": 589,
+        "V": 1
+      }
+    },
+    "I34": {
+      "patient_id": 15,
+      "windows": 1964,
+      "class_counts": {
+        "N": 1428,
+        "S": 536
+      }
+    },
+    "I35": {
+      "patient_id": 16,
+      "windows": 3674,
+      "class_counts": {
+        "F": 18,
+        "N": 3199,
+        "V": 457
+      }
+    },
+    "I36": {
+      "patient_id": 16,
+      "windows": 3908,
+      "class_counts": {
+        "F": 12,
+        "N": 3446,
+        "V": 450
+      }
+    },
+    "I37": {
+      "patient_id": 16,
+      "windows": 2461,
+      "class_counts": {
+        "N": 2009,
+        "V": 452
+      }
+    },
+    "I38": {
+      "patient_id": 17,
+      "windows": 2697,
+      "class_counts": {
+        "N": 2153,
+        "V": 544
+      }
+    },
+    "I39": {
+      "patient_id": 17,
+      "windows": 1774,
+      "class_counts": {
+        "N": 1461,
+        "V": 313
+      }
+    },
+    "I40": {
+      "patient_id": 18,
+      "windows": 2665,
+      "class_counts": {
+        "N": 2567,
+        "S": 6,
+        "V": 92
+      }
+    },
+    "I41": {
+      "patient_id": 18,
+      "windows": 1630,
+      "class_counts": {
+        "N": 1624,
+        "S": 5,
+        "V": 1
+      }
+    },
+    "I42": {
+      "patient_id": 19,
+      "windows": 3107,
+      "class_counts": {
+        "F": 9,
+        "N": 1544,
+        "V": 1554
+      }
+    },
+    "I43": {
+      "patient_id": 19,
+      "windows": 2208,
+      "class_counts": {
+        "F": 2,
+        "N": 1086,
+        "V": 1120
+      }
+    },
+    "I44": {
+      "patient_id": 20,
+      "windows": 2494,
+      "class_counts": {
+        "N": 1803,
+        "S": 8,
+        "V": 683
+      }
+    },
+    "I45": {
+      "patient_id": 20,
+      "windows": 1926,
+      "class_counts": {
+        "N": 1435,
+        "V": 491
+      }
+    },
+    "I46": {
+      "patient_id": 20,
+      "windows": 2657,
+      "class_counts": {
+        "F": 3,
+        "N": 2231,
+        "S": 1,
+        "V": 422
+      }
+    },
+    "I47": {
+      "patient_id": 21,
+      "windows": 1951,
+      "class_counts": {
+        "N": 1857,
+        "S": 1,
+        "V": 93
+      }
+    },
+    "I48": {
+      "patient_id": 21,
+      "windows": 2356,
+      "class_counts": {
+        "F": 1,
+        "N": 2118,
+        "S": 2,
+        "V": 235
+      }
+    },
+    "I49": {
+      "patient_id": 22,
+      "windows": 2146,
+      "class_counts": {
+        "N": 2119,
+        "V": 27
+      }
+    },
+    "I50": {
+      "patient_id": 22,
+      "windows": 2997,
+      "class_counts": {
+        "N": 2993,
+        "V": 4
+      }
+    },
+    "I51": {
+      "patient_id": 23,
+      "windows": 2775,
+      "class_counts": {
+        "F": 1,
+        "N": 1969,
+        "S": 3,
+        "V": 802
+      }
+    },
+    "I52": {
+      "patient_id": 23,
+      "windows": 1746,
+      "class_counts": {
+        "N": 1609,
+        "V": 137
+      }
+    },
+    "I53": {
+      "patient_id": 23,
+      "windows": 2260,
+      "class_counts": {
+        "N": 1150,
+        "V": 1110
+      }
+    },
+    "I54": {
+      "patient_id": 24,
+      "windows": 2362,
+      "class_counts": {
+        "N": 2339,
+        "S": 1,
+        "V": 22
+      }
+    },
+    "I55": {
+      "patient_id": 24,
+      "windows": 2165,
+      "class_counts": {
+        "N": 2147,
+        "S": 1,
+        "V": 17
+      }
+    },
+    "I56": {
+      "patient_id": 24,
+      "windows": 1704,
+      "class_counts": {
+        "N": 1671,
+        "S": 26,
+        "V": 7
+      }
+    },
+    "I57": {
+      "patient_id": 25,
+      "windows": 2867,
+      "class_counts": {
+        "F": 3,
+        "N": 2840,
+        "S": 3,
+        "V": 21
+      }
+    },
+    "I58": {
+      "patient_id": 25,
+      "windows": 2323,
+      "class_counts": {
+        "N": 2311,
+        "V": 12
+      }
+    },
+    "I59": {
+      "patient_id": 26,
+      "windows": 2147,
+      "class_counts": {
+        "N": 2066,
+        "V": 81
+      }
+    },
+    "I60": {
+      "patient_id": 26,
+      "windows": 2474,
+      "class_counts": {
+        "N": 2474
+      }
+    },
+    "I61": {
+      "patient_id": 26,
+      "windows": 1453,
+      "class_counts": {
+        "N": 1452,
+        "S": 1
+      }
+    },
+    "I62": {
+      "patient_id": 27,
+      "windows": 2269,
+      "class_counts": {
+        "F": 12,
+        "N": 1453,
+        "S": 9,
+        "V": 795
+      }
+    },
+    "I63": {
+      "patient_id": 27,
+      "windows": 1992,
+      "class_counts": {
+        "F": 8,
+        "N": 1845,
+        "S": 1,
+        "V": 138
+      }
+    },
+    "I64": {
+      "patient_id": 27,
+      "windows": 1911,
+      "class_counts": {
+        "F": 3,
+        "N": 1885,
+        "V": 23
+      }
+    },
+    "I65": {
+      "patient_id": 28,
+      "windows": 2664,
+      "class_counts": {
+        "F": 4,
+        "N": 2273,
+        "S": 5,
+        "V": 382
+      }
+    },
+    "I66": {
+      "patient_id": 28,
+      "windows": 2338,
+      "class_counts": {
+        "N": 2137,
+        "S": 1,
+        "V": 200
+      }
+    },
+    "I67": {
+      "patient_id": 28,
+      "windows": 2974,
+      "class_counts": {
+        "F": 1,
+        "N": 2437,
+        "S": 5,
+        "V": 531
+      }
+    },
+    "I68": {
+      "patient_id": 29,
+      "windows": 2644,
+      "class_counts": {
+        "N": 2481,
+        "S": 2,
+        "V": 161
+      }
+    },
+    "I69": {
+      "patient_id": 29,
+      "windows": 2168,
+      "class_counts": {
+        "F": 1,
+        "N": 1999,
+        "S": 1,
+        "V": 167
+      }
+    },
+    "I70": {
+      "patient_id": 30,
+      "windows": 1665,
+      "class_counts": {
+        "N": 1539,
+        "S": 126
+      }
+    },
+    "I71": {
+      "patient_id": 30,
+      "windows": 1668,
+      "class_counts": {
+        "N": 1633,
+        "S": 35
+      }
+    },
+    "I72": {
+      "patient_id": 31,
+      "windows": 2268,
+      "class_counts": {
+        "N": 1874,
+        "S": 8,
+        "V": 386
+      }
+    },
+    "I73": {
+      "patient_id": 31,
+      "windows": 1992,
+      "class_counts": {
+        "N": 1890,
+        "S": 32,
+        "V": 70
+      }
+    },
+    "I74": {
+      "patient_id": 32,
+      "windows": 2403,
+      "class_counts": {
+        "F": 48,
+        "N": 2081,
+        "V": 274
+      }
+    },
+    "I75": {
+      "patient_id": 32,
+      "windows": 2102,
+      "class_counts": {
+        "F": 7,
+        "N": 1482,
+        "V": 613
+      }
+    }
+  },
+  "manifest_sha256": "03074e47abfa84ce101ab93db1c1085cfd29407689e5393e602f57b3134d432a"
+}

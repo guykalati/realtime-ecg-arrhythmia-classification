@@ -1,0 +1,1053 @@
+{
+  "source_sha256": {
+    "annotations": "2d66f45589dbaeba3ed7416ef98addb83fdf7260b669a992972e55f1408d7117",
+    "targets": "94d5d9c7064f5c9e4c33921f8f140670f4a1e8605b807cd21259c9865562d089"
+  },
+  "primary_subjects": 43,
+  "subjects": [
+    {
+      "subject_group": "201-202",
+      "records": [
+        "201",
+        "202"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 3696,
+        "S": 183,
+        "V": 217,
+        "F": 3
+      },
+      "raw_symbols": {
+        "F:F": 3,
+        "N:N": 3686,
+        "N:j": 10,
+        "S:A": 66,
+        "S:J": 1,
+        "S:a": 116,
+        "V:V": 217
+      },
+      "matched_target_counts": {
+        "N": 3690,
+        "S": 183,
+        "V": 217,
+        "F": 3
+      }
+    },
+    {
+      "subject_group": "100",
+      "records": [
+        "100"
+      ],
+      "split": "test",
+      "raw_annotation_counts": {
+        "N": 2239,
+        "S": 33,
+        "V": 1,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2239,
+        "S:A": 33,
+        "V:V": 1
+      },
+      "matched_target_counts": {
+        "N": 2235,
+        "S": 33,
+        "V": 1,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "101",
+      "records": [
+        "101"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1860,
+        "S": 3,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1860,
+        "S:A": 3
+      },
+      "matched_target_counts": {
+        "N": 1857,
+        "S": 3,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "103",
+      "records": [
+        "103"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2082,
+        "S": 2,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2082,
+        "S:A": 2
+      },
+      "matched_target_counts": {
+        "N": 2079,
+        "S": 2,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "105",
+      "records": [
+        "105"
+      ],
+      "split": "validation",
+      "raw_annotation_counts": {
+        "N": 2526,
+        "S": 0,
+        "V": 41,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2526,
+        "V:V": 41
+      },
+      "matched_target_counts": {
+        "N": 2524,
+        "S": 0,
+        "V": 41,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "106",
+      "records": [
+        "106"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1507,
+        "S": 0,
+        "V": 520,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1507,
+        "V:V": 520
+      },
+      "matched_target_counts": {
+        "N": 1505,
+        "S": 0,
+        "V": 520,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "108",
+      "records": [
+        "108"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1740,
+        "S": 4,
+        "V": 17,
+        "F": 2
+      },
+      "raw_symbols": {
+        "F:F": 2,
+        "N:N": 1739,
+        "N:j": 1,
+        "S:A": 4,
+        "V:V": 17
+      },
+      "matched_target_counts": {
+        "N": 1737,
+        "S": 4,
+        "V": 17,
+        "F": 2
+      }
+    },
+    {
+      "subject_group": "109",
+      "records": [
+        "109"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2492,
+        "S": 0,
+        "V": 38,
+        "F": 2
+      },
+      "raw_symbols": {
+        "F:F": 2,
+        "N:L": 2492,
+        "V:V": 38
+      },
+      "matched_target_counts": {
+        "N": 2488,
+        "S": 0,
+        "V": 38,
+        "F": 2
+      }
+    },
+    {
+      "subject_group": "111",
+      "records": [
+        "111"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2123,
+        "S": 0,
+        "V": 1,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:L": 2123,
+        "V:V": 1
+      },
+      "matched_target_counts": {
+        "N": 2121,
+        "S": 0,
+        "V": 1,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "112",
+      "records": [
+        "112"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2537,
+        "S": 2,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2537,
+        "S:A": 2
+      },
+      "matched_target_counts": {
+        "N": 2533,
+        "S": 2,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "113",
+      "records": [
+        "113"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1789,
+        "S": 6,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1789,
+        "S:a": 6
+      },
+      "matched_target_counts": {
+        "N": 1785,
+        "S": 6,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "114",
+      "records": [
+        "114"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1820,
+        "S": 12,
+        "V": 43,
+        "F": 4
+      },
+      "raw_symbols": {
+        "F:F": 4,
+        "N:N": 1820,
+        "S:A": 10,
+        "S:J": 2,
+        "V:V": 43
+      },
+      "matched_target_counts": {
+        "N": 1818,
+        "S": 12,
+        "V": 43,
+        "F": 4
+      }
+    },
+    {
+      "subject_group": "115",
+      "records": [
+        "115"
+      ],
+      "split": "validation",
+      "raw_annotation_counts": {
+        "N": 1953,
+        "S": 0,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1953
+      },
+      "matched_target_counts": {
+        "N": 1949,
+        "S": 0,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "116",
+      "records": [
+        "116"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2302,
+        "S": 1,
+        "V": 109,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2302,
+        "S:A": 1,
+        "V:V": 109
+      },
+      "matched_target_counts": {
+        "N": 2299,
+        "S": 1,
+        "V": 109,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "117",
+      "records": [
+        "117"
+      ],
+      "split": "test",
+      "raw_annotation_counts": {
+        "N": 1534,
+        "S": 1,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1534,
+        "S:A": 1
+      },
+      "matched_target_counts": {
+        "N": 1531,
+        "S": 1,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "118",
+      "records": [
+        "118"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2166,
+        "S": 96,
+        "V": 16,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:R": 2166,
+        "S:A": 96,
+        "V:V": 16
+      },
+      "matched_target_counts": {
+        "N": 2163,
+        "S": 96,
+        "V": 16,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "119",
+      "records": [
+        "119"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1543,
+        "S": 0,
+        "V": 444,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1543,
+        "V:V": 444
+      },
+      "matched_target_counts": {
+        "N": 1542,
+        "S": 0,
+        "V": 443,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "121",
+      "records": [
+        "121"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1861,
+        "S": 1,
+        "V": 1,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1861,
+        "S:A": 1,
+        "V:V": 1
+      },
+      "matched_target_counts": {
+        "N": 1857,
+        "S": 1,
+        "V": 1,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "122",
+      "records": [
+        "122"
+      ],
+      "split": "test",
+      "raw_annotation_counts": {
+        "N": 2476,
+        "S": 0,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2476
+      },
+      "matched_target_counts": {
+        "N": 2472,
+        "S": 0,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "123",
+      "records": [
+        "123"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1515,
+        "S": 0,
+        "V": 3,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1515,
+        "V:V": 3
+      },
+      "matched_target_counts": {
+        "N": 1512,
+        "S": 0,
+        "V": 3,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "124",
+      "records": [
+        "124"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1536,
+        "S": 31,
+        "V": 47,
+        "F": 5
+      },
+      "raw_symbols": {
+        "F:F": 5,
+        "N:R": 1531,
+        "N:j": 5,
+        "S:A": 2,
+        "S:J": 29,
+        "V:V": 47
+      },
+      "matched_target_counts": {
+        "N": 1533,
+        "S": 31,
+        "V": 47,
+        "F": 5
+      }
+    },
+    {
+      "subject_group": "200",
+      "records": [
+        "200"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1743,
+        "S": 30,
+        "V": 826,
+        "F": 2
+      },
+      "raw_symbols": {
+        "F:F": 2,
+        "N:N": 1743,
+        "S:A": 30,
+        "V:V": 826
+      },
+      "matched_target_counts": {
+        "N": 1741,
+        "S": 30,
+        "V": 825,
+        "F": 2
+      }
+    },
+    {
+      "subject_group": "203",
+      "records": [
+        "203"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2529,
+        "S": 2,
+        "V": 444,
+        "F": 1
+      },
+      "raw_symbols": {
+        "F:F": 1,
+        "N:N": 2529,
+        "S:a": 2,
+        "V:V": 444
+      },
+      "matched_target_counts": {
+        "N": 2526,
+        "S": 2,
+        "V": 444,
+        "F": 1
+      }
+    },
+    {
+      "subject_group": "205",
+      "records": [
+        "205"
+      ],
+      "split": "test",
+      "raw_annotation_counts": {
+        "N": 2571,
+        "S": 3,
+        "V": 71,
+        "F": 11
+      },
+      "raw_symbols": {
+        "F:F": 11,
+        "N:N": 2571,
+        "S:A": 3,
+        "V:V": 71
+      },
+      "matched_target_counts": {
+        "N": 2568,
+        "S": 3,
+        "V": 71,
+        "F": 11
+      }
+    },
+    {
+      "subject_group": "207",
+      "records": [
+        "207"
+      ],
+      "split": "validation",
+      "raw_annotation_counts": {
+        "N": 1543,
+        "S": 107,
+        "V": 210,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:L": 1457,
+        "N:R": 86,
+        "S:A": 107,
+        "V:E": 105,
+        "V:V": 105
+      },
+      "matched_target_counts": {
+        "N": 1541,
+        "S": 107,
+        "V": 209,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "208",
+      "records": [
+        "208"
+      ],
+      "split": "test",
+      "raw_annotation_counts": {
+        "N": 1586,
+        "S": 2,
+        "V": 992,
+        "F": 373
+      },
+      "raw_symbols": {
+        "F:F": 373,
+        "N:N": 1586,
+        "S:S": 2,
+        "V:V": 992
+      },
+      "matched_target_counts": {
+        "N": 1584,
+        "S": 2,
+        "V": 991,
+        "F": 372
+      }
+    },
+    {
+      "subject_group": "209",
+      "records": [
+        "209"
+      ],
+      "split": "test",
+      "raw_annotation_counts": {
+        "N": 2621,
+        "S": 383,
+        "V": 1,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2621,
+        "S:A": 383,
+        "V:V": 1
+      },
+      "matched_target_counts": {
+        "N": 2618,
+        "S": 383,
+        "V": 1,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "210",
+      "records": [
+        "210"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2423,
+        "S": 22,
+        "V": 195,
+        "F": 10
+      },
+      "raw_symbols": {
+        "F:F": 10,
+        "N:N": 2423,
+        "S:a": 22,
+        "V:E": 1,
+        "V:V": 194
+      },
+      "matched_target_counts": {
+        "N": 2419,
+        "S": 22,
+        "V": 195,
+        "F": 10
+      }
+    },
+    {
+      "subject_group": "212",
+      "records": [
+        "212"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2748,
+        "S": 0,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 923,
+        "N:R": 1825
+      },
+      "matched_target_counts": {
+        "N": 2745,
+        "S": 0,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "213",
+      "records": [
+        "213"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2641,
+        "S": 28,
+        "V": 220,
+        "F": 362
+      },
+      "raw_symbols": {
+        "F:F": 362,
+        "N:N": 2641,
+        "S:A": 25,
+        "S:a": 3,
+        "V:V": 220
+      },
+      "matched_target_counts": {
+        "N": 2637,
+        "S": 28,
+        "V": 220,
+        "F": 362
+      }
+    },
+    {
+      "subject_group": "214",
+      "records": [
+        "214"
+      ],
+      "split": "validation",
+      "raw_annotation_counts": {
+        "N": 2003,
+        "S": 0,
+        "V": 256,
+        "F": 1
+      },
+      "raw_symbols": {
+        "F:F": 1,
+        "N:L": 2003,
+        "V:V": 256
+      },
+      "matched_target_counts": {
+        "N": 1999,
+        "S": 0,
+        "V": 256,
+        "F": 1
+      }
+    },
+    {
+      "subject_group": "215",
+      "records": [
+        "215"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 3195,
+        "S": 3,
+        "V": 164,
+        "F": 1
+      },
+      "raw_symbols": {
+        "F:F": 1,
+        "N:N": 3195,
+        "S:A": 3,
+        "V:V": 164
+      },
+      "matched_target_counts": {
+        "N": 3191,
+        "S": 3,
+        "V": 164,
+        "F": 1
+      }
+    },
+    {
+      "subject_group": "219",
+      "records": [
+        "219"
+      ],
+      "split": "test",
+      "raw_annotation_counts": {
+        "N": 2082,
+        "S": 7,
+        "V": 64,
+        "F": 1
+      },
+      "raw_symbols": {
+        "F:F": 1,
+        "N:N": 2082,
+        "S:A": 7,
+        "V:V": 64
+      },
+      "matched_target_counts": {
+        "N": 2080,
+        "S": 7,
+        "V": 64,
+        "F": 1
+      }
+    },
+    {
+      "subject_group": "220",
+      "records": [
+        "220"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1954,
+        "S": 94,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1954,
+        "S:A": 94
+      },
+      "matched_target_counts": {
+        "N": 1950,
+        "S": 94,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "221",
+      "records": [
+        "221"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2031,
+        "S": 0,
+        "V": 396,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2031,
+        "V:V": 396
+      },
+      "matched_target_counts": {
+        "N": 2029,
+        "S": 0,
+        "V": 396,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "222",
+      "records": [
+        "222"
+      ],
+      "split": "validation",
+      "raw_annotation_counts": {
+        "N": 2274,
+        "S": 209,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2062,
+        "N:j": 212,
+        "S:A": 208,
+        "S:J": 1
+      },
+      "matched_target_counts": {
+        "N": 2270,
+        "S": 209,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "223",
+      "records": [
+        "223"
+      ],
+      "split": "validation",
+      "raw_annotation_counts": {
+        "N": 2045,
+        "S": 73,
+        "V": 473,
+        "F": 14
+      },
+      "raw_symbols": {
+        "F:F": 14,
+        "N:N": 2029,
+        "N:e": 16,
+        "S:A": 72,
+        "S:a": 1,
+        "V:V": 473
+      },
+      "matched_target_counts": {
+        "N": 2042,
+        "S": 73,
+        "V": 473,
+        "F": 14
+      }
+    },
+    {
+      "subject_group": "228",
+      "records": [
+        "228"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1688,
+        "S": 3,
+        "V": 362,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 1688,
+        "S:A": 3,
+        "V:V": 362
+      },
+      "matched_target_counts": {
+        "N": 1685,
+        "S": 3,
+        "V": 362,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "230",
+      "records": [
+        "230"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2255,
+        "S": 0,
+        "V": 1,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2255,
+        "V:V": 1
+      },
+      "matched_target_counts": {
+        "N": 2252,
+        "S": 0,
+        "V": 1,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "231",
+      "records": [
+        "231"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 1568,
+        "S": 1,
+        "V": 2,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 314,
+        "N:R": 1254,
+        "S:A": 1,
+        "V:V": 2
+      },
+      "matched_target_counts": {
+        "N": 1565,
+        "S": 1,
+        "V": 2,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "232",
+      "records": [
+        "232"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 398,
+        "S": 1382,
+        "V": 0,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:R": 397,
+        "N:j": 1,
+        "S:A": 1382
+      },
+      "matched_target_counts": {
+        "N": 397,
+        "S": 1381,
+        "V": 0,
+        "F": 0
+      }
+    },
+    {
+      "subject_group": "233",
+      "records": [
+        "233"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2230,
+        "S": 7,
+        "V": 831,
+        "F": 11
+      },
+      "raw_symbols": {
+        "F:F": 11,
+        "N:N": 2230,
+        "S:A": 7,
+        "V:V": 831
+      },
+      "matched_target_counts": {
+        "N": 2228,
+        "S": 7,
+        "V": 829,
+        "F": 11
+      }
+    },
+    {
+      "subject_group": "234",
+      "records": [
+        "234"
+      ],
+      "split": "train",
+      "raw_annotation_counts": {
+        "N": 2700,
+        "S": 50,
+        "V": 3,
+        "F": 0
+      },
+      "raw_symbols": {
+        "N:N": 2700,
+        "S:J": 50,
+        "V:V": 3
+      },
+      "matched_target_counts": {
+        "N": 2697,
+        "S": 50,
+        "V": 3,
+        "F": 0
+      }
+    }
+  ]
+}

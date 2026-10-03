@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-09-28T13:28:35.249324+00:00",
+  "rule": "target plus two immediately preceding saved beat windows in same record; positive RR; no future context",
+  "exclusions": {
+    "first_two_windows": 88
+  },
+  "class_counts": {
+    "train": {
+      "F": 403,
+      "N": 62581,
+      "S": 1962,
+      "V": 4896
+    },
+    "validation": {
+      "F": 15,
+      "N": 12325,
+      "S": 389,
+      "V": 979
+    },
+    "test": {
+      "F": 384,
+      "N": 15088,
+      "S": 429,
+      "V": 1128
+    }
+  },
+  "total_targets": 100579
+}

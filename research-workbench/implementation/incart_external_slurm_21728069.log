@@ -1,0 +1,20 @@
+------------------------------------
+Tue 29 Sep 2026 11:31:53 IDT
+SLURM_JOBID:		21728069
+SLURM_JOB_NODELIST:	ise-pheno-12
+SLURM_SCRATCH_DIR:	
+Allocated Resouces:	cpu - 2 / mem - 8192 MB / gpu - 1
+SLURM_GPU_INDEX:	0
+Running as guykalat from yshahar account with normal QOS
+------------------------------------
+NVIDIA GeForce RTX 3090
+{
+  "count": 175777,
+  "macro_f1": 0.23348335233248566,
+  "per_class_recall": {
+    "N": 0.4501933669283956,
+    "S": 0.14964249233912155,
+    "V": 0.6548035589323203,
+    "F": 0.0
+  }
+}

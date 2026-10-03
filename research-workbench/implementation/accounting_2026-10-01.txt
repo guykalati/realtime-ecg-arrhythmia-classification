@@ -1,0 +1,25 @@
+JobID|State|ElapsedRaw|ExitCode|AllocTRES
+21937203|COMPLETED|1021|0:0|billing=4098,cpu=2,mem=2G,node=1
+21937203.batch|COMPLETED|1021|0:0|cpu=2,mem=2G,node=1
+21937203.extern|COMPLETED|1021|0:0|billing=4098,cpu=2,mem=2G,node=1
+21937726|COMPLETED|22|0:0|billing=4098,cpu=2,mem=2G,node=1
+21937726.batch|COMPLETED|22|0:0|cpu=2,mem=2G,node=1
+21937726.extern|COMPLETED|22|0:0|billing=4098,cpu=2,mem=2G,node=1
+21938125|COMPLETED|345|0:0|billing=2050,cpu=2,mem=1G,node=1
+21938125.batch|COMPLETED|345|0:0|cpu=2,mem=1G,node=1
+21938125.extern|COMPLETED|345|0:0|billing=2050,cpu=2,mem=1G,node=1
+21938144|COMPLETED|46|0:0|billing=32790,cpu=2,gres/gpu:rtx_3090=1,gres/gpu=1,mem=16G,node=1
+21938144.batch|COMPLETED|46|0:0|cpu=2,gres/gpu:rtx_3090=1,gres/gpu=1,mem=16G,node=1
+21938144.extern|COMPLETED|46|0:0|billing=32790,cpu=2,gres/gpu:rtx_3090=1,gres/gpu=1,mem=16G,node=1
+21938213|COMPLETED|26|0:0|billing=32790,cpu=2,gres/gpu:rtx_3090=1,gres/gpu=1,mem=16G,node=1
+21938213.batch|COMPLETED|26|0:0|cpu=2,gres/gpu:rtx_3090=1,gres/gpu=1,mem=16G,node=1
+21938213.extern|COMPLETED|26|0:0|billing=32790,cpu=2,gres/gpu:rtx_3090=1,gres/gpu=1,mem=16G,node=1
+21938278|COMPLETED|10|0:0|billing=4098,cpu=2,mem=2G,node=1
+21938278.batch|COMPLETED|10|0:0|cpu=2,mem=2G,node=1
+21938278.extern|COMPLETED|10|0:0|billing=4098,cpu=2,mem=2G,node=1
+21938349|COMPLETED|47|0:0|billing=4098,cpu=2,mem=2G,node=1
+21938349.batch|COMPLETED|47|0:0|cpu=2,mem=2G,node=1
+21938349.extern|COMPLETED|47|0:0|billing=4098,cpu=2,mem=2G,node=1
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          21928731       cpu pmc_meta guykalat  R      59:42      1 cs-cpu-05
+2895 /home/guykalat/codex_pmc_large_metadata_20261001/metadata.jsonl

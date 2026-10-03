@@ -1,0 +1,10 @@
+{
+  "purpose": "Named-V5 decoding/gain QA; no model scores",
+  "source_sha256": "8740bc8e741814b9efdd6ce1bee7379bb78163c340bdce517645bf9720cee1a0",
+  "signal_plan_sha256": "fd94178c0b3109d81ea05574fecd53d02ba021bb9e8a849bc715e9d4b31ada5e",
+  "gpu_seconds": 0,
+  "max_cpu_minutes": 8,
+  "segments_per_record": 2,
+  "wfdb": "4.3.1",
+  "soundfile": "0.13.1"
+}

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "records": 51,
+  "windows": 486681,
+  "retained_classes": {
+    "N": 481822,
+    "S": 388,
+    "V": 4128,
+    "F": 343
+  },
+  "excluded": {
+    "edge:N": 62
+  },
+  "quality_flags": {
+    "N": {
+      "unknown": 46999,
+      "noisy": 28427,
+      "unreadable": 1401,
+      "entire_window_source_clean": 406441
+    },
+    "S": {
+      "unknown": 10,
+      "noisy": 13,
+      "unreadable": 0,
+      "entire_window_source_clean": 365
+    },
+    "V": {
+      "unknown": 953,
+      "noisy": 138,
+      "unreadable": 1,
+      "entire_window_source_clean": 3037
+    },
+    "F": {
+      "unknown": 75,
+      "noisy": 12,
+      "unreadable": 1,
+      "entire_window_source_clean": 256
+    }
+  },
+  "manifest_sha256": "6216e7c5861391ef401a152d4d8dd0b71f395fc9903cc73eba5e82edc9eed164",
+  "result_sha256": "0588c232dfb4d649a5838df5fbc689e55ab7e1853157f15f6ef652d1db1d870d",
+  "limits": "No resampling, saved waveforms, quality-policy exclusions, duplicate screening, model training or scores. Source noise flags can coexist; unknown is not clean. Quality bit interpretation retains previously documented source-table discrepancy."
+}

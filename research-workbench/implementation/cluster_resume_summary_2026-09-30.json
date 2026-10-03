@@ -1,0 +1,15 @@
+{
+  "retrieved_date": "2026-09-30",
+  "cluster_authentication": "restored",
+  "completed_cells": 21,
+  "slurm_allocation_seconds": 12951,
+  "local_audit": "passed",
+  "language_model_ledger_remaining_runs": 0,
+  "development_memory_indexed_records": 11,
+  "future_work": [
+    "Bounded model-proposed candidate loop using fixed evaluator and development-only history",
+    "ECG checkpoint-selection and patient/source imbalance diagnosis before increasing training time",
+    "Corpus tier/extraction quality screening before continued pretraining"
+  ],
+  "source_accounting_sha256": "48fc2d455b9fcbac6ecddd8d5e8287adf69d058b8bca59a66331a6eda5257c6f"
+}

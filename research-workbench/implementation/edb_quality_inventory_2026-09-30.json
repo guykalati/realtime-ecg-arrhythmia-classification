@@ -1,0 +1,1703 @@
+{
+  "status": "audited",
+  "metadata_inventory_sha256": "814b1fdcc9f0b83b9317ca8f9e1de172bda19c38ea20ce2d9a55c084083f26bf",
+  "quality_code_counts": {
+    "0x0": 3447,
+    "0x1": 1773,
+    "0x2": 1752,
+    "0x3": 1025,
+    "0x11": 193,
+    "0x13": 191,
+    "0x22": 289,
+    "0x23": 197,
+    "0x33": 51
+  },
+  "decoder_sources": [
+    "https://physionet.org/physiotools/wfdb/app/bxb.c",
+    "https://physionet.org/physiobank/database/edb/annotations.shtml"
+  ],
+  "literal_table_discrepancy": "Observed0x13,0x22,0x23 instead of the prose table0x12,0x20,0x21. Decode unreadable bits4/5 from WFDB bxb and channel/noisy-bit associations from EDB table; these derived states need a source-convention check before exclusion policy.",
+  "all_channel_beat_quality": {
+    "N": {
+      "unknown": 171874,
+      "clean": 1293528,
+      "noisy": 96512,
+      "unreadable": 7352
+    },
+    "V": {
+      "unknown": 2078,
+      "clean": 6469,
+      "noisy": 376,
+      "unreadable": 11
+    },
+    "F": {
+      "unknown": 154,
+      "clean": 533,
+      "unreadable": 2,
+      "noisy": 19
+    },
+    "S": {
+      "clean": 1936,
+      "unreadable": 39,
+      "noisy": 163,
+      "unknown": 52
+    }
+  },
+  "V5_beat_quality": {
+    "N": {
+      "unknown": 46988,
+      "clean": 408469,
+      "noisy": 25293,
+      "unreadable": 1134
+    },
+    "S": {
+      "clean": 366,
+      "unknown": 10,
+      "noisy": 12
+    },
+    "V": {
+      "clean": 3039,
+      "unknown": 953,
+      "noisy": 135,
+      "unreadable": 1
+    },
+    "F": {
+      "clean": 257,
+      "unknown": 75,
+      "unreadable": 1,
+      "noisy": 10
+    }
+  },
+  "records": [
+    {
+      "record_id": "e0103",
+      "patient_group": "edb_e0103",
+      "quality_change_events": 8,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 5292,
+          "clean": 9082,
+          "noisy": 50
+        },
+        "V": {
+          "unknown": 106,
+          "clean": 56,
+          "noisy": 2
+        },
+        "F": {
+          "unknown": 2,
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0104",
+      "patient_group": "edb_e0104",
+      "quality_change_events": 71,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 374,
+          "clean": 14638,
+          "noisy": 313,
+          "unreadable": 15
+        },
+        "V": {
+          "clean": 20
+        },
+        "S": {
+          "clean": 32
+        }
+      }
+    },
+    {
+      "record_id": "e0105",
+      "patient_group": "edb_e0105",
+      "quality_change_events": 20,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 892,
+          "noisy": 123,
+          "clean": 12237,
+          "unreadable": 2
+        },
+        "S": {
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0106",
+      "patient_group": "edb_e0106",
+      "quality_change_events": 19,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 906,
+          "unreadable": 14,
+          "clean": 13312,
+          "noisy": 62
+        },
+        "S": {
+          "unreadable": 1,
+          "clean": 9
+        }
+      }
+    },
+    {
+      "record_id": "e0107",
+      "patient_group": "edb_e0107",
+      "quality_change_events": 161,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1182,
+          "noisy": 1922,
+          "clean": 10918,
+          "unreadable": 8
+        },
+        "S": {
+          "clean": 9,
+          "noisy": 1
+        },
+        "V": {
+          "clean": 5,
+          "noisy": 11
+        }
+      }
+    },
+    {
+      "record_id": "e0108",
+      "patient_group": "edb_e0108",
+      "quality_change_events": 22,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 3218,
+          "noisy": 208,
+          "unreadable": 10,
+          "clean": 9750
+        },
+        "V": {
+          "unknown": 4,
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0110",
+      "patient_group": "edb_e0110",
+      "quality_change_events": 93,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1466,
+          "noisy": 520,
+          "clean": 11939,
+          "unreadable": 15
+        },
+        "S": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0111",
+      "patient_group": "edb_e0111",
+      "quality_change_events": 88,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 512,
+          "noisy": 361,
+          "clean": 14182,
+          "unreadable": 13
+        },
+        "S": {
+          "noisy": 1,
+          "clean": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0112",
+      "patient_group": "edb_e0112",
+      "quality_change_events": 55,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 266,
+          "clean": 9739,
+          "noisy": 183,
+          "unreadable": 50
+        },
+        "S": {
+          "unknown": 28,
+          "clean": 650,
+          "noisy": 58,
+          "unreadable": 24
+        },
+        "V": {
+          "clean": 14
+        }
+      }
+    },
+    {
+      "record_id": "e0113",
+      "patient_group": "edb_e0113",
+      "quality_change_events": 115,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2192,
+          "noisy": 1422,
+          "clean": 14242
+        },
+        "V": {
+          "unknown": 4,
+          "clean": 13,
+          "noisy": 3
+        },
+        "S": {
+          "clean": 14,
+          "noisy": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0114",
+      "patient_group": "edb_e0114",
+      "quality_change_events": 28,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2990,
+          "clean": 7576,
+          "noisy": 166
+        },
+        "S": {
+          "noisy": 15,
+          "clean": 335
+        },
+        "V": {
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0115",
+      "patient_group": "edb_e0115",
+      "quality_change_events": 45,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2830,
+          "clean": 17793,
+          "noisy": 2001
+        },
+        "S": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0116",
+      "patient_group": "edb_e0116",
+      "quality_change_events": 65,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 258,
+          "unreadable": 152,
+          "clean": 8176,
+          "noisy": 396
+        },
+        "S": {
+          "noisy": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0118",
+      "patient_group": "edb_e0118",
+      "quality_change_events": 124,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 7130,
+          "clean": 5530,
+          "unreadable": 1020,
+          "noisy": 480
+        }
+      }
+    },
+    {
+      "record_id": "e0119",
+      "patient_group": "edb_e0118",
+      "quality_change_events": 305,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 558,
+          "clean": 11324,
+          "noisy": 2065,
+          "unreadable": 1487
+        },
+        "S": {
+          "clean": 1,
+          "unreadable": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0121",
+      "patient_group": "edb_e0118",
+      "quality_change_events": 106,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 3294,
+          "noisy": 1681,
+          "clean": 16228,
+          "unreadable": 25
+        },
+        "S": {
+          "noisy": 1,
+          "clean": 7
+        },
+        "V": {
+          "clean": 16
+        },
+        "F": {
+          "clean": 6
+        }
+      }
+    },
+    {
+      "record_id": "e0122",
+      "patient_group": "edb_e0118",
+      "quality_change_events": 26,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 530,
+          "clean": 21983,
+          "noisy": 203
+        },
+        "S": {
+          "clean": 5,
+          "noisy": 1
+        },
+        "V": {
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0123",
+      "patient_group": "edb_e0123",
+      "quality_change_events": 13,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 8064,
+          "noisy": 159,
+          "clean": 10115
+        },
+        "V": {
+          "unknown": 4,
+          "clean": 2
+        },
+        "S": {
+          "unknown": 4,
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0124",
+      "patient_group": "edb_e0123",
+      "quality_change_events": 45,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1362,
+          "clean": 16259,
+          "noisy": 799
+        },
+        "V": {
+          "clean": 6
+        }
+      }
+    },
+    {
+      "record_id": "e0125",
+      "patient_group": "edb_e0123",
+      "quality_change_events": 42,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2304,
+          "clean": 15482,
+          "noisy": 338
+        },
+        "S": {
+          "clean": 8
+        }
+      }
+    },
+    {
+      "record_id": "e0126",
+      "patient_group": "edb_e0123",
+      "quality_change_events": 58,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 126,
+          "clean": 16093,
+          "noisy": 345
+        },
+        "S": {
+          "clean": 7,
+          "noisy": 5
+        },
+        "V": {
+          "clean": 6
+        }
+      }
+    },
+    {
+      "record_id": "e0127",
+      "patient_group": "edb_e0127",
+      "quality_change_events": 59,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 8324,
+          "clean": 9837,
+          "noisy": 621
+        }
+      }
+    },
+    {
+      "record_id": "e0129",
+      "patient_group": "edb_e0129",
+      "quality_change_events": 86,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1872,
+          "noisy": 360,
+          "clean": 8900
+        },
+        "S": {
+          "clean": 3,
+          "noisy": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0133",
+      "patient_group": "edb_e0129",
+      "quality_change_events": 108,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1104,
+          "clean": 10357,
+          "noisy": 1608,
+          "unreadable": 67
+        },
+        "S": {
+          "clean": 3,
+          "unreadable": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0136",
+      "patient_group": "edb_e0136",
+      "quality_change_events": 57,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 4384,
+          "unreadable": 178,
+          "noisy": 455,
+          "clean": 9071
+        }
+      }
+    },
+    {
+      "record_id": "e0139",
+      "patient_group": "edb_e0136",
+      "quality_change_events": 143,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 3912,
+          "noisy": 2199,
+          "clean": 14921,
+          "unreadable": 230
+        }
+      }
+    },
+    {
+      "record_id": "e0147",
+      "patient_group": "edb_e0147",
+      "quality_change_events": 45,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1076,
+          "noisy": 275,
+          "clean": 11373,
+          "unreadable": 18
+        },
+        "S": {
+          "clean": 6
+        }
+      }
+    },
+    {
+      "record_id": "e0148",
+      "patient_group": "edb_e0147",
+      "quality_change_events": 76,
+      "class_channel_quality": {
+        "N": {
+          "noisy": 7021,
+          "clean": 6237,
+          "unreadable": 66
+        },
+        "V": {
+          "noisy": 10,
+          "clean": 10
+        },
+        "S": {
+          "noisy": 4,
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0151",
+      "patient_group": "edb_e0151",
+      "quality_change_events": 112,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 962,
+          "clean": 13418,
+          "noisy": 666,
+          "unreadable": 44
+        },
+        "S": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0154",
+      "patient_group": "edb_e0154",
+      "quality_change_events": 48,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 3166,
+          "noisy": 723,
+          "clean": 9648,
+          "unreadable": 27
+        }
+      }
+    },
+    {
+      "record_id": "e0155",
+      "patient_group": "edb_e0154",
+      "quality_change_events": 309,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 4,
+          "noisy": 4252,
+          "clean": 11923,
+          "unreadable": 69
+        },
+        "S": {
+          "noisy": 1,
+          "clean": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0159",
+      "patient_group": "edb_e0159",
+      "quality_change_events": 281,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 182,
+          "noisy": 4564,
+          "clean": 12563,
+          "unreadable": 985
+        },
+        "S": {
+          "clean": 28,
+          "noisy": 12,
+          "unreadable": 8
+        },
+        "V": {
+          "clean": 28,
+          "noisy": 20,
+          "unreadable": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0161",
+      "patient_group": "edb_e0161",
+      "quality_change_events": 61,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2634,
+          "clean": 14157,
+          "noisy": 908,
+          "unreadable": 7
+        },
+        "S": {
+          "clean": 10
+        }
+      }
+    },
+    {
+      "record_id": "e0162",
+      "patient_group": "edb_e0162",
+      "quality_change_events": 112,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 438,
+          "noisy": 1071,
+          "clean": 19689,
+          "unreadable": 10
+        },
+        "V": {
+          "clean": 19,
+          "noisy": 1
+        },
+        "S": {
+          "noisy": 2,
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0163",
+      "patient_group": "edb_e0162",
+      "quality_change_events": 103,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 278,
+          "noisy": 508,
+          "clean": 14402,
+          "unreadable": 18
+        },
+        "V": {
+          "unknown": 2,
+          "clean": 18
+        },
+        "S": {
+          "clean": 4,
+          "noisy": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0166",
+      "patient_group": "edb_e0166",
+      "quality_change_events": 19,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1220,
+          "noisy": 250,
+          "clean": 11319,
+          "unreadable": 3
+        },
+        "S": {
+          "clean": 5,
+          "noisy": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0170",
+      "patient_group": "edb_e0170",
+      "quality_change_events": 325,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 66,
+          "noisy": 3612,
+          "clean": 13899,
+          "unreadable": 13
+        },
+        "S": {
+          "clean": 45,
+          "noisy": 11
+        },
+        "V": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0202",
+      "patient_group": "edb_e0202",
+      "quality_change_events": 133,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 964,
+          "clean": 17892,
+          "noisy": 732,
+          "unreadable": 20
+        },
+        "V": {
+          "clean": 59,
+          "noisy": 1
+        },
+        "S": {
+          "clean": 30
+        },
+        "F": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0203",
+      "patient_group": "edb_e0203",
+      "quality_change_events": 19,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 456,
+          "noisy": 122,
+          "clean": 19546
+        },
+        "S": {
+          "unknown": 2,
+          "clean": 194
+        },
+        "F": {
+          "clean": 6
+        },
+        "V": {
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0204",
+      "patient_group": "edb_e0204",
+      "quality_change_events": 108,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1708,
+          "noisy": 535,
+          "clean": 20628,
+          "unreadable": 61
+        },
+        "S": {
+          "clean": 12
+        }
+      }
+    },
+    {
+      "record_id": "e0205",
+      "patient_group": "edb_e0205",
+      "quality_change_events": 246,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 98,
+          "clean": 20960,
+          "noisy": 2448,
+          "unreadable": 100
+        },
+        "S": {
+          "clean": 6,
+          "noisy": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0206",
+      "patient_group": "edb_e0206",
+      "quality_change_events": 64,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2574,
+          "noisy": 255,
+          "clean": 18632,
+          "unreadable": 21
+        },
+        "V": {
+          "unknown": 30,
+          "clean": 298
+        },
+        "S": {
+          "noisy": 1,
+          "clean": 21
+        }
+      }
+    },
+    {
+      "record_id": "e0207",
+      "patient_group": "edb_e0207",
+      "quality_change_events": 33,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1120,
+          "noisy": 179,
+          "unreadable": 22,
+          "clean": 13007
+        },
+        "V": {
+          "unknown": 2,
+          "clean": 59,
+          "noisy": 1
+        },
+        "S": {
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0208",
+      "patient_group": "edb_e0208",
+      "quality_change_events": 125,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 94,
+          "clean": 16257,
+          "noisy": 969,
+          "unreadable": 70
+        }
+      }
+    },
+    {
+      "record_id": "e0210",
+      "patient_group": "edb_e0210",
+      "quality_change_events": 58,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1518,
+          "clean": 15441,
+          "noisy": 501,
+          "unreadable": 16
+        },
+        "V": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0211",
+      "patient_group": "edb_e0211",
+      "quality_change_events": 156,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1484,
+          "clean": 27594,
+          "noisy": 823,
+          "unreadable": 9
+        },
+        "V": {
+          "clean": 29,
+          "noisy": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0212",
+      "patient_group": "edb_e0212",
+      "quality_change_events": 121,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2116,
+          "noisy": 670,
+          "clean": 18842,
+          "unreadable": 30
+        }
+      }
+    },
+    {
+      "record_id": "e0213",
+      "patient_group": "edb_e0213",
+      "quality_change_events": 187,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 832,
+          "clean": 18286,
+          "unreadable": 151,
+          "noisy": 2299
+        },
+        "V": {
+          "unknown": 22,
+          "clean": 449,
+          "noisy": 95,
+          "unreadable": 6
+        }
+      }
+    },
+    {
+      "record_id": "e0302",
+      "patient_group": "edb_e0302",
+      "quality_change_events": 75,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 706,
+          "clean": 19450,
+          "noisy": 515,
+          "unreadable": 5
+        },
+        "S": {
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0303",
+      "patient_group": "edb_e0303",
+      "quality_change_events": 71,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1450,
+          "noisy": 292,
+          "clean": 15985,
+          "unreadable": 7
+        },
+        "S": {
+          "unknown": 2,
+          "clean": 4
+        },
+        "V": {
+          "noisy": 4,
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0304",
+      "patient_group": "edb_e0304",
+      "quality_change_events": 11,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 5280,
+          "clean": 11189,
+          "noisy": 137
+        },
+        "V": {
+          "unknown": 24,
+          "clean": 83,
+          "noisy": 3
+        }
+      }
+    },
+    {
+      "record_id": "e0305",
+      "patient_group": "edb_e0305",
+      "quality_change_events": 82,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 138,
+          "noisy": 627,
+          "clean": 17978,
+          "unreadable": 17
+        },
+        "S": {
+          "clean": 46
+        },
+        "F": {
+          "clean": 12
+        },
+        "V": {
+          "clean": 16
+        }
+      }
+    },
+    {
+      "record_id": "e0306",
+      "patient_group": "edb_e0306",
+      "quality_change_events": 61,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1270,
+          "noisy": 701,
+          "clean": 13459
+        },
+        "V": {
+          "unknown": 4,
+          "clean": 354,
+          "noisy": 18
+        }
+      }
+    },
+    {
+      "record_id": "e0403",
+      "patient_group": "edb_e0403",
+      "quality_change_events": 22,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2524,
+          "noisy": 96,
+          "clean": 15962
+        },
+        "V": {
+          "clean": 10
+        },
+        "S": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0404",
+      "patient_group": "edb_e0404",
+      "quality_change_events": 24,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2644,
+          "noisy": 130,
+          "clean": 11104
+        },
+        "S": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0405",
+      "patient_group": "edb_e0405",
+      "quality_change_events": 50,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 626,
+          "clean": 20931,
+          "noisy": 619
+        },
+        "S": {
+          "clean": 6
+        }
+      }
+    },
+    {
+      "record_id": "e0406",
+      "patient_group": "edb_e0406",
+      "quality_change_events": 102,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 316,
+          "clean": 16028,
+          "unreadable": 100,
+          "noisy": 1438
+        },
+        "S": {
+          "noisy": 2,
+          "clean": 6
+        }
+      }
+    },
+    {
+      "record_id": "e0408",
+      "patient_group": "edb_e0408",
+      "quality_change_events": 43,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1230,
+          "noisy": 350,
+          "clean": 16493,
+          "unreadable": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0409",
+      "patient_group": "edb_e0409",
+      "quality_change_events": 13,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 470,
+          "noisy": 54,
+          "clean": 25234,
+          "unreadable": 4
+        },
+        "S": {
+          "clean": 6
+        },
+        "V": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0410",
+      "patient_group": "edb_e0410",
+      "quality_change_events": 52,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 980,
+          "noisy": 427,
+          "clean": 13642,
+          "unreadable": 5
+        }
+      }
+    },
+    {
+      "record_id": "e0411",
+      "patient_group": "edb_e0411",
+      "quality_change_events": 71,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 3734,
+          "noisy": 596,
+          "unreadable": 8,
+          "clean": 14596
+        },
+        "V": {
+          "unknown": 252,
+          "noisy": 6,
+          "clean": 655,
+          "unreadable": 1
+        },
+        "F": {
+          "unknown": 2,
+          "clean": 12
+        },
+        "S": {
+          "clean": 6
+        }
+      }
+    },
+    {
+      "record_id": "e0413",
+      "patient_group": "edb_e0413",
+      "quality_change_events": 6,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1884,
+          "noisy": 16,
+          "clean": 13076
+        },
+        "V": {
+          "unknown": 120,
+          "clean": 1170,
+          "noisy": 4
+        },
+        "S": {
+          "unknown": 6,
+          "clean": 18
+        },
+        "F": {
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0415",
+      "patient_group": "edb_e0415",
+      "quality_change_events": 354,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 42,
+          "noisy": 2740,
+          "clean": 19714,
+          "unreadable": 258
+        },
+        "S": {
+          "clean": 18,
+          "noisy": 7,
+          "unreadable": 1
+        },
+        "V": {
+          "clean": 26,
+          "noisy": 7,
+          "unreadable": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0417",
+      "patient_group": "edb_e0417",
+      "quality_change_events": 0,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 18458
+        },
+        "V": {
+          "unknown": 46
+        },
+        "S": {
+          "unknown": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0418",
+      "patient_group": "edb_e0418",
+      "quality_change_events": 20,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 3586,
+          "noisy": 91,
+          "clean": 19721
+        },
+        "S": {
+          "unknown": 2,
+          "clean": 12
+        }
+      }
+    },
+    {
+      "record_id": "e0501",
+      "patient_group": "edb_e0501",
+      "quality_change_events": 111,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1514,
+          "clean": 13262,
+          "noisy": 727,
+          "unreadable": 3
+        },
+        "S": {
+          "clean": 10
+        }
+      }
+    },
+    {
+      "record_id": "e0509",
+      "patient_group": "edb_e0509",
+      "quality_change_events": 22,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1718,
+          "noisy": 278,
+          "clean": 13894
+        },
+        "V": {
+          "unknown": 52,
+          "clean": 226,
+          "noisy": 2
+        },
+        "F": {
+          "unknown": 2,
+          "clean": 10
+        }
+      }
+    },
+    {
+      "record_id": "e0515",
+      "patient_group": "edb_e0515",
+      "quality_change_events": 200,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1652,
+          "noisy": 2308,
+          "clean": 17414,
+          "unreadable": 12
+        },
+        "S": {
+          "noisy": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0601",
+      "patient_group": "edb_e0601",
+      "quality_change_events": 169,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 326,
+          "clean": 15998,
+          "unreadable": 177,
+          "noisy": 1025
+        },
+        "S": {
+          "clean": 9,
+          "noisy": 2,
+          "unreadable": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0602",
+      "patient_group": "edb_e0602",
+      "quality_change_events": 88,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 638,
+          "clean": 20566,
+          "noisy": 304,
+          "unreadable": 28
+        },
+        "V": {
+          "unknown": 14,
+          "clean": 660,
+          "noisy": 4
+        },
+        "S": {
+          "unknown": 2,
+          "clean": 33,
+          "noisy": 1
+        },
+        "F": {
+          "clean": 6
+        }
+      }
+    },
+    {
+      "record_id": "e0603",
+      "patient_group": "edb_e0603",
+      "quality_change_events": 4,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 940,
+          "unreadable": 4,
+          "clean": 14878
+        },
+        "S": {
+          "clean": 2
+        },
+        "V": {
+          "clean": 34
+        },
+        "F": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0604",
+      "patient_group": "edb_e0604",
+      "quality_change_events": 48,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 2128,
+          "clean": 13039,
+          "noisy": 421,
+          "unreadable": 22
+        },
+        "S": {
+          "clean": 16,
+          "unreadable": 2
+        },
+        "V": {
+          "clean": 2
+        }
+      }
+    },
+    {
+      "record_id": "e0605",
+      "patient_group": "edb_e0605",
+      "quality_change_events": 20,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 8776,
+          "noisy": 75,
+          "clean": 12024,
+          "unreadable": 23
+        },
+        "F": {
+          "unknown": 148,
+          "clean": 299,
+          "unreadable": 1
+        },
+        "V": {
+          "unknown": 1376,
+          "clean": 50
+        }
+      }
+    },
+    {
+      "record_id": "e0606",
+      "patient_group": "edb_e0606",
+      "quality_change_events": 106,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 654,
+          "clean": 18145,
+          "unreadable": 100,
+          "noisy": 283
+        },
+        "V": {
+          "clean": 46
+        },
+        "F": {
+          "clean": 12,
+          "noisy": 1,
+          "unreadable": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0607",
+      "patient_group": "edb_e0607",
+      "quality_change_events": 107,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 650,
+          "clean": 18386,
+          "noisy": 1400
+        },
+        "S": {
+          "clean": 79,
+          "noisy": 13
+        },
+        "V": {
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0609",
+      "patient_group": "edb_e0609",
+      "quality_change_events": 80,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 620,
+          "clean": 17664,
+          "noisy": 215,
+          "unreadable": 75
+        },
+        "V": {
+          "unknown": 2,
+          "clean": 36
+        },
+        "F": {
+          "clean": 14
+        },
+        "S": {
+          "clean": 16
+        }
+      }
+    },
+    {
+      "record_id": "e0610",
+      "patient_group": "edb_e0610",
+      "quality_change_events": 49,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 6418,
+          "noisy": 223,
+          "clean": 9309,
+          "unreadable": 22
+        },
+        "S": {
+          "unknown": 2,
+          "clean": 12,
+          "noisy": 8
+        },
+        "V": {
+          "clean": 4
+        }
+      }
+    },
+    {
+      "record_id": "e0611",
+      "patient_group": "edb_e0611",
+      "quality_change_events": 128,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 902,
+          "noisy": 941,
+          "unreadable": 195,
+          "clean": 9586
+        }
+      }
+    },
+    {
+      "record_id": "e0612",
+      "patient_group": "edb_e0612",
+      "quality_change_events": 183,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 84,
+          "clean": 11771,
+          "noisy": 1846,
+          "unreadable": 15
+        },
+        "S": {
+          "clean": 6
+        },
+        "V": {
+          "clean": 29,
+          "noisy": 22,
+          "unreadable": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0613",
+      "patient_group": "edb_e0613",
+      "quality_change_events": 246,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 472,
+          "clean": 11673,
+          "noisy": 3233,
+          "unreadable": 72
+        },
+        "S": {
+          "clean": 1,
+          "noisy": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0614",
+      "patient_group": "edb_e0614",
+      "quality_change_events": 185,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 216,
+          "clean": 18087,
+          "noisy": 1917
+        },
+        "V": {
+          "unknown": 2,
+          "clean": 1638,
+          "noisy": 142
+        },
+        "F": {
+          "clean": 146,
+          "noisy": 18
+        },
+        "S": {
+          "clean": 47,
+          "noisy": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0615",
+      "patient_group": "edb_e0615",
+      "quality_change_events": 70,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 698,
+          "clean": 12844,
+          "noisy": 510,
+          "unreadable": 2
+        },
+        "V": {
+          "unknown": 8,
+          "clean": 258,
+          "noisy": 18
+        },
+        "S": {
+          "clean": 47,
+          "noisy": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0704",
+      "patient_group": "edb_e0704",
+      "quality_change_events": 93,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 296,
+          "noisy": 664,
+          "clean": 18423,
+          "unreadable": 53
+        }
+      }
+    },
+    {
+      "record_id": "e0801",
+      "patient_group": "edb_e0801",
+      "quality_change_events": 278,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1360,
+          "clean": 14851,
+          "noisy": 2542,
+          "unreadable": 17
+        },
+        "V": {
+          "clean": 3,
+          "noisy": 1
+        },
+        "S": {
+          "clean": 1,
+          "noisy": 1
+        }
+      }
+    },
+    {
+      "record_id": "e0808",
+      "patient_group": "edb_e0808",
+      "quality_change_events": 244,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 90,
+          "noisy": 8225,
+          "clean": 13375,
+          "unreadable": 460
+        }
+      }
+    },
+    {
+      "record_id": "e0817",
+      "patient_group": "edb_e0817",
+      "quality_change_events": 314,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 292,
+          "noisy": 4661,
+          "clean": 9603,
+          "unreadable": 552
+        }
+      }
+    },
+    {
+      "record_id": "e0818",
+      "patient_group": "edb_e0818",
+      "quality_change_events": 212,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1374,
+          "clean": 16503,
+          "noisy": 2356,
+          "unreadable": 25
+        }
+      }
+    },
+    {
+      "record_id": "e1301",
+      "patient_group": "edb_e1301",
+      "quality_change_events": 28,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 4558,
+          "unreadable": 40,
+          "clean": 12762,
+          "noisy": 100
+        },
+        "S": {
+          "unknown": 2
+        },
+        "V": {
+          "unknown": 4,
+          "clean": 14
+        }
+      }
+    },
+    {
+      "record_id": "e1302",
+      "patient_group": "edb_e1302",
+      "quality_change_events": 86,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 52,
+          "clean": 15958,
+          "noisy": 680
+        },
+        "S": {
+          "clean": 3,
+          "noisy": 1
+        },
+        "V": {
+          "clean": 6
+        }
+      }
+    },
+    {
+      "record_id": "e1304",
+      "patient_group": "edb_e1304",
+      "quality_change_events": 87,
+      "class_channel_quality": {
+        "N": {
+          "unknown": 1776,
+          "noisy": 326,
+          "clean": 13554,
+          "unreadable": 4
+        },
+        "S": {
+          "clean": 56
+        },
+        "V": {
+          "clean": 12
+        }
+      }
+    }
+  ],
+  "interpretation": "Last source NOISE annotation at or before a beat is carried forward independently per channel. Before first annotation is unknown, never assumed clean. All-channel rows count two lead observations per mapped beat; V5 rows count one where available.",
+  "limits": "Source annotation state, not waveform quality remeasurement. No window-duration expansion, sample exclusion, preprocessing, training or performance claim."
+}

@@ -1,0 +1,12 @@
+{
+  "ecg": {
+    "planned_cells": 12,
+    "local_source_hash_mismatches": [],
+    "remote_results": "not retrieved; cluster unavailable on 2026-09-30"
+  },
+  "language_model": {
+    "planned_cells": 9,
+    "local_source_hash_mismatches": [],
+    "remote_results": "not retrieved; cluster unavailable on 2026-09-30"
+  }
+}

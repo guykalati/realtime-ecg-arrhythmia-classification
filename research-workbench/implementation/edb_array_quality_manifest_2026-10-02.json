@@ -1,0 +1,13 @@
+{
+  "source_sha256": "aa2df2c85a397dca7b777378af90f7700fc258685d3f266c9f63e03a11bc72a3",
+  "summary_sha256": "b341227636bb3aad0a8d51dbb547c00d9ae6164465d5b222987e242bab3678e4",
+  "expected_classes": {
+    "N": 481822,
+    "S": 388,
+    "V": 4128,
+    "F": 343
+  },
+  "max_cpu_minutes": 10,
+  "gpu_seconds": 0,
+  "output_byte_cap": 10000000
+}

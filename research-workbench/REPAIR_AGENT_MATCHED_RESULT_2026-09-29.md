@@ -1,0 +1,16 @@
+# Project 2: first matched repair-agent feasibility result
+
+The [frozen four-attempt comparison](REPAIR_AGENT_MATCHED_COMPARISON_PROTOCOL_2026-09-29.md) completed with the same local `gemma4:12b-it-qat` model, controller, gateway, exact Python 3.8.1 evaluator, task text, and source case per pair. The model had bounded candidate-only read/edit/test tools. The repository-search arm received a frozen hint; the other arm could still inspect the candidate through the same native tools.
+
+| Case and hint | Independent target + regression | Reported tokens | Tool calls | Approx. wall time |
+| --- | --- | ---: | ---: | ---: |
+| PySnooper 2, hint on | Failed; budget exhausted, no edit | 24,421 | 9 | 128 s |
+| PySnooper 2, hint off | Failed; budget exhausted, no edit | 25,452 | 8 | 279 s |
+| PySnooper 3, hint on | Passed; target 1, regression 5 | 15,461 | 7 | 220 s |
+| PySnooper 3, hint off | Passed; target 1, regression 5 | 23,158 | 8 | 175 s |
+
+Both successful attempts independently made the same one-line change in `pysnooper/pysnooper.py`: `open(output_path, 'a')` to `open(output, 'a')`. For case 3, the on-arm final Slurm jobs were **21729225** and **21729226**; the off-arm jobs were **21731635** and **21731645**. For case 2, both final target and regression jobs exited 1 as expected on unchanged buggy source. The full model/tool traces and independent evaluator references are preserved in `implementation/repair_matched_2026-09-29/`. Approximate wall times come from each output directory's creation time to its `agent_result.json` modification time, not an instrumented model timer. The model's 20,000-token cutoff is soft and both case 2 attempts overshot it on their last response.
+
+**Interpretation:** this establishes a bounded agent can repair at least one real pinned bug through an isolated test loop. It does **not** show that retrieval increases the number of repairs: each arm solved exactly one of two related PySnooper cases, and case 3 had already been used during interface development. The retrieval hint saved 7,697 reported tokens on case 3 but the hinted run took longer; with one successful case this is not a stable efficiency result. Ollama sampling was not pinned to a seed, so the paired difference also includes stochastic model variation. Case 2 shows a concrete controller/model failure mode: repeated broad file reading consumed the token budget without editing or running a model-requested test. A future representative study needs more independent repositories, a fresh held-out task set, explicit repeated seeds, and an improved search/inspection budget fixed before testing. The separate Karpathy-style experiment mode and the original experiment-memory contribution still need a real `prepare.py`/editable `train.py` run.
+
+The controller SHA-256 was `c850591caacde566501f13fdc2125c7a051b313f51184a731f9b764fe9f15499`; the gateway was `88a2443e2a70062d506abacebe1476b371180e829cb1c7aa9b130d82a3f4135c`. The four saved trace digests, in table order, are `dcd41cec5810d9c08366bf884aa8def0061b87407f8d9b085ab541a3271bc4f7`, `a6662a4a371a5fc559fb09497cd30b564c28b86c695a42117a72d7955f889ecc`, `0438b8c2c24e01d6eb12e25af323fdc38763486eb755752ecd5ff57e22760142`, and `1578df49b67256bcc0dd5b3880aecae7a4a59c73ad5d1e255691ecfa1f1f21c7`. The local Ollama service was stopped after the comparison.

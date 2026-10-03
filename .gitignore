@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+.DS_Store
+research-workbench/implementation/data/
+*.sqlite
+*.part
+*.pyc
+*.pt
+*.pth
+*.safetensors

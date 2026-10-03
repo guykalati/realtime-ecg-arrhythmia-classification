@@ -1,0 +1,12 @@
+Live cluster accounting snapshot,1October continuation. States below are observations, not promises of completion.
+21944155_0 COMPLETED0:0 00:17:04,969documents/1MD5failure
+21944155_1 COMPLETED0:0 00:17:08,966documents/1MD5failure
+21944155_2 RUNNING
+21944155_3 RUNNING
+21944423 COMPLETED0:0 00:00:11,EDBsource-decoding
+21944620 COMPLETED0:0 00:00:28,EDBwindow-inventory
+21944594_[0-3] PENDING(Resources),four22minGPUallocationsmax,twoatonce
+21944634 CANCELLEDbeforeexecution,missingtransitiveauditimport
+21944638 PENDING(Dependency),CPUaudit10minmax
+21944665 PENDING(Dependency),CPUoverlap/volume10minmax
+Pairedlocalgeneration:4requests,4validcandidates,twodistinctsources(onepercondition). Priorstopped-serviceGET/tagsfailures8,0generation/0GPU.

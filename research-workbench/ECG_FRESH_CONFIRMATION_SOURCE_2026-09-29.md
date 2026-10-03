@@ -1,0 +1,27 @@
+# Project 3: reserve a fresh ECG source for confirmation
+
+## Decision in plain language
+
+Reserve the [MIT-BIH Supraventricular Arrhythmia Database (SVDB), version 1.0.0](https://physionet.org/content/svdb/1.0.0/), as a **future external transport check** for the beat classifier. Do not use its signals, annotations, or scores to develop the model. Its 78 half-hour recordings were selected to add supraventricular arrhythmia examples to the original MIT-BIH collection. This makes it relevant to the current S-class weakness, but gives it a different case mix.
+
+The public [record list](https://physionet.org/files/svdb/1.0.0/RECORDS) has 78 identifiers. The inspected [800 header](https://physionet.org/files/svdb/1.0.0/800.hea) and [801 header](https://physionet.org/files/svdb/1.0.0/801.hea) each show two channels named `ECG1`/`ECG2`, 128 Hz, and no patient identifier. The MIT-BIH development task uses a named MLII lead at 360 Hz; INCART uses named lead II at 257 Hz. The SVDB channel labels do not establish lead equivalence. The SVDB description does not document whether any people overlap with the original MIT-BIH collection. Therefore a later score can support a **source/record transport** statement, with lead and sampling shifts disclosed; it cannot alone establish patient independence or a like-for-like MLII test.
+
+## Why this boundary is needed
+
+The original MIT-BIH candidate A test has been inspected repeatedly and now functions as development evidence. INCART initially served as an external test, but its low score prompted normalization variants and those variants were measured on it. It is now development evidence too. The best centered model had MIT-BIH development macro F1 0.634 and INCART macro F1 0.402, yet INCART S precision was only 0.017 and F recall was zero. See [robustness result](ECG_ROBUSTNESS_RESULT_2026-09-29.md). More work on MIT-BIH and INCART can improve the system, but cannot retroactively turn either inspected set into a fresh final test.
+
+SVDB is preferred for a reserved source check because it provides raw ECG and reference annotation files for the same general beat-classification domain, is modest in size (52.0 MB uncompressed per PhysioNet), and is enriched for the weak S class. It is licensed under Open Data Commons Attribution 1.0. The [MIT-BIH Long-Term ECG Database](https://physionet.org/content/ltdb/1.0.0/) is another annotated raw-ECG possibility, but contains only seven long recordings; its [sample header](https://physionet.org/files/ltdb/1.0.0/14046.hea) also names channels `ECG1`/`ECG2`. The [Noise Stress Test Database](https://physionet.org/content/nstdb/1.0.0/) explicitly derives its ECG recordings from original MIT-BIH records 118 and 119, so it cannot be treated as an independent-person confirmation set.
+
+## Pre-evaluation contract to complete before opening SVDB annotations or signals
+
+1. Finish model selection using only MIT-BIH train/validation and the already inspected development sources. Predeclare the selected checkpoint and SHA-256, preprocessing code/version, class map, thresholds, and any abstention policy. Do not pick among checkpoints using SVDB.
+2. Use SVDB `ECG1` for every eligible record, without selecting the better channel per record. Read the header gain to convert to physical units, take the same one-second target-centered window around each reference beat as in the MIT-BIH study, and resample 128 Hz to 360 values with the same documented procedure. Retain source sample rate and record ID. `ECG1` is an arbitrary fixed channel choice, **not** an assertion that it is MLII.
+3. Apply the already frozen AAMI-style N/S/V/F mapping. Before scoring, report the symbol inventory, mapped support, unmapped events, excluded edge windows, and any unusable records. If any class is absent, mark its class-specific metric and four-class macro F1 as non-comparable rather than silently redefining the task.
+4. In one locked evaluation, report confusion matrix; N/S/V/F precision, recall, F1 and support; macro F1 when all four classes are present; probability calibration; and per-**record** variation. Report selective risk/coverage only for an abstention policy frozen before this evaluation. Do not call record-level variation patient-level variation without identity evidence.
+5. Archive source checksums, extraction manifest, predictions, metrics, model hash, code hash and job log. Compare with MIT-BIH and INCART descriptively because cohort, lead, sample rate and class mix differ. If SVDB exposes a failure, label any following change as a new development cycle and seek another fresh confirmation source or newly collected people for a final claim.
+
+## Current state and limits
+
+This is a **source-selection and protocol boundary**, not an SVDB performance result. Only public dataset descriptions, the record list, and two headers were inspected here. No SVDB waveform, annotation, or model score was used. The exact annotation inventory, prevalence, lead suitability, identity overlap, and achievable metric remain unknown. An external score on a historical Holter dataset would still evaluate reference-beat classification with a centered window, not beat detection, prospective monitoring, or clinical safety.
+
+Next scientific work: train one compact paper-informed architecture against the current weighted/centered CNN under the same MIT-BIH split and budget, then develop the proposed shift-aware abstention comparison on development data. Freeze the final model and policy before opening SVDB's annotation/signal files.

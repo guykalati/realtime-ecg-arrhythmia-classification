@@ -1,0 +1,13 @@
+# Project 1: frozen PMC sample eligibility audit
+
+## Result in plain language
+
+The existing broad cardiovascular search is still a **discovery pool**, not a training corpus. In the frozen 1,000-article metadata sample, **996** have a selected nonretracted CC BY XML version; four are excluded because at least one article version is marked retracted. All 996 selected versions happen to be CC BY in this sample. Five selected versions lack a DOI. No duplicate DOI appeared among selected rows in the sample, but that says little about duplication across the full 200,177-ID search pool. Benchmark overlap remains unchecked.
+
+The [audit script](implementation/pmc_eligibility_audit.py) records the chosen version, its own license, DOI and PMID, an article-level retraction gate, and separate XML/manual review states. Its [1,000-row manifest](implementation/pmc_eligibility_audit_2026-09-29.jsonl) and [summary](implementation/pmc_eligibility_audit_2026-09-29.summary.json) are derived only from the frozen metadata, 100 checked XML versions, and 20 pre-existing manual labels. Per-version licensing matters because one PMC article can have differently licensed versions; [PMC's official data guide](https://pmc.ncbi.nlm.nih.gov/tools/pmcaws/) describes the versioned metadata and license fields.
+
+## What a cheap structural filter can and cannot do
+
+The provisional XML queue requires a well-formed JATS article, XML type `research-article`, and at least 1,000 extracted body words. It placed **47/80** randomly sampled, license/retraction-clean XML articles into a research-document queue. Among the **20** articles previously labeled by one reviewer, it queued all six strict cardiovascular original-research candidates, but also queued **six noneligible** articles. The confusion counts are 6 eligible queued, 6 ineligible queued, 0 eligible missed, and 8 ineligible not queued. This is a tiny development check, not a validated recall estimate for the full corpus. The queue does not establish that cardiovascular disease is the central question or that an XML `research-article` is truly an original study; the pilot already found a mislabeled short case narrative.
+
+The next corpus step is to define and independently check topical centrality, original-study type, article-level retractions, exact-version license, deduplication, and evaluation-set exclusion before bulk XML acquisition. A larger blinded manual validation sample should measure the precision and miss rate of any automatic screen. The corpus should retain a clear `candidate`, `review`, or `eligible` state rather than converting this provisional queue into training data. No new article text was downloaded and no model was trained in this audit.

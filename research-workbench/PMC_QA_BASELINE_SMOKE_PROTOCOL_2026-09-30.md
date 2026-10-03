@@ -1,0 +1,7 @@
+# Cached Qwen3B inference smoke
+
+Use the original project family's cached Qwen2.5-3B-Instruct snapshot`aa8e72537993ba99e69dfaafa59ed015b17504d1` on six constructed source-grounded development cases from three licensed articles. Four questions are supported by an exact supplied passage; two ask for unsupported endpoints/metrics and should cause abstention. All three article IDs/DOIs are reserved from future training and independent QA testing in `pmc_qa_development_exclusions_2026-09-30.json`.
+
+This checks actual GPU/model/tokenizer/instruction-template operation and reveals answer/support errors before corpus adaptation. It is not an accuracy benchmark or independent expert evaluation. Expected answers never enter the model prompt. Save full answers, source/context/prompt/model hashes, GPU, versions, tokens, elapsed time and memory; manually inspect support, quotes and abstention. Six deliberately constructed cases cannot estimate general answer quality or clinical correctness.
+
+Frozen source/passages/Slurm hashes are in `pmc_qa_baseline_smoke_manifest_2026-09-30.json`. One RTX3090, two CPUs,16GB RAM, eight-minute allocation ceiling, internal450-second timeout; no training, model download or new package installation. Greedy generation, max128 new tokens/case, max2048 input tokens, cached weights checked including LFS SHA256 blob IDs. It should take minutes if cache loading is healthy, queue wait unknown. Preserve failures rather than automatically extend the cap. Earlier experiment-agent ledgers remain exhausted.

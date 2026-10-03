@@ -1,0 +1,24 @@
+------------------------------------
+Tue 29 Sep 2026 22:42:49 IDT
+SLURM_JOBID:		21734422
+SLURM_JOB_NODELIST:	cs-3090-03
+SLURM_SCRATCH_DIR:	/scratch/guykalat/21734422
+Allocated Resouces:	cpu - 2 / mem - 8192 MB / gpu - 1
+SLURM_GPU_INDEX:	5
+Running as guykalat from yshahar account with normal QOS
+------------------------------------
+NVIDIA GeForce RTX 3090
+synthetic shape/gradient preflight passed
+{"epoch": 1, "validation_unweighted_cross_entropy": 0.5588011779206329, "validation_macro_f1": 0.32341617124080835}
+{"epoch": 2, "validation_unweighted_cross_entropy": 0.5516671277289145, "validation_macro_f1": 0.3285208656094607}
+{"epoch": 3, "validation_unweighted_cross_entropy": 0.5413850915651124, "validation_macro_f1": 0.3186018492435207}
+{"epoch": 4, "validation_unweighted_cross_entropy": 0.638214702608984, "validation_macro_f1": 0.32548083658344024}
+{"epoch": 5, "validation_unweighted_cross_entropy": 0.47067328684873333, "validation_macro_f1": 0.3587894864975768}
+{"epoch": 6, "validation_unweighted_cross_entropy": 0.4191167506943439, "validation_macro_f1": 0.3300496836358492}
+{"epoch": 7, "validation_unweighted_cross_entropy": 0.5571550326163685, "validation_macro_f1": 0.33036396464677603}
+{"epoch": 8, "validation_unweighted_cross_entropy": 0.6627227511112357, "validation_macro_f1": 0.3376578259061474}
+{"epoch": 9, "validation_unweighted_cross_entropy": 0.5576646593384399, "validation_macro_f1": 0.3350767398921561}
+{"epoch": 10, "validation_unweighted_cross_entropy": 0.5196367878415754, "validation_macro_f1": 0.32085485797476937}
+{"epoch": 11, "validation_unweighted_cross_entropy": 0.6369902522528453, "validation_macro_f1": 0.3495409340481428}
+{"epoch": 12, "validation_unweighted_cross_entropy": 0.5107968575341519, "validation_macro_f1": 0.3406102695891646}
+{"complete": true, "mitdb_macro_f1": 0.613514071151918, "incart_macro_f1": 0.3935242975108878}

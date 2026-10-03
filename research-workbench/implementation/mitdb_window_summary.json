@@ -1,0 +1,456 @@
+{
+  "generated_at_utc": "2026-09-28T08:15:52.562066+00:00",
+  "source": "PhysioNet MIT-BIH Arrhythmia Database 1.0.0",
+  "window_samples": 360,
+  "sampling_hz": 360,
+  "time_rule": "[R-peak - 180 samples, R-peak + 180 samples), no padding",
+  "signal_units": "mV from WFDB p_signal, saved float32 without scaling",
+  "lead_rule": "MLII by name; V5 only when MLII absent (records 102 and 104)",
+  "kept_class_counts": {
+    "F": 802,
+    "N": 90582,
+    "Q": 8038,
+    "S": 2781,
+    "V": 7235,
+    "primary_F": 802,
+    "primary_N": 90076,
+    "primary_S": 2781,
+    "primary_V": 7008
+  },
+  "removed_counts": {
+    "edge": 56
+  },
+  "record_summary": {
+    "100": {
+      "lead_name": "MLII",
+      "windows": 2271,
+      "class_counts": {
+        "N": 2237,
+        "S": 33,
+        "V": 1
+      }
+    },
+    "101": {
+      "lead_name": "MLII",
+      "windows": 1864,
+      "class_counts": {
+        "N": 1859,
+        "Q": 2,
+        "S": 3
+      }
+    },
+    "102": {
+      "lead_name": "V5",
+      "windows": 2185,
+      "class_counts": {
+        "N": 99,
+        "Q": 2082,
+        "V": 4
+      }
+    },
+    "103": {
+      "lead_name": "MLII",
+      "windows": 2083,
+      "class_counts": {
+        "N": 2081,
+        "S": 2
+      }
+    },
+    "104": {
+      "lead_name": "V5",
+      "windows": 2227,
+      "class_counts": {
+        "N": 163,
+        "Q": 2062,
+        "V": 2
+      }
+    },
+    "105": {
+      "lead_name": "MLII",
+      "windows": 2572,
+      "class_counts": {
+        "N": 2526,
+        "Q": 5,
+        "V": 41
+      }
+    },
+    "106": {
+      "lead_name": "MLII",
+      "windows": 2027,
+      "class_counts": {
+        "N": 1507,
+        "V": 520
+      }
+    },
+    "107": {
+      "lead_name": "MLII",
+      "windows": 2136,
+      "class_counts": {
+        "Q": 2077,
+        "V": 59
+      }
+    },
+    "108": {
+      "lead_name": "MLII",
+      "windows": 1762,
+      "class_counts": {
+        "F": 2,
+        "N": 1739,
+        "S": 4,
+        "V": 17
+      }
+    },
+    "109": {
+      "lead_name": "MLII",
+      "windows": 2530,
+      "class_counts": {
+        "F": 2,
+        "N": 2490,
+        "V": 38
+      }
+    },
+    "111": {
+      "lead_name": "MLII",
+      "windows": 2124,
+      "class_counts": {
+        "N": 2123,
+        "V": 1
+      }
+    },
+    "112": {
+      "lead_name": "MLII",
+      "windows": 2537,
+      "class_counts": {
+        "N": 2535,
+        "S": 2
+      }
+    },
+    "113": {
+      "lead_name": "MLII",
+      "windows": 1793,
+      "class_counts": {
+        "N": 1787,
+        "S": 6
+      }
+    },
+    "114": {
+      "lead_name": "MLII",
+      "windows": 1879,
+      "class_counts": {
+        "F": 4,
+        "N": 1820,
+        "S": 12,
+        "V": 43
+      }
+    },
+    "115": {
+      "lead_name": "MLII",
+      "windows": 1951,
+      "class_counts": {
+        "N": 1951
+      }
+    },
+    "116": {
+      "lead_name": "MLII",
+      "windows": 2411,
+      "class_counts": {
+        "N": 2301,
+        "S": 1,
+        "V": 109
+      }
+    },
+    "117": {
+      "lead_name": "MLII",
+      "windows": 1534,
+      "class_counts": {
+        "N": 1533,
+        "S": 1
+      }
+    },
+    "118": {
+      "lead_name": "MLII",
+      "windows": 2277,
+      "class_counts": {
+        "N": 2165,
+        "S": 96,
+        "V": 16
+      }
+    },
+    "119": {
+      "lead_name": "MLII",
+      "windows": 1987,
+      "class_counts": {
+        "N": 1543,
+        "V": 444
+      }
+    },
+    "121": {
+      "lead_name": "MLII",
+      "windows": 1861,
+      "class_counts": {
+        "N": 1859,
+        "S": 1,
+        "V": 1
+      }
+    },
+    "122": {
+      "lead_name": "MLII",
+      "windows": 2474,
+      "class_counts": {
+        "N": 2474
+      }
+    },
+    "123": {
+      "lead_name": "MLII",
+      "windows": 1517,
+      "class_counts": {
+        "N": 1514,
+        "V": 3
+      }
+    },
+    "124": {
+      "lead_name": "MLII",
+      "windows": 1618,
+      "class_counts": {
+        "F": 5,
+        "N": 1535,
+        "S": 31,
+        "V": 47
+      }
+    },
+    "200": {
+      "lead_name": "MLII",
+      "windows": 2600,
+      "class_counts": {
+        "F": 2,
+        "N": 1742,
+        "S": 30,
+        "V": 826
+      }
+    },
+    "201": {
+      "lead_name": "MLII",
+      "windows": 1962,
+      "class_counts": {
+        "F": 2,
+        "N": 1634,
+        "S": 128,
+        "V": 198
+      }
+    },
+    "202": {
+      "lead_name": "MLII",
+      "windows": 2135,
+      "class_counts": {
+        "F": 1,
+        "N": 2060,
+        "S": 55,
+        "V": 19
+      }
+    },
+    "203": {
+      "lead_name": "MLII",
+      "windows": 2979,
+      "class_counts": {
+        "F": 1,
+        "N": 2528,
+        "Q": 4,
+        "S": 2,
+        "V": 444
+      }
+    },
+    "205": {
+      "lead_name": "MLII",
+      "windows": 2655,
+      "class_counts": {
+        "F": 11,
+        "N": 2570,
+        "S": 3,
+        "V": 71
+      }
+    },
+    "207": {
+      "lead_name": "MLII",
+      "windows": 1859,
+      "class_counts": {
+        "N": 1542,
+        "S": 107,
+        "V": 210
+      }
+    },
+    "208": {
+      "lead_name": "MLII",
+      "windows": 2953,
+      "class_counts": {
+        "F": 372,
+        "N": 1585,
+        "Q": 2,
+        "S": 2,
+        "V": 992
+      }
+    },
+    "209": {
+      "lead_name": "MLII",
+      "windows": 3004,
+      "class_counts": {
+        "N": 2620,
+        "S": 383,
+        "V": 1
+      }
+    },
+    "210": {
+      "lead_name": "MLII",
+      "windows": 2648,
+      "class_counts": {
+        "F": 10,
+        "N": 2421,
+        "S": 22,
+        "V": 195
+      }
+    },
+    "212": {
+      "lead_name": "MLII",
+      "windows": 2747,
+      "class_counts": {
+        "N": 2747
+      }
+    },
+    "213": {
+      "lead_name": "MLII",
+      "windows": 3249,
+      "class_counts": {
+        "F": 362,
+        "N": 2639,
+        "S": 28,
+        "V": 220
+      }
+    },
+    "214": {
+      "lead_name": "MLII",
+      "windows": 2260,
+      "class_counts": {
+        "F": 1,
+        "N": 2001,
+        "Q": 2,
+        "V": 256
+      }
+    },
+    "215": {
+      "lead_name": "MLII",
+      "windows": 3361,
+      "class_counts": {
+        "F": 1,
+        "N": 3193,
+        "S": 3,
+        "V": 164
+      }
+    },
+    "217": {
+      "lead_name": "MLII",
+      "windows": 2208,
+      "class_counts": {
+        "N": 244,
+        "Q": 1802,
+        "V": 162
+      }
+    },
+    "219": {
+      "lead_name": "MLII",
+      "windows": 2154,
+      "class_counts": {
+        "F": 1,
+        "N": 2082,
+        "S": 7,
+        "V": 64
+      }
+    },
+    "220": {
+      "lead_name": "MLII",
+      "windows": 2046,
+      "class_counts": {
+        "N": 1952,
+        "S": 94
+      }
+    },
+    "221": {
+      "lead_name": "MLII",
+      "windows": 2427,
+      "class_counts": {
+        "N": 2031,
+        "V": 396
+      }
+    },
+    "222": {
+      "lead_name": "MLII",
+      "windows": 2481,
+      "class_counts": {
+        "N": 2272,
+        "S": 209
+      }
+    },
+    "223": {
+      "lead_name": "MLII",
+      "windows": 2604,
+      "class_counts": {
+        "F": 14,
+        "N": 2044,
+        "S": 73,
+        "V": 473
+      }
+    },
+    "228": {
+      "lead_name": "MLII",
+      "windows": 2052,
+      "class_counts": {
+        "N": 1687,
+        "S": 3,
+        "V": 362
+      }
+    },
+    "230": {
+      "lead_name": "MLII",
+      "windows": 2255,
+      "class_counts": {
+        "N": 2254,
+        "V": 1
+      }
+    },
+    "231": {
+      "lead_name": "MLII",
+      "windows": 1570,
+      "class_counts": {
+        "N": 1567,
+        "S": 1,
+        "V": 2
+      }
+    },
+    "232": {
+      "lead_name": "MLII",
+      "windows": 1780,
+      "class_counts": {
+        "N": 398,
+        "S": 1382
+      }
+    },
+    "233": {
+      "lead_name": "MLII",
+      "windows": 3077,
+      "class_counts": {
+        "F": 11,
+        "N": 2229,
+        "S": 7,
+        "V": 830
+      }
+    },
+    "234": {
+      "lead_name": "MLII",
+      "windows": 2752,
+      "class_counts": {
+        "N": 2699,
+        "S": 50,
+        "V": 3
+      }
+    }
+  },
+  "note": "Reference R-peaks supplied by MIT-BIH; this is beat classification, not beat detection or a live model."
+}

@@ -1,0 +1,19 @@
+# Project 3: first bounded model run proposal
+
+This records the run specification approved before the experiment. Its purpose was to establish an honest single-beat baseline before comparing rhythm context or newer attention models. The [completed result](ECG_BASELINE_RESULT_2026-09-28.md) reports Slurm job 21719608 and its test metrics.
+
+## Fixed data and evaluation
+
+- **Source:** the 100,667 usable one-second windows from the 44 nonpaced MIT-BIH recordings in the [data-build report](ECG_DATA_BUILD_2026-09-28.md). Labels are N/S/V/F and reference R locations are supplied by the dataset.
+- **Split:** [candidate A](implementation/split_candidates/candidate_split_a.csv), fixed before modeling: 30 training, 6 validation, 7 test subject groups. The 201/202 recordings remain together in training. Candidate B remains a later sensitivity test and is not used for initial tuning.
+- **Inputs:** one named-MLII lead, 360 raw mV samples per beat. Calculate one mean and standard deviation from training windows only, then apply them unchanged to validation/test. No resampling, synthetic oversampling, augmentation, or neighboring beats in this baseline.
+- **Classes:** unweighted four-class cross entropy for the first control; this exposes the effect of class imbalance rather than hiding it. F support is 403/15/384 in train/validation/test, so rare-class estimates will be especially unstable on validation.
+- **Model:** one small 1D CNN: three convolution blocks (input channels 1; output channels 16, 32, 64; kernel sizes 7, 5, 3; stride 1; same padding), each with ReLU and width-2 max pooling; global average pooling; linear 64-to-4 logits. No pretrained weights.
+- **Training:** seed `20260928`, AdamW with learning rate `0.001`, weight decay `0.0001`, batch size 256, at most 12 epochs, no scheduler. Save the checkpoint with the lowest validation cross entropy. The run should log the full hyperparameters, input/split hashes, package versions, elapsed time, and peak GPU memory. If it reaches the 30-minute Slurm wall limit, mark the result incomplete rather than reporting a score as final.
+- **Metrics:** evaluate the frozen selected checkpoint on the held-out test once: four-class macro F1 as primary, per-class precision/recall/F1, confusion matrix, overall accuracy, and per-test-subject counts/results. Report validation curves and class prevalence. Do not interpret this as real-time detection or clinical validity.
+
+## Resource ceiling and stop rule
+
+Request one RTX 3090 GPU under account `yshahar`, QoS `normal`, with a **30-minute wall cap** and no automatic retry or sweep: at most 0.5 allocated GPU-hour. Inputs are about 150 MB of local NumPy windows; allow at most 1 GB for copied data/checkpoints/logs, excluding the existing software environment. The model and batch are deliberately small, but actual VRAM and runtime are unverified. A read-only import found Python 3.11.15 and PyTorch 2.5.1+cu124 in Guy's existing `hw1_llm` conda environment; use it without modifying packages for this smoke run only if the required imports work on the allocated node. Before submission, check target GPU memory, per-user storage location/quota, and remote project path. Never run training on the login node. If any prerequisite fails, stop without substituting a larger job.
+
+**Success for this first run** means a completed, reproducible pipeline and a finite held-out report; it does not require beating the old course accuracy. The old 98.02% used beat-level CSV splits and is not a comparable patient-generalization score. A cheaper alternative is a small CPU subset smoke test that checks data flow but yields no publishable performance claim. A class-weighted loss or grouped-fold evaluation can be proposed later based on baseline errors; neither is silently added to this control.

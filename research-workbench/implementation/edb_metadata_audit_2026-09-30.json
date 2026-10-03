@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "files": 182,
+  "bytes": 1683622,
+  "records": 90,
+  "subjects": 79,
+  "signals_downloaded": 0,
+  "event_count": 802909,
+  "limits": "Independent hash/count checks of persisted metadata. No waveform or new annotation-reader run."
+}

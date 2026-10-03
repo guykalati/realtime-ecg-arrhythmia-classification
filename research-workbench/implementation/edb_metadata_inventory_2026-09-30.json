@@ -1,0 +1,4545 @@
+{
+  "status": "audited",
+  "source_url": "https://physionet.org/content/edb/1.0.0/",
+  "license": "ODC Attribution v1.0",
+  "source_release": "1.0.0",
+  "retrieved_at_utc": "2026-09-30T20:12:27.228445+00:00",
+  "files": [
+    {
+      "key": "edb/1.0.0/RECORDS",
+      "size": 540,
+      "etag": "a8609e2285ab718782fdd5d8ebadd73f",
+      "sha256": "777bc439274b078f2545b79d44cb85384912ec8045cd77bfc46fae0b3a332266"
+    },
+    {
+      "key": "edb/1.0.0/SHA256SUMS.txt",
+      "size": 20633,
+      "etag": "df74beb09cccb34465300e38e700461e",
+      "sha256": "c091f227f1efc88d560519dd624d052397a8a26289ee0231a8752fde6c5fe994"
+    },
+    {
+      "key": "edb/1.0.0/e0103.hea",
+      "size": 213,
+      "etag": "67a108bf2d0723620c245101fe3925d0",
+      "sha256": "475f57d04233b010599065067905b29bad8811e938874d1042851603b8b05a15"
+    },
+    {
+      "key": "edb/1.0.0/e0103.atr",
+      "size": 14884,
+      "etag": "3e4a2ae58e1355fb063614b91dc39a99",
+      "sha256": "7366b2785bd4048db204a7f8d546a0335bfc13795ad6a885f42d991a99a0ec66"
+    },
+    {
+      "key": "edb/1.0.0/e0104.hea",
+      "size": 253,
+      "etag": "f0f555c4cd45f4ea18df655451643a1f",
+      "sha256": "0c956794178da32afb0c744d52135cd8084fb144ff08b6a2af9e1cb28edccd30"
+    },
+    {
+      "key": "edb/1.0.0/e0104.atr",
+      "size": 16198,
+      "etag": "18315d61b4cf2829fcdc2200c7dc4de4",
+      "sha256": "566d007fd3329998408b6dd8cee64f2e4e20e5d548af901ee301b86398e18fde"
+    },
+    {
+      "key": "edb/1.0.0/e0105.hea",
+      "size": 231,
+      "etag": "1d826adff7e458182b3f6d5cb542dc31",
+      "sha256": "325f3f01ed4352a5f5126ffee28e3e6d88b6d8d2309e9e5cafaf3af26d539ed3"
+    },
+    {
+      "key": "edb/1.0.0/e0105.atr",
+      "size": 13878,
+      "etag": "372dd3c17d797daa6fa1e29c8e0db263",
+      "sha256": "ff810b96cf613c3e9734ccb89ca89e562d6112a4b4818675f99522ed328ea1eb"
+    },
+    {
+      "key": "edb/1.0.0/e0106.hea",
+      "size": 232,
+      "etag": "7f6bcb1bd1b1e3dc5027244d993e5d85",
+      "sha256": "41ebe496330766b898d247e1bcda8f2a26c1fa522c63c99fdae266eff605856b"
+    },
+    {
+      "key": "edb/1.0.0/e0106.atr",
+      "size": 14854,
+      "etag": "8074e4c412480b2e4fa96d304f4ee881",
+      "sha256": "e8eb6f80a1a5c4a96eec74b033c77ec872f40ce8062676c8a77a06a31f727179"
+    },
+    {
+      "key": "edb/1.0.0/e0107.hea",
+      "size": 223,
+      "etag": "0bc21c27439b5f6c5a266437888d8e11",
+      "sha256": "c96dfffd0506a23c4673d711ca20f0687312604950d18260c2b799f509ca6ca0"
+    },
+    {
+      "key": "edb/1.0.0/e0107.atr",
+      "size": 15106,
+      "etag": "bdd81f8292edb7096439cbeb532d37ad",
+      "sha256": "6ec75e3761645b5aec8ba61ee339a760f976968858d0e73dea72b726fce342aa"
+    },
+    {
+      "key": "edb/1.0.0/e0108.hea",
+      "size": 240,
+      "etag": "8bc217a57ef92a2d373b51de054cdbf1",
+      "sha256": "1c5dce92f415693afc5a1cd528309f6bea9ab272dfe663ec6993a78ec69a1295"
+    },
+    {
+      "key": "edb/1.0.0/e0108.atr",
+      "size": 14226,
+      "etag": "15521ff72b4dd801bed41008ff08d55b",
+      "sha256": "0791925d813883ecd61b337095cb3312003b05db70d0fd9e2bfc689130ff2f19"
+    },
+    {
+      "key": "edb/1.0.0/e0110.hea",
+      "size": 234,
+      "etag": "dc2885d964366164df794e376e152f0c",
+      "sha256": "86840ed384b9daa94c618d4db22d8f11e8e163973c7036170fe435243d5e86bd"
+    },
+    {
+      "key": "edb/1.0.0/e0110.atr",
+      "size": 14554,
+      "etag": "272ba2dd556c106ada12fa30ee34a61e",
+      "sha256": "a0ecdbcdbfe57336e1b26eaeab6aa04da2685d56ec95f8b7e4bc81184b3e7a38"
+    },
+    {
+      "key": "edb/1.0.0/e0111.hea",
+      "size": 191,
+      "etag": "73e71179dccde5792067b16ed47ef4b7",
+      "sha256": "8fbbca68b787506c5620ec9ce79d43199cadc172c7a317491a1822b7e9249c8c"
+    },
+    {
+      "key": "edb/1.0.0/e0111.atr",
+      "size": 15672,
+      "etag": "3ed7c3ea92bfee06efb0d24888fbbee3",
+      "sha256": "83ad65103f85207f07e477a5ba2eeac4b5d9129b47cd3b83d203673b7a0700ef"
+    },
+    {
+      "key": "edb/1.0.0/e0112.hea",
+      "size": 251,
+      "etag": "8bc6bc9291e5df41cab592398be9bd44",
+      "sha256": "b69751f025232b6172d61584cf056595a901219a17dabacfe852e42d73bbfb92"
+    },
+    {
+      "key": "edb/1.0.0/e0112.atr",
+      "size": 12172,
+      "etag": "1f69dadc376388872a388f9d723aae61",
+      "sha256": "d0db41da1223285722a992a0f6bb9eee7e4b19ec0a8f1547ccf7f3a22fdd9dc2"
+    },
+    {
+      "key": "edb/1.0.0/e0113.hea",
+      "size": 219,
+      "etag": "220f1036dacc9e857caea6e25263bd9c",
+      "sha256": "69a86be44b2a2eed83486530e4a69153933304183978e494a1b7c8478cacb462"
+    },
+    {
+      "key": "edb/1.0.0/e0113.atr",
+      "size": 19420,
+      "etag": "93cf55d465aaefb1628149a5ef57760a",
+      "sha256": "69c48e2e5025dc45c7900ab4e46af7b8c18fcd8273629baf09e871835e8579f5"
+    },
+    {
+      "key": "edb/1.0.0/e0114.hea",
+      "size": 244,
+      "etag": "335ea62a2521fa4f00d2eedba1e79698",
+      "sha256": "a0ff05bee2e2dcc5ae27f056f02e1f2ad78feba9a71bd049830a1480505133a0"
+    },
+    {
+      "key": "edb/1.0.0/e0114.atr",
+      "size": 12136,
+      "etag": "6ebaa845603a2875709ae6892479fb0a",
+      "sha256": "3d35453e65d3ebd8a97feaf38fbe98b09fc4b92fd3c0b8d230e3886fe38e4bb2"
+    },
+    {
+      "key": "edb/1.0.0/e0115.hea",
+      "size": 182,
+      "etag": "39bb1d41f178df6827027efcf8b67d9c",
+      "sha256": "cdcc601d3a916ddc9bdaca01ab6bcf048a1a41241b9fc27d7dc4f0581295e74b"
+    },
+    {
+      "key": "edb/1.0.0/e0115.atr",
+      "size": 22850,
+      "etag": "b62c6c20ed20db3e39596dab35f24692",
+      "sha256": "83d355df6e66da028dfa810e8caa3511e9a38ac56adbc512b28180a2a6373213"
+    },
+    {
+      "key": "edb/1.0.0/e0116.hea",
+      "size": 217,
+      "etag": "88eb9224520c15ad6bc0c75f266e5bb6",
+      "sha256": "cf89e74e829c337ad30b4b91b099f27a240152ed5b23992deab6c9bea20774e6"
+    },
+    {
+      "key": "edb/1.0.0/e0116.atr",
+      "size": 9586,
+      "etag": "98affecf1f357f177c121f1ef7ec77e8",
+      "sha256": "401fa03f79a25153d187e544c12ab424e552dcc09db738e73a85cf08bd4b6813"
+    },
+    {
+      "key": "edb/1.0.0/e0118.hea",
+      "size": 229,
+      "etag": "be55daad49fb14d3895c56aca398b465",
+      "sha256": "1270de8008f010280781cabfb842c331ab64de83479ffea52db37966c505a534"
+    },
+    {
+      "key": "edb/1.0.0/e0118.atr",
+      "size": 15112,
+      "etag": "96c25a782b54b8d0c02bf66435a6bf53",
+      "sha256": "f8404201f6b687507271b0173618c66fd1d726d6cf1a29c27ae174a363f1efc3"
+    },
+    {
+      "key": "edb/1.0.0/e0119.hea",
+      "size": 229,
+      "etag": "2ffb03b165ad44f3fc9114ee8d033c6f",
+      "sha256": "d2d0b8d0c3a7c38b11310a4539663bc7457d9b5765386cdf367db150b9822fce"
+    },
+    {
+      "key": "edb/1.0.0/e0119.atr",
+      "size": 17066,
+      "etag": "f0b37025012dbd2678e83eabea5da05d",
+      "sha256": "c9528b3dbfa5a5aa83ee789ddc08b08118df06cf3f0c8fb85f1e3c2fb7b5db2a"
+    },
+    {
+      "key": "edb/1.0.0/e0121.hea",
+      "size": 231,
+      "etag": "400024e3799cab02c6911e2cae664554",
+      "sha256": "8573a39a73014c8287b6bab3154f03967a64f0c4edf9a3523f818eb04165cede"
+    },
+    {
+      "key": "edb/1.0.0/e0121.atr",
+      "size": 21936,
+      "etag": "b945f70f78cf957ae007ae3f2c88bbaa",
+      "sha256": "df9be83e418760f538496c4041dcc974d68949032d2f0631dc216c22af202d76"
+    },
+    {
+      "key": "edb/1.0.0/e0122.hea",
+      "size": 231,
+      "etag": "bb2c1f53490b71a893d4bfa66b3fc3d6",
+      "sha256": "14964563e830fb87d164f1e9522665181ef44b574d4dbb6518990ae0686e3c81"
+    },
+    {
+      "key": "edb/1.0.0/e0122.atr",
+      "size": 23074,
+      "etag": "7452021f76abc98c47e2fa95d562c0cf",
+      "sha256": "9b52004b3addffa313080ebd78deb8283c2dc23333f65566d9cfe547736265f5"
+    },
+    {
+      "key": "edb/1.0.0/e0123.hea",
+      "size": 279,
+      "etag": "c79aab7d02b373b4112b2379be9e8292",
+      "sha256": "e57bc62b42704a30380fd2ea987f0587b84a5c2f7a11990a7649e0f6ee71c288"
+    },
+    {
+      "key": "edb/1.0.0/e0123.atr",
+      "size": 18558,
+      "etag": "39685772569b4443c9505f0134f19427",
+      "sha256": "2f46aa2644f72f4980c8a9b4d17c75b07152e45de0ade8db2b1d78516c8e86e3"
+    },
+    {
+      "key": "edb/1.0.0/e0124.hea",
+      "size": 280,
+      "etag": "bed8b6d15bae85b34f4a3b7a593ad18c",
+      "sha256": "c6dba59a4cc9a89e4adf12c4fc67432172d4cbfdb023cb66faaef9e458aca7d2"
+    },
+    {
+      "key": "edb/1.0.0/e0124.atr",
+      "size": 18958,
+      "etag": "c6746e5fafbeb461052be1ff4e14e5d7",
+      "sha256": "c78bd2ad298c01702b17aef92aaf089e1f5594120a0e5ec47094f8e4d84700ee"
+    },
+    {
+      "key": "edb/1.0.0/e0125.hea",
+      "size": 280,
+      "etag": "a84007b3f9e33e428a9de6887150e5c6",
+      "sha256": "b7fc6ee68a32faa052287df8a140091c45f0782523ccc916731886fc7ca0a300"
+    },
+    {
+      "key": "edb/1.0.0/e0125.atr",
+      "size": 18560,
+      "etag": "ab3b5229fa463e96f16ab3812bac102a",
+      "sha256": "806ee7766bebdad5649d7ea7e32f6a5436fa48bbca68e47ec8c3404a9af2512a"
+    },
+    {
+      "key": "edb/1.0.0/e0126.hea",
+      "size": 281,
+      "etag": "320a808b66babf916eed164c55d3390f",
+      "sha256": "acc8f59b166eb200f423f3cda685df05888f324a4d100429cd508adfa8222f91"
+    },
+    {
+      "key": "edb/1.0.0/e0126.atr",
+      "size": 16872,
+      "etag": "d524db8078cbe5dc1594b2ce782662a9",
+      "sha256": "4a85174b5fb6839b453a88a4311aad6995a7514ada1b70ab3f6770f993248e2e"
+    },
+    {
+      "key": "edb/1.0.0/e0127.hea",
+      "size": 184,
+      "etag": "d24dec35bc8065cb290d0b044187e0f9",
+      "sha256": "6cca4288afebe07e70099c4cd40221efa5db8e8a2d36ec6a95796e80e32593c1"
+    },
+    {
+      "key": "edb/1.0.0/e0127.atr",
+      "size": 19350,
+      "etag": "1138a0d709aa36689c62f64120f7c66d",
+      "sha256": "4203acc5e2eb0c782e437f6890f5227b63af8fc1a0dd5e857cb18d265d4e7666"
+    },
+    {
+      "key": "edb/1.0.0/e0129.hea",
+      "size": 228,
+      "etag": "f1a47d08aa74a6c3fb10961154cc08a3",
+      "sha256": "98973a09df9ef7b5398b022967badb79a3d8354b87edeb0cbb3963722ed060bb"
+    },
+    {
+      "key": "edb/1.0.0/e0129.atr",
+      "size": 12182,
+      "etag": "3eee8720f2518a0ee77e2cf276abff03",
+      "sha256": "9065be54a4b415c44a40f6683c26105e32f6815106f00a5e4737c58654f50bf6"
+    },
+    {
+      "key": "edb/1.0.0/e0133.hea",
+      "size": 218,
+      "etag": "b3aaa78e28f5c0213585a27e20c8165a",
+      "sha256": "a8bc96cff381c892175d2a81a62fc5f10ce0c1bef423d955e5dab4d769bdf35b"
+    },
+    {
+      "key": "edb/1.0.0/e0133.atr",
+      "size": 13598,
+      "etag": "4d5283e205fbc38311039f714ee8bcf0",
+      "sha256": "21b972ead2c20f370201612c88d237c1cc9c31f0af8c2fb0d74012469205d3a6"
+    },
+    {
+      "key": "edb/1.0.0/e0136.hea",
+      "size": 213,
+      "etag": "26393125ed0c9163a427001e871fba2b",
+      "sha256": "7f82e0d641f6d0bb9a35cd1be260d30167e6909fea4c04704b2a5d3610d05eeb"
+    },
+    {
+      "key": "edb/1.0.0/e0136.atr",
+      "size": 14700,
+      "etag": "824d02e25d1fe0610a4dfcf66d34392d",
+      "sha256": "719aeb8c63c3255830dc14c562a12461a3e9bdfa8715cf56a92728dfb0371509"
+    },
+    {
+      "key": "edb/1.0.0/e0139.hea",
+      "size": 215,
+      "etag": "40d8b349851e36b3b920984cacc4fec7",
+      "sha256": "20fe0c957c454bc5a9e3721b18e8136954e0c0f373ef5e22a7b8f33baabd4368"
+    },
+    {
+      "key": "edb/1.0.0/e0139.atr",
+      "size": 21906,
+      "etag": "37b98982def36de286daa4ba3a51b394",
+      "sha256": "10d4476ffa01ae4f6365a261d0f4e23691ac2a126681d9c991049a7f2157bae7"
+    },
+    {
+      "key": "edb/1.0.0/e0147.hea",
+      "size": 237,
+      "etag": "db070cceca7228a95ecf74d3da8bc695",
+      "sha256": "63db7e0480376a1276341aaa4b1babd17a802941e7cc3e51961ae61c926510f4"
+    },
+    {
+      "key": "edb/1.0.0/e0147.atr",
+      "size": 13154,
+      "etag": "9558930403fbd87f2f40d48916e69153",
+      "sha256": "86518b824e4aed69680accbbb56ebd68c20db2b6b289c05ffd43402b39c2fdc5"
+    },
+    {
+      "key": "edb/1.0.0/e0148.hea",
+      "size": 236,
+      "etag": "00e874f69024a04a9de4ac097be8887c",
+      "sha256": "fb8a0411662cd61846bb07fdb76b75220b5338725789e1df29ae543693af6338"
+    },
+    {
+      "key": "edb/1.0.0/e0148.atr",
+      "size": 14032,
+      "etag": "05bfbe12fd2998d4b05d3dbf8b36bfb4",
+      "sha256": "6762a1ff9081269552d48800fb2d1f5e1c4cc585949b18536d7ab41af5b743f3"
+    },
+    {
+      "key": "edb/1.0.0/e0151.hea",
+      "size": 224,
+      "etag": "ec15de7de0ac1849a89a910255cfa101",
+      "sha256": "9715774284b87e6aee1bfb0b2f51e5e90eaf140507510d610faef17f69fa6e41"
+    },
+    {
+      "key": "edb/1.0.0/e0151.atr",
+      "size": 15746,
+      "etag": "f6474a4c1ace8b3e5347202ba951bb62",
+      "sha256": "d5dcc9cd5ba49e435c01e979834a9b8400dea181a7ee1f79e06d5abe626c435a"
+    },
+    {
+      "key": "edb/1.0.0/e0154.hea",
+      "size": 215,
+      "etag": "4103defa3541564ad38425e2306ddcb6",
+      "sha256": "048f7ffd45272ba2e4f80a05fec7fad726c4f054da0b6cd7b175491fa9e7cc0a"
+    },
+    {
+      "key": "edb/1.0.0/e0154.atr",
+      "size": 13798,
+      "etag": "89dd3878b39cc793efba88ef5ec59adf",
+      "sha256": "06374a9b36b2ee7e5a278cf4fc82bac21b2771cb0d0bfb3a954c60e8b9de397c"
+    },
+    {
+      "key": "edb/1.0.0/e0155.hea",
+      "size": 217,
+      "etag": "10b82ff63cd25a39f269b3a3d66fd4ec",
+      "sha256": "ddaa006ddf08f3d26f406b1f94275ec231466f27036f36fb0093cf753c86a151"
+    },
+    {
+      "key": "edb/1.0.0/e0155.atr",
+      "size": 17382,
+      "etag": "7eb16f382065012c36687c8f76df9665",
+      "sha256": "855520b9d3e2be999e32fdbb03259d9d08b65a8d9e7a927546791a4b9d4ac23e"
+    },
+    {
+      "key": "edb/1.0.0/e0159.hea",
+      "size": 206,
+      "etag": "0ca1014e8ac32ee908f8d908640ab652",
+      "sha256": "266e77f325d35103e2cf1e99c727d81e1aa063c82977ed168d0e820ede1689d9"
+    },
+    {
+      "key": "edb/1.0.0/e0159.atr",
+      "size": 19420,
+      "etag": "5734c037d030a07f8ae29d07b0541448",
+      "sha256": "5e961510583ccbbc0a053097fb490504b38f053830944056a5a2bebbde7b7f8a"
+    },
+    {
+      "key": "edb/1.0.0/e0161.hea",
+      "size": 178,
+      "etag": "c415b6f9a830c5fb2475a3186cea4c83",
+      "sha256": "871f2b6a14a7a463d107226e0dc6d671e7aea07d41299c9d2914198ca9cc5e90"
+    },
+    {
+      "key": "edb/1.0.0/e0161.atr",
+      "size": 18180,
+      "etag": "4407c26edfc92f7c02fd1568384fad8a",
+      "sha256": "b76af7016ba5d8d5ec71c10d2fbd64b90617399df39a2ae8e56e399053f860dd"
+    },
+    {
+      "key": "edb/1.0.0/e0162.hea",
+      "size": 221,
+      "etag": "326ba17d5201bbca0d3d23f251d24a45",
+      "sha256": "3b1ac598b8bbb61ec4ddd5dd760e79969bdf0078fb178d5f5bc55247738b736a"
+    },
+    {
+      "key": "edb/1.0.0/e0162.atr",
+      "size": 21776,
+      "etag": "88360d137d4ebce753d7d66760100249",
+      "sha256": "8af0c97bb9ff1cd396cce203b9cfdbb197e26ab4ae1d0981219020847846dd6d"
+    },
+    {
+      "key": "edb/1.0.0/e0163.hea",
+      "size": 221,
+      "etag": "8354b520c6c023119c230ff56af62d9d",
+      "sha256": "b40ea8b5c0494b7c3294342ed17db16dfa449b76904eba04ff0c8b5f27c8b84e"
+    },
+    {
+      "key": "edb/1.0.0/e0163.atr",
+      "size": 15636,
+      "etag": "5707e786dbf0561110aca4be72f1dda0",
+      "sha256": "6470284014ed8e7b64f98321da6ef3e28b9145b237e0e82d308d28ba93e9850b"
+    },
+    {
+      "key": "edb/1.0.0/e0166.hea",
+      "size": 194,
+      "etag": "25f76a9ad12be734859eee3f3ab4cdab",
+      "sha256": "97d722ad99428a7225b951cfebd161aa9a585f8692f86cbd5ce7d01e8c0ac6a3"
+    },
+    {
+      "key": "edb/1.0.0/e0166.atr",
+      "size": 13260,
+      "etag": "8b4d1c23e01d713324e3f8fad30b0c8b",
+      "sha256": "35d0f02ed050155f9116c471fdde14703424129b6ca5568d7b59de733618ca67"
+    },
+    {
+      "key": "edb/1.0.0/e0170.hea",
+      "size": 184,
+      "etag": "855d5b102bd84bf696f7f1ff03ef85a6",
+      "sha256": "2dabf4d35b57297fa150b2b0f439c538c589abdb8bd80e602d4515973fbb9edd"
+    },
+    {
+      "key": "edb/1.0.0/e0170.atr",
+      "size": 18824,
+      "etag": "35602256c849d15f6b9159f9aea656cc",
+      "sha256": "555a0e3f39a0e5ee3ab7f21ab8a53b28033baa1650e9abfb40d1adee7dd1ee32"
+    },
+    {
+      "key": "edb/1.0.0/e0202.hea",
+      "size": 171,
+      "etag": "264873e0fa3acc5cf9086553ba3fa07a",
+      "sha256": "1d33eb21abcf6ae52be81894788d6fc752314c2618e57c65add25d839af5c855"
+    },
+    {
+      "key": "edb/1.0.0/e0202.atr",
+      "size": 20620,
+      "etag": "eb12851387e3979e819d0e448d55a154",
+      "sha256": "46fed6031c95ca4cc81a7588bc46c44c700a7c1adc0788a7a2bcaf05f00a33fd"
+    },
+    {
+      "key": "edb/1.0.0/e0203.hea",
+      "size": 200,
+      "etag": "3d0f3543145dcbe20ce738b7c4d7b7cc",
+      "sha256": "2a6d236b7c2c15a17aa4087accc7540debf0630903dde56196d8a7024b2adab4"
+    },
+    {
+      "key": "edb/1.0.0/e0203.atr",
+      "size": 20814,
+      "etag": "a8005cc92d64769715cff3e98f7bc51f",
+      "sha256": "f00fa71b7800b2de45b4405d35a169dcc0ce614d40f7cc76b37894564ae966df"
+    },
+    {
+      "key": "edb/1.0.0/e0204.hea",
+      "size": 180,
+      "etag": "1fdce538eb85d8128cc793e2f6375678",
+      "sha256": "0518f3444b9eec277ab77a229206eec1d36ee5d6f6574d652b5c2c5574be3479"
+    },
+    {
+      "key": "edb/1.0.0/e0204.atr",
+      "size": 23424,
+      "etag": "8d3cad9937417b4f6a14e0e905f4c18b",
+      "sha256": "48491fc8d5d53def605638d951e59f090f249ad39bba0fc40d9d9330ad9e4648"
+    },
+    {
+      "key": "edb/1.0.0/e0205.hea",
+      "size": 177,
+      "etag": "0fde3d467fbec8e3810621e94e7609f7",
+      "sha256": "eb737c9484437c6f7e734f0aa01b853705c43eb06cca10098c2df603dac98bdc"
+    },
+    {
+      "key": "edb/1.0.0/e0205.atr",
+      "size": 24654,
+      "etag": "34c36d4a28df5fac0923071feb729381",
+      "sha256": "8d2e55e56e6da834022e8a36bc2a25784a131a299374ae683c78ed26351713fa"
+    },
+    {
+      "key": "edb/1.0.0/e0206.hea",
+      "size": 172,
+      "etag": "9adc9bc5939af36819fcd685ed0c9c3e",
+      "sha256": "1d507ba05cb4d7d748b4d174e637677dde9dda84e36e78310f8bc905664d141d"
+    },
+    {
+      "key": "edb/1.0.0/e0206.atr",
+      "size": 22394,
+      "etag": "9ded2c0aa1523531b02ac601bc591fd2",
+      "sha256": "e73c126a03ab867441b9b7fb4f2837cb94678f0823138972bfc9db4160f6e657"
+    },
+    {
+      "key": "edb/1.0.0/e0207.hea",
+      "size": 179,
+      "etag": "2d72c20ea1a966747f683c748e086396",
+      "sha256": "87c513800ed4c739582094a15814fc0e78d4f68605c72f3729bf3d6d0bb36e8a"
+    },
+    {
+      "key": "edb/1.0.0/e0207.atr",
+      "size": 14736,
+      "etag": "42707e12b603110eef5370319832df45",
+      "sha256": "d10bc2c1c7e0a51de9990a36a642c2c88760e1c9c89d569bb876477fb9ca7b0c"
+    },
+    {
+      "key": "edb/1.0.0/e0208.hea",
+      "size": 180,
+      "etag": "c91a77d9531b6139aa55e161df94e68b",
+      "sha256": "faedd7b5eaddc02c57786d4015c9fe269673e139088dc54bee4308ced52538f9"
+    },
+    {
+      "key": "edb/1.0.0/e0208.atr",
+      "size": 17924,
+      "etag": "7f76b1e6c87bfcd659fd23bb28f409d3",
+      "sha256": "83534c3a76b47b3544f4c3e0131a21b8f32f010e6920f1c0bf5cd968807531bd"
+    },
+    {
+      "key": "edb/1.0.0/e0210.hea",
+      "size": 172,
+      "etag": "95dca66a514583b3651762efd51c028d",
+      "sha256": "19efe731788a53eb9fff6d8872aebf4128bb7b97b77b163e91ed6bef619e7b97"
+    },
+    {
+      "key": "edb/1.0.0/e0210.atr",
+      "size": 17734,
+      "etag": "244168853cdf4cdbe8fb144e252f57a1",
+      "sha256": "0d00b87aec86b86f6cd7feeb76ef31e3db165849bfe905661bc92faafbd4d741"
+    },
+    {
+      "key": "edb/1.0.0/e0211.hea",
+      "size": 181,
+      "etag": "c704c4ac4ae99171961e0ad6d567d29e",
+      "sha256": "defc31ffa09fb104ad7dfe157ef731d04671463b112da69f623ac56271721860"
+    },
+    {
+      "key": "edb/1.0.0/e0211.atr",
+      "size": 30696,
+      "etag": "11f09304fea63f2c14f7932a268da5a0",
+      "sha256": "2f48ca1e9e51e9b82425c36f4430e2a83944519f192c432b6cf98ebb3aea937f"
+    },
+    {
+      "key": "edb/1.0.0/e0212.hea",
+      "size": 166,
+      "etag": "1cb7f20b853956658450de65d02b73be",
+      "sha256": "b378b31f0b40fd57f1fb09945963a4888769f0e46076951161f2ad1626db3e51"
+    },
+    {
+      "key": "edb/1.0.0/e0212.atr",
+      "size": 22108,
+      "etag": "ead6a393a14b9c94f8e575927b06ec84",
+      "sha256": "e042660ede5f5e53cb167b7c24aa2018239b34b8c20b742e93abe120fec1c2c6"
+    },
+    {
+      "key": "edb/1.0.0/e0213.hea",
+      "size": 173,
+      "etag": "d2ed03288499a140b33c164c9bfbb935",
+      "sha256": "c79bf9ce1bf65b973c011d0dcc159d68d0acc815765cae2345775b796dee2a32"
+    },
+    {
+      "key": "edb/1.0.0/e0213.atr",
+      "size": 22886,
+      "etag": "e9ca8425bc0b85dbc5432f23c8464aef",
+      "sha256": "140835bc5a16e2737f68e664f009b410a7b8878afe092498a534f94d98f7fead"
+    },
+    {
+      "key": "edb/1.0.0/e0302.hea",
+      "size": 268,
+      "etag": "6bf16e9ef686627662cfdde33fb61cfe",
+      "sha256": "a273bffdd7f3369e6bb3c40e23e7928c2454681a08c1b187a06aa05ca73df734"
+    },
+    {
+      "key": "edb/1.0.0/e0302.atr",
+      "size": 21080,
+      "etag": "4b8ac48bfbf890655defab7f4d12ff90",
+      "sha256": "302b8ed49617d8ded394d88bc535dac272035142824e4c541a61356c795e9ba3"
+    },
+    {
+      "key": "edb/1.0.0/e0303.hea",
+      "size": 265,
+      "etag": "8a4bfe807522a1a7d559958d66025fc4",
+      "sha256": "5fe96c14576ca6ed85d577197e9ee9776e811f765c123aeb55fcac252129b2db"
+    },
+    {
+      "key": "edb/1.0.0/e0303.atr",
+      "size": 18058,
+      "etag": "9ad811a4e0866ed4abe01362eb15ec9c",
+      "sha256": "11371e1c743abf2269e8a09ac2ad32b18e4c132cfbfd3264351ad2013762c45d"
+    },
+    {
+      "key": "edb/1.0.0/e0304.hea",
+      "size": 223,
+      "etag": "d171bf048835b2b1da57d63c733eab5d",
+      "sha256": "1710ac9e4c1fed66da24bc209e643a4786ec8e22253dfa28f8f7abd60b572b88"
+    },
+    {
+      "key": "edb/1.0.0/e0304.atr",
+      "size": 16928,
+      "etag": "1562ca69c92dec80723c3b15c7ae7108",
+      "sha256": "bd39c6a332b79c0b9f292c4eb6f8b3499cd7bd677eb437f7e4d19a40ebef006a"
+    },
+    {
+      "key": "edb/1.0.0/e0305.hea",
+      "size": 252,
+      "etag": "b80bc82aec26520325f607f30a97debd",
+      "sha256": "331653c516d984e1fe98d89be73570c1b690ce9f22e1d207dae037a63ce6064f"
+    },
+    {
+      "key": "edb/1.0.0/e0305.atr",
+      "size": 19326,
+      "etag": "5434fbe881514b78e6717e000fb6ff1d",
+      "sha256": "d3c97fc280dd2d8489e2de0553432e631a25240e2221cae71b6c711f012e5781"
+    },
+    {
+      "key": "edb/1.0.0/e0306.hea",
+      "size": 205,
+      "etag": "846194d92377af0685c20608b33bdf98",
+      "sha256": "3dc34d11fe3c7311c6633c4a885a7c79810b9b93e61555e78fe047c4a322a505"
+    },
+    {
+      "key": "edb/1.0.0/e0306.atr",
+      "size": 16264,
+      "etag": "51c30572f200c3989d4bb504e9a9617e",
+      "sha256": "5c57012055dfdade17b74319ded8d0a907fd30fd452c5d265502651366d07595"
+    },
+    {
+      "key": "edb/1.0.0/e0403.hea",
+      "size": 189,
+      "etag": "f41244791f12f64397cfbbdf776912e2",
+      "sha256": "f35a39a0c8793196e7393f25b287cf721e91dc44a8c7f6752731d81aeb733d66"
+    },
+    {
+      "key": "edb/1.0.0/e0403.atr",
+      "size": 18926,
+      "etag": "cedcc140d091a1e63fd35bc3b72b41dd",
+      "sha256": "72f350246d890d4aed9922616c72dc0fe0abfa75b1a4f666a4054f12817e2142"
+    },
+    {
+      "key": "edb/1.0.0/e0404.hea",
+      "size": 209,
+      "etag": "16bed07a27f34fe4c293272458bb7e7a",
+      "sha256": "ecb34578ecee11b612c89d0d0cfffa8315e54205d97ca6fb1e7bcc82c41a1d64"
+    },
+    {
+      "key": "edb/1.0.0/e0404.atr",
+      "size": 14462,
+      "etag": "d58c7a87fc89ac12977de3d61002062c",
+      "sha256": "9921c71a578cf07eb5fe21cd0e49b962874b676bcb52674c41810500b7dba900"
+    },
+    {
+      "key": "edb/1.0.0/e0405.hea",
+      "size": 185,
+      "etag": "055acfe34f33e8f88d29595a07a7c699",
+      "sha256": "435bc37500475527c096b791977dc4896756083421f5857ce1f17835d18fd6a0"
+    },
+    {
+      "key": "edb/1.0.0/e0405.atr",
+      "size": 23112,
+      "etag": "60c0cb9f75980daf493abd2710f70f9c",
+      "sha256": "e94d31cc00cd09a6d380d951851df41f60128ca0041e6869ee74584db1dcd518"
+    },
+    {
+      "key": "edb/1.0.0/e0406.hea",
+      "size": 240,
+      "etag": "1edfd4c207ad0c8ae6ccc7fac2d28e51",
+      "sha256": "332b6016588053548fecf69c4123cfc4b00a02b557621c10ca995c0dd581a743"
+    },
+    {
+      "key": "edb/1.0.0/e0406.atr",
+      "size": 18420,
+      "etag": "4a5157cf69f5d1e4756b65d5012577c3",
+      "sha256": "20d1a44b747617af71c45910767d0be9de4f2b01cd08c1c744ae08b764e1d4ea"
+    },
+    {
+      "key": "edb/1.0.0/e0408.hea",
+      "size": 234,
+      "etag": "c9ac4d28efd14c3f9f629fe124db1762",
+      "sha256": "6564ccd45d7a541c63ce4b48bceb549db55b0ea07bb2d13c2d5c59a1b5a5b252"
+    },
+    {
+      "key": "edb/1.0.0/e0408.atr",
+      "size": 18278,
+      "etag": "e17a0d5158742a67784447c6f21d3b8a",
+      "sha256": "8b7f0330f9484d5816abbdbac07008c2f09733c1ad05f7c5a551bfdea39244ec"
+    },
+    {
+      "key": "edb/1.0.0/e0409.hea",
+      "size": 255,
+      "etag": "e01cfda8ec0cbdaa8141f458c4508204",
+      "sha256": "f33649ed3b5a2ca0cbf9f78d9f2fb2ba1a51a381d411d163a9140ade76d580b9"
+    },
+    {
+      "key": "edb/1.0.0/e0409.atr",
+      "size": 25876,
+      "etag": "26a74ca16ab81280e3c8b7fdf18d78f0",
+      "sha256": "75e055a178f60ec23b876c721f5d85d3490322d3dfe90ce13f4b13154f5f9988"
+    },
+    {
+      "key": "edb/1.0.0/e0410.hea",
+      "size": 214,
+      "etag": "e1f4d9e67d9782210c973a4fe1e45f7a",
+      "sha256": "06c2d2b35e478c8c9f21c087a8ebdbf91e25c232d25e784e8f29421109887c1f"
+    },
+    {
+      "key": "edb/1.0.0/e0410.atr",
+      "size": 15388,
+      "etag": "703f9794f0f6bfc7f8d8246c31383d7a",
+      "sha256": "b232cfbcc586121de3aa67f4a31edb50170054b1829bcfc3cc9aa87c079d9659"
+    },
+    {
+      "key": "edb/1.0.0/e0411.hea",
+      "size": 182,
+      "etag": "9497c38510931342070114f8abc98891",
+      "sha256": "66d6fdeed8be612511dfa47ff28e1a62490a53c5751de79e074fcefc3017d91b"
+    },
+    {
+      "key": "edb/1.0.0/e0411.atr",
+      "size": 20328,
+      "etag": "9587361af17f9dd81d03073e0f929811",
+      "sha256": "0050aaf61548723b102764c8cc482ce66a13b022bee738657c71cf4e4bef4474"
+    },
+    {
+      "key": "edb/1.0.0/e0413.hea",
+      "size": 158,
+      "etag": "61fc7dd067483b424cff383a7316cd3d",
+      "sha256": "cceed870fed9950ba129ec4742e27013a594260f4fddb5a5dbfb214401081603"
+    },
+    {
+      "key": "edb/1.0.0/e0413.atr",
+      "size": 16752,
+      "etag": "71f3fe0fc11e59cf867c031aa7d1ba66",
+      "sha256": "a2a74c719735b040064ffca156c4bf8d25f1498fda4646516899651cf5ba92d6"
+    },
+    {
+      "key": "edb/1.0.0/e0415.hea",
+      "size": 159,
+      "etag": "fafb20eaa91281c407daed0f08a535b6",
+      "sha256": "4c0ebd5e74792f37547887412658cb3d3028007c48e2a6f88e0699f2f7bd6963"
+    },
+    {
+      "key": "edb/1.0.0/e0415.atr",
+      "size": 24254,
+      "etag": "5424cea3c59704bc2c751ab23816991c",
+      "sha256": "3376f56e0e065140f36bd921ecd570b32ac4369dc302d10b7e2128a4c1f9f547"
+    },
+    {
+      "key": "edb/1.0.0/e0417.hea",
+      "size": 178,
+      "etag": "eb6435d9bb3d20eab5455fe1088798ba",
+      "sha256": "41018649e11b578e84f0e58223be1b3299ca0810f0ded535b29ecd7388f0ec0c"
+    },
+    {
+      "key": "edb/1.0.0/e0417.atr",
+      "size": 18610,
+      "etag": "bee69f32f9a0412fa66604d95e290fa8",
+      "sha256": "5995b5ca371471e426930e8aaccde22a725721aecba57db226a7dbf6c63d7fc8"
+    },
+    {
+      "key": "edb/1.0.0/e0418.hea",
+      "size": 138,
+      "etag": "5fb2fded3eef4d8ecd8409a1ec935f80",
+      "sha256": "be51342ec1db9ad55973b896ec71e69de81b7aebcb8b99806146ba5740220e2e"
+    },
+    {
+      "key": "edb/1.0.0/e0418.atr",
+      "size": 23704,
+      "etag": "a793ab7ed8311abb21fd06c7f163336d",
+      "sha256": "9b18a5aeca188426f292a14da6062e5d406c707cc5a3c3003f9d6a9e866fef2d"
+    },
+    {
+      "key": "edb/1.0.0/e0501.hea",
+      "size": 141,
+      "etag": "4a1796a15458c3296a2e24ce3e9ea1dd",
+      "sha256": "260f4ed9fdb75bf48022a2cc57a02b172a60876dba54e616deca5b61cff40619"
+    },
+    {
+      "key": "edb/1.0.0/e0501.atr",
+      "size": 16062,
+      "etag": "8540c3dedc80efdccb93f3d1d7ccd92a",
+      "sha256": "9d99a1a58add47f0b503fab08c8046d6b31a50a0f2dbeb6a636889260b751936"
+    },
+    {
+      "key": "edb/1.0.0/e0509.hea",
+      "size": 213,
+      "etag": "3915cbf45ce31effa9b502c39a073663",
+      "sha256": "03a47fe8d8a3a9deaa644e733cb81fe019d15223a78c1e2358f141ba67372c89"
+    },
+    {
+      "key": "edb/1.0.0/e0509.atr",
+      "size": 16460,
+      "etag": "f0b89203d146923e28f2141d6695f1b7",
+      "sha256": "3506af8f090b34565fb37f6b5fbcbe6b8c3e855da0765c1c31091f3773fdd440"
+    },
+    {
+      "key": "edb/1.0.0/e0515.hea",
+      "size": 185,
+      "etag": "02ca86e10fbf0bf5f2c0eec7e57afde7",
+      "sha256": "374904997ba643e7fdfa45114988e51025fd2df385520a5bf707322d10816d15"
+    },
+    {
+      "key": "edb/1.0.0/e0515.atr",
+      "size": 22618,
+      "etag": "829efb0ef49aa3be7ad1920b8f2a16c2",
+      "sha256": "36d62dfb503f93b1bfa255a5463b0d299c67a3d0fed0761af2e035479eaed011"
+    },
+    {
+      "key": "edb/1.0.0/e0601.hea",
+      "size": 223,
+      "etag": "3ae0cc9bca8defd91f36f2d6423151f0",
+      "sha256": "c4aa9be40e91fd9b4f018a6bc90e2557c63951e3985bda38f996349e595e60e6"
+    },
+    {
+      "key": "edb/1.0.0/e0601.atr",
+      "size": 18346,
+      "etag": "8ce83d918cf19a37f099653b5829feb6",
+      "sha256": "469fa9188f268e281237b9f16e6210aae84accd86ddad7039340437e2b27eaee"
+    },
+    {
+      "key": "edb/1.0.0/e0602.hea",
+      "size": 254,
+      "etag": "57b52e8b27225722e344240bdb56d822",
+      "sha256": "8115dd9616ab9093b94e65fcead96200de02f8ac9ea75c16eb5f794a956a7628"
+    },
+    {
+      "key": "edb/1.0.0/e0602.atr",
+      "size": 22856,
+      "etag": "bea1327ce5cdf0fde1ba4a1868562062",
+      "sha256": "c2fc1c7fc4a6e7a9dfebeae1b55f49fdf7d209ed2402a5806bd344ebbca9f379"
+    },
+    {
+      "key": "edb/1.0.0/e0603.hea",
+      "size": 237,
+      "etag": "2d94940a4126d8e1087280fd02a77169",
+      "sha256": "4273fc08047c5ea50f004cae35445ea78895c2d7b6893dde89d9d50a6ab117e3"
+    },
+    {
+      "key": "edb/1.0.0/e0603.atr",
+      "size": 16574,
+      "etag": "8242fc5ccb094446113536426532ee32",
+      "sha256": "3e8135beed278eea28061a732f9dd463e2efb2f10365d4c249954d1f3645931d"
+    },
+    {
+      "key": "edb/1.0.0/e0604.hea",
+      "size": 259,
+      "etag": "e9bca73869bd8bf445e8a3d58860db38",
+      "sha256": "a30e8d7f3137ac3e7b7e29cd6ca87d6e3b3f7a1b60a96b701f5f360a4f1d07a9"
+    },
+    {
+      "key": "edb/1.0.0/e0604.atr",
+      "size": 17218,
+      "etag": "a8ecfb9503050b69c9020c9e509c9432",
+      "sha256": "ea0fab65e23fd917b3dc3d8a71a85533831843fa1db18613c20346bda3c023bb"
+    },
+    {
+      "key": "edb/1.0.0/e0605.hea",
+      "size": 224,
+      "etag": "438913b5339f5d82618fad493b50268f",
+      "sha256": "f8dd28054ff48138038a83a610104c05c9c77e7d0775e94b6ec8e78765d2c97f"
+    },
+    {
+      "key": "edb/1.0.0/e0605.atr",
+      "size": 25094,
+      "etag": "23fa5c180a96ebf518227374b1d90bf8",
+      "sha256": "96b556df803c47b82ba7b08e96d8c18f91548e5909f46150bf59901a7ee0453f"
+    },
+    {
+      "key": "edb/1.0.0/e0606.hea",
+      "size": 250,
+      "etag": "859c19de53cbbd685f85b65eeccba4a7",
+      "sha256": "c784e1bf9d4f456dc334fcc677b8cd118199caca61ebffe08de0fdacdadc79dc"
+    },
+    {
+      "key": "edb/1.0.0/e0606.atr",
+      "size": 19930,
+      "etag": "1255f0cad49285788b154f768f6f2312",
+      "sha256": "d7e4d4fb398c32ac4167ccb8141e6b91935b1b42015d90275f5f82a482385d20"
+    },
+    {
+      "key": "edb/1.0.0/e0607.hea",
+      "size": 284,
+      "etag": "a106ff8bdc90863de3d74765e951824c",
+      "sha256": "1581d055278aa1a97174d47fc341d89e2f34981aa25329e2b554b0a3aa34d428"
+    },
+    {
+      "key": "edb/1.0.0/e0607.atr",
+      "size": 21102,
+      "etag": "bbfa8dd726da6800397ef3d00481143d",
+      "sha256": "7135d454f1e64be09e1f941c3d168f277c3398c7627f21b4d8cb48fc0ad1da98"
+    },
+    {
+      "key": "edb/1.0.0/e0609.hea",
+      "size": 220,
+      "etag": "5dc755eaf7361440ba19094ee8c15a2a",
+      "sha256": "9eac46251da8415b12ca5fb6488cb3e7d5e641303bbdf6226987a8cd334ea446"
+    },
+    {
+      "key": "edb/1.0.0/e0609.atr",
+      "size": 19398,
+      "etag": "f11cbe300b7232663b6b70d173b019bf",
+      "sha256": "9342912392039f7d73ae9d0081bfb6c61b0419336f9c055bfb21687d51ca9763"
+    },
+    {
+      "key": "edb/1.0.0/e0610.hea",
+      "size": 225,
+      "etag": "2800b680025e15188e9052a6e1c8fa69",
+      "sha256": "4040dbff385e524cb0893ec2c904c091c5c337374abf196f8c7e5007f3f6a1b9"
+    },
+    {
+      "key": "edb/1.0.0/e0610.atr",
+      "size": 16392,
+      "etag": "03a7eb2995ebbd974a3cc4c94c979655",
+      "sha256": "e12e7b3c2aa78913a0dbad18a35863f9ba100298bfd8f6db63d26b681786f461"
+    },
+    {
+      "key": "edb/1.0.0/e0611.hea",
+      "size": 194,
+      "etag": "c193abd8c02e1a44383f8d8f9674b685",
+      "sha256": "6984088994e6ad3fb0f773c6a1b18fbff399c91f218c6d4f01be47594903c5d7"
+    },
+    {
+      "key": "edb/1.0.0/e0611.atr",
+      "size": 12226,
+      "etag": "82e48ae5f1de135cf9d39241d516f7a9",
+      "sha256": "f3f7fb9f8f881b0c2ef23777645195fea45bbcb971bd449b994e1693fc80823a"
+    },
+    {
+      "key": "edb/1.0.0/e0612.hea",
+      "size": 194,
+      "etag": "997622d73f383a115ee1379e9cfa7a44",
+      "sha256": "49ac1052d86d19931d690effdcece3ea08f92a66dab05552347e5f9122f0293f"
+    },
+    {
+      "key": "edb/1.0.0/e0612.atr",
+      "size": 14670,
+      "etag": "a1d12c98b0caaab06c132da619935dd6",
+      "sha256": "3cbaf6e0a153b078a76fa993e3545a21389b5fe91728bef78486364dfb821294"
+    },
+    {
+      "key": "edb/1.0.0/e0613.hea",
+      "size": 207,
+      "etag": "ad98301fb6e1b68aa4fad7e34ac27a78",
+      "sha256": "96c37f05127c2168ae51f82f2525c387ece5da9c36931229f8ad1b50fa2cace8"
+    },
+    {
+      "key": "edb/1.0.0/e0613.atr",
+      "size": 17286,
+      "etag": "f6b4edc360a8ead4de890a821e2f2f13",
+      "sha256": "4a41bf2a11eba3484f8b4704b5588e572efb5abb20f856854f7231b5d0ac8c6d"
+    },
+    {
+      "key": "edb/1.0.0/e0614.hea",
+      "size": 238,
+      "etag": "c5aca03503f4496b373cd0f3d9ba718c",
+      "sha256": "c6f37d01849a140498de0d61f1f7c3c4ec54887428e0414a5372ee524c5ba222"
+    },
+    {
+      "key": "edb/1.0.0/e0614.atr",
+      "size": 23800,
+      "etag": "a55ad7f4b3d1f20a2c1d23bbc5a235f6",
+      "sha256": "c991c44a6e951abb0a3f593f5a859c35b7d7741504b0e600e3a75a0eea4e57ac"
+    },
+    {
+      "key": "edb/1.0.0/e0615.hea",
+      "size": 227,
+      "etag": "f93f70455fe827d7d78a2656b9a15199",
+      "sha256": "879405b39495352eb9e58a4e612dc3fd768fee74c6034261e9cf2c3a7f9f42b7"
+    },
+    {
+      "key": "edb/1.0.0/e0615.atr",
+      "size": 14908,
+      "etag": "92eda5e3181c39090d2eec577a85153b",
+      "sha256": "efda95084ce95547fd3b99a8cc52d7bd0645e2668e502bae99f7e7b91fa2d697"
+    },
+    {
+      "key": "edb/1.0.0/e0704.hea",
+      "size": 177,
+      "etag": "2a773ffb2dda35ca414e1927703da5ed",
+      "sha256": "7626d3945c6aa546b09d808921aab510cb11e4256beeb7f09f235922218dbd67"
+    },
+    {
+      "key": "edb/1.0.0/e0704.atr",
+      "size": 20020,
+      "etag": "75bc3c6182a61fca7a7cdd4eb8367e7f",
+      "sha256": "8f11cedf1eeca33dd3984a73de17f8dd7d8cd2fe86eecd659c828e1dfb58fb4a"
+    },
+    {
+      "key": "edb/1.0.0/e0801.hea",
+      "size": 217,
+      "etag": "8b2fc724f5771249a7ca9919df07d95f",
+      "sha256": "09cf7dc00675dd8b8e7e9860ba2c60d716c9f66220d1b3785cef239372316e96"
+    },
+    {
+      "key": "edb/1.0.0/e0801.atr",
+      "size": 19798,
+      "etag": "36ff9e5c064e194cf1d8cb5404f5933c",
+      "sha256": "a83c6b878013d48cefe6360a2aeef3e760b1372ba6cbc494032c15a5f5e96ca0"
+    },
+    {
+      "key": "edb/1.0.0/e0808.hea",
+      "size": 218,
+      "etag": "5115e6f4af11da34145ae29a475bef1e",
+      "sha256": "5d6256d2123509068f0dc6c4d6b0bbfa23038b138eb84cfc53665a6058304d42"
+    },
+    {
+      "key": "edb/1.0.0/e0808.atr",
+      "size": 23380,
+      "etag": "53c5fbff759aad42ac0262cb5af00bf7",
+      "sha256": "dff45e550bde30db2657221468029314056f85c829ee5771393bdbb105c93f8c"
+    },
+    {
+      "key": "edb/1.0.0/e0817.hea",
+      "size": 224,
+      "etag": "aa6c62d6b412cf1d36ef650e555f3757",
+      "sha256": "06732df0053684faad870fcc259304ec623594c01d66e6f481e4a6fc6bfe14c8"
+    },
+    {
+      "key": "edb/1.0.0/e0817.atr",
+      "size": 16350,
+      "etag": "94ead99a7f64bc17f2e5609b8c0e524a",
+      "sha256": "1afe91178d60e69e156a0ba4721043fdede4b397e47e1c08bf0250b940ec02e4"
+    },
+    {
+      "key": "edb/1.0.0/e0818.hea",
+      "size": 199,
+      "etag": "e9f1b22ae1de1fef163c476cda6eaa17",
+      "sha256": "64ffd30ce6ea8384336cdfe86974dc0bafacc70ae1c5004b8fcd1ebd747dd846"
+    },
+    {
+      "key": "edb/1.0.0/e0818.atr",
+      "size": 21032,
+      "etag": "45c3847aa23dd6a70f76bc0e319a8e4c",
+      "sha256": "d8683b4a8b422691d826b1ef6902609ffb738c9297520800ac7441b105623a7d"
+    },
+    {
+      "key": "edb/1.0.0/e1301.hea",
+      "size": 171,
+      "etag": "1d01f5e05f3d360f393d9c9487856971",
+      "sha256": "57ce0c01017ba25de70c8d5a2de24fdf3920dc70a0d091a0a38391a5a77f8e88"
+    },
+    {
+      "key": "edb/1.0.0/e1301.atr",
+      "size": 17810,
+      "etag": "7eecdc8740bc4740deb5d4ec5b1f9173",
+      "sha256": "3caede513089ba29788f7d715532db133687014b9ce4670f4d6de6e9b5d62192"
+    },
+    {
+      "key": "edb/1.0.0/e1302.hea",
+      "size": 193,
+      "etag": "361a532b390ad55aebc96032b1f6afb6",
+      "sha256": "0fb5d67a0a2d799ddcfaba32883bcf30a6e3e9576dde5429a9abbdd834a44aa2"
+    },
+    {
+      "key": "edb/1.0.0/e1302.atr",
+      "size": 17232,
+      "etag": "8acf6ac49198921a7d263f0eb9f5ad1c",
+      "sha256": "5b7c3a63e5c37fe28bece4c8dca6e6db089c0f975ca4ce61106ab632f5fd3c18"
+    },
+    {
+      "key": "edb/1.0.0/e1304.hea",
+      "size": 187,
+      "etag": "70638f1935578c2fcc0dd4d157f032b4",
+      "sha256": "f1e247bbb487804216a3d82ee205a5f42a2f7a16b25387666cef22f5ff4db127"
+    },
+    {
+      "key": "edb/1.0.0/e1304.atr",
+      "size": 16288,
+      "etag": "a64728899d3becddcef6a9c7a6ed0af5",
+      "sha256": "4afbffd40aead31fef61f9de3cdf810599438723c3601ff498d804fc396f78b5"
+    }
+  ],
+  "bytes": 1683622,
+  "records": [
+    {
+      "record_id": "e0103",
+      "patient_group": "edb_e0103",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7336,
+      "symbols": {
+        "+": 17,
+        "N": 7212,
+        "s": 15,
+        "V": 82,
+        "F": 2,
+        "~": 8
+      },
+      "classes": {
+        "unmapped": 40,
+        "N": 7212,
+        "V": 82,
+        "F": 2
+      }
+    },
+    {
+      "record_id": "e0104",
+      "patient_group": "edb_e0104",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7824,
+      "symbols": {
+        "+": 1,
+        "N": 7670,
+        "|": 5,
+        "~": 71,
+        "s": 18,
+        "T": 33,
+        "V": 10,
+        "S": 16
+      },
+      "classes": {
+        "unmapped": 128,
+        "N": 7670,
+        "V": 10,
+        "S": 16
+      }
+    },
+    {
+      "record_id": "e0105",
+      "patient_group": "edb_e0105",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 6704,
+      "symbols": {
+        "+": 1,
+        "N": 6627,
+        "s": 33,
+        "T": 21,
+        "~": 20,
+        "S": 2
+      },
+      "classes": {
+        "unmapped": 75,
+        "N": 6627,
+        "S": 2
+      }
+    },
+    {
+      "record_id": "e0106",
+      "patient_group": "edb_e0106",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V3"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7217,
+      "symbols": {
+        "+": 1,
+        "N": 7147,
+        "~": 19,
+        "S": 5,
+        "T": 21,
+        "s": 24
+      },
+      "classes": {
+        "unmapped": 65,
+        "N": 7147,
+        "S": 5
+      }
+    },
+    {
+      "record_id": "e0107",
+      "patient_group": "edb_e0107",
+      "fs": 250,
+      "lead_names": [
+        "D3",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7240,
+      "symbols": {
+        "+": 1,
+        "N": 7015,
+        "~": 161,
+        "T": 37,
+        "S": 5,
+        "s": 12,
+        "V": 8,
+        "Q": 1
+      },
+      "classes": {
+        "unmapped": 212,
+        "N": 7015,
+        "S": 5,
+        "V": 8
+      }
+    },
+    {
+      "record_id": "e0108",
+      "patient_group": "edb_e0108",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 6710,
+      "symbols": {
+        "+": 1,
+        "N": 6593,
+        "V": 4,
+        "T": 63,
+        "~": 22,
+        "s": 27
+      },
+      "classes": {
+        "unmapped": 113,
+        "N": 6593,
+        "V": 4
+      }
+    },
+    {
+      "record_id": "e0110",
+      "patient_group": "edb_e0110",
+      "fs": 250,
+      "lead_names": [
+        "V3",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7095,
+      "symbols": {
+        "+": 1,
+        "N": 6970,
+        "\"": 1,
+        "~": 93,
+        "T": 20,
+        "s": 9,
+        "J": 1
+      },
+      "classes": {
+        "unmapped": 124,
+        "N": 6970,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0111",
+      "patient_group": "edb_e0111",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7654,
+      "symbols": {
+        "+": 1,
+        "N": 7534,
+        "~": 88,
+        "s": 6,
+        "T": 24,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 119,
+        "N": 7534,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0112",
+      "patient_group": "edb_e0112",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 5676,
+      "symbols": {
+        "+": 73,
+        "N": 5119,
+        "S": 380,
+        "~": 55,
+        "s": 15,
+        "T": 27,
+        "V": 7
+      },
+      "classes": {
+        "unmapped": 170,
+        "N": 5119,
+        "S": 380,
+        "V": 7
+      }
+    },
+    {
+      "record_id": "e0113",
+      "patient_group": "edb_e0113",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9173,
+      "symbols": {
+        "+": 1,
+        "N": 8928,
+        "V": 10,
+        "~": 115,
+        "T": 72,
+        "S": 8,
+        "s": 39
+      },
+      "classes": {
+        "unmapped": 227,
+        "N": 8928,
+        "V": 10,
+        "S": 8
+      }
+    },
+    {
+      "record_id": "e0114",
+      "patient_group": "edb_e0114",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 5664,
+      "symbols": {
+        "+": 7,
+        "N": 5366,
+        "~": 28,
+        "s": 30,
+        "T": 56,
+        "S": 175,
+        "V": 2
+      },
+      "classes": {
+        "unmapped": 121,
+        "N": 5366,
+        "S": 175,
+        "V": 2
+      }
+    },
+    {
+      "record_id": "e0115",
+      "patient_group": "edb_e0115",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11365,
+      "symbols": {
+        "+": 1,
+        "N": 11312,
+        "~": 45,
+        "T": 3,
+        "s": 3,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 52,
+        "N": 11312,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0116",
+      "patient_group": "edb_e0116",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 4605,
+      "symbols": {
+        "+": 1,
+        "N": 4491,
+        "~": 65,
+        "Q": 2,
+        "|": 20,
+        "T": 13,
+        "s": 12,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 113,
+        "N": 4491,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0118",
+      "patient_group": "edb_e0118",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7270,
+      "symbols": {
+        "+": 1,
+        "N": 7080,
+        "s": 15,
+        "T": 26,
+        "~": 124,
+        "|": 24
+      },
+      "classes": {
+        "unmapped": 190,
+        "N": 7080
+      }
+    },
+    {
+      "record_id": "e0119",
+      "patient_group": "edb_e0118",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8079,
+      "symbols": {
+        "+": 1,
+        "N": 7717,
+        "~": 305,
+        "T": 25,
+        "s": 21,
+        "|": 9,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 361,
+        "N": 7717,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0121",
+      "patient_group": "edb_e0118",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10767,
+      "symbols": {
+        "+": 3,
+        "N": 10614,
+        "~": 106,
+        "T": 23,
+        "S": 4,
+        "s": 6,
+        "V": 8,
+        "F": 3
+      },
+      "classes": {
+        "unmapped": 138,
+        "N": 10614,
+        "S": 4,
+        "V": 8,
+        "F": 3
+      }
+    },
+    {
+      "record_id": "e0122",
+      "patient_group": "edb_e0118",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11414,
+      "symbols": {
+        "+": 1,
+        "N": 11358,
+        "~": 26,
+        "S": 3,
+        "V": 2,
+        "T": 18,
+        "s": 6
+      },
+      "classes": {
+        "unmapped": 51,
+        "N": 11358,
+        "S": 3,
+        "V": 2
+      }
+    },
+    {
+      "record_id": "e0123",
+      "patient_group": "edb_e0123",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9204,
+      "symbols": {
+        "+": 1,
+        "N": 9169,
+        "V": 3,
+        "S": 3,
+        "~": 13,
+        "T": 6,
+        "s": 9
+      },
+      "classes": {
+        "unmapped": 29,
+        "N": 9169,
+        "V": 3,
+        "S": 3
+      }
+    },
+    {
+      "record_id": "e0124",
+      "patient_group": "edb_e0123",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9295,
+      "symbols": {
+        "+": 1,
+        "N": 9210,
+        "~": 45,
+        "s": 18,
+        "T": 18,
+        "V": 3
+      },
+      "classes": {
+        "unmapped": 82,
+        "N": 9210,
+        "V": 3
+      }
+    },
+    {
+      "record_id": "e0125",
+      "patient_group": "edb_e0123",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9136,
+      "symbols": {
+        "+": 1,
+        "N": 9062,
+        "~": 42,
+        "S": 4,
+        "T": 15,
+        "s": 12
+      },
+      "classes": {
+        "unmapped": 70,
+        "N": 9062,
+        "S": 4
+      }
+    },
+    {
+      "record_id": "e0126",
+      "patient_group": "edb_e0123",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8359,
+      "symbols": {
+        "+": 1,
+        "N": 8282,
+        "~": 58,
+        "S": 6,
+        "V": 3,
+        "s": 3,
+        "T": 6
+      },
+      "classes": {
+        "unmapped": 68,
+        "N": 8282,
+        "S": 6,
+        "V": 3
+      }
+    },
+    {
+      "record_id": "e0127",
+      "patient_group": "edb_e0127",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9487,
+      "symbols": {
+        "+": 1,
+        "N": 9391,
+        "s": 21,
+        "T": 15,
+        "~": 59
+      },
+      "classes": {
+        "unmapped": 96,
+        "N": 9391
+      }
+    },
+    {
+      "record_id": "e0129",
+      "patient_group": "edb_e0129",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V3"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 5728,
+      "symbols": {
+        "+": 1,
+        "N": 5566,
+        "~": 86,
+        "s": 24,
+        "T": 49,
+        "S": 2
+      },
+      "classes": {
+        "unmapped": 160,
+        "N": 5566,
+        "S": 2
+      }
+    },
+    {
+      "record_id": "e0133",
+      "patient_group": "edb_e0129",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V3"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 6688,
+      "symbols": {
+        "+": 1,
+        "N": 6568,
+        "~": 108,
+        "T": 9,
+        "S": 2
+      },
+      "classes": {
+        "unmapped": 118,
+        "N": 6568,
+        "S": 2
+      }
+    },
+    {
+      "record_id": "e0136",
+      "patient_group": "edb_e0136",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7141,
+      "symbols": {
+        "+": 1,
+        "N": 7044,
+        "T": 21,
+        "~": 57,
+        "s": 18
+      },
+      "classes": {
+        "unmapped": 97,
+        "N": 7044
+      }
+    },
+    {
+      "record_id": "e0139",
+      "patient_group": "edb_e0136",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10790,
+      "symbols": {
+        "+": 1,
+        "N": 10631,
+        "~": 143,
+        "s": 12,
+        "T": 3
+      },
+      "classes": {
+        "unmapped": 159,
+        "N": 10631
+      }
+    },
+    {
+      "record_id": "e0147",
+      "patient_group": "edb_e0147",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 6444,
+      "symbols": {
+        "+": 1,
+        "N": 6371,
+        "~": 45,
+        "s": 15,
+        "T": 9,
+        "S": 3
+      },
+      "classes": {
+        "unmapped": 70,
+        "N": 6371,
+        "S": 3
+      }
+    },
+    {
+      "record_id": "e0148",
+      "patient_group": "edb_e0147",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 6790,
+      "symbols": {
+        "+": 5,
+        "~": 76,
+        "N": 6662,
+        "s": 12,
+        "T": 20,
+        "V": 10,
+        "S": 4,
+        "|": 1
+      },
+      "classes": {
+        "unmapped": 114,
+        "N": 6662,
+        "V": 10,
+        "S": 4
+      }
+    },
+    {
+      "record_id": "e0151",
+      "patient_group": "edb_e0151",
+      "fs": 250,
+      "lead_names": [
+        "V3",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7687,
+      "symbols": {
+        "+": 1,
+        "N": 7545,
+        "~": 112,
+        "S": 1,
+        "s": 6,
+        "T": 22
+      },
+      "classes": {
+        "unmapped": 141,
+        "N": 7545,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0154",
+      "patient_group": "edb_e0154",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 6837,
+      "symbols": {
+        "+": 1,
+        "N": 6782,
+        "~": 48,
+        "T": 3,
+        "s": 3
+      },
+      "classes": {
+        "unmapped": 55,
+        "N": 6782
+      }
+    },
+    {
+      "record_id": "e0155",
+      "patient_group": "edb_e0154",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8447,
+      "symbols": {
+        "+": 1,
+        "N": 8124,
+        "~": 309,
+        "T": 12,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 322,
+        "N": 8124,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0159",
+      "patient_group": "edb_e0159",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9487,
+      "symbols": {
+        "+": 7,
+        "N": 9147,
+        "~": 281,
+        "S": 24,
+        "V": 25,
+        "s": 3
+      },
+      "classes": {
+        "unmapped": 291,
+        "N": 9147,
+        "S": 24,
+        "V": 25
+      }
+    },
+    {
+      "record_id": "e0161",
+      "patient_group": "edb_e0161",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8946,
+      "symbols": {
+        "+": 1,
+        "N": 8853,
+        "~": 61,
+        "S": 5,
+        "\"": 12,
+        "T": 11,
+        "s": 3
+      },
+      "classes": {
+        "unmapped": 88,
+        "N": 8853,
+        "S": 5
+      }
+    },
+    {
+      "record_id": "e0162",
+      "patient_group": "edb_e0162",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10747,
+      "symbols": {
+        "+": 1,
+        "N": 10604,
+        "~": 112,
+        "T": 15,
+        "s": 3,
+        "V": 10,
+        "S": 2
+      },
+      "classes": {
+        "unmapped": 131,
+        "N": 10604,
+        "V": 10,
+        "S": 2
+      }
+    },
+    {
+      "record_id": "e0163",
+      "patient_group": "edb_e0162",
+      "fs": 250,
+      "lead_names": [
+        "MLIII",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7726,
+      "symbols": {
+        "+": 1,
+        "N": 7603,
+        "V": 10,
+        "~": 103,
+        "s": 3,
+        "S": 3,
+        "T": 3
+      },
+      "classes": {
+        "unmapped": 110,
+        "N": 7603,
+        "V": 10,
+        "S": 3
+      }
+    },
+    {
+      "record_id": "e0166",
+      "patient_group": "edb_e0166",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 6456,
+      "symbols": {
+        "+": 1,
+        "N": 6396,
+        "~": 19,
+        "\"": 2,
+        "s": 12,
+        "S": 3,
+        "T": 23
+      },
+      "classes": {
+        "unmapped": 57,
+        "N": 6396,
+        "S": 3
+      }
+    },
+    {
+      "record_id": "e0170",
+      "patient_group": "edb_e0170",
+      "fs": 250,
+      "lead_names": [
+        "V4",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9160,
+      "symbols": {
+        "+": 1,
+        "N": 8795,
+        "~": 325,
+        "S": 28,
+        "V": 1,
+        "|": 1,
+        "s": 6,
+        "T": 3
+      },
+      "classes": {
+        "unmapped": 336,
+        "N": 8795,
+        "S": 28,
+        "V": 1
+      }
+    },
+    {
+      "record_id": "e0202",
+      "patient_group": "edb_e0202",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10037,
+      "symbols": {
+        "+": 7,
+        "N": 9804,
+        "~": 133,
+        "s": 24,
+        "T": 18,
+        "V": 30,
+        "S": 15,
+        "Q": 5,
+        "F": 1
+      },
+      "classes": {
+        "unmapped": 187,
+        "N": 9804,
+        "V": 30,
+        "S": 15,
+        "F": 1
+      }
+    },
+    {
+      "record_id": "e0203",
+      "patient_group": "edb_e0203",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10229,
+      "symbols": {
+        "+": 33,
+        "N": 10062,
+        "S": 98,
+        "~": 19,
+        "F": 3,
+        "s": 12,
+        "V": 2
+      },
+      "classes": {
+        "unmapped": 64,
+        "N": 10062,
+        "S": 98,
+        "F": 3,
+        "V": 2
+      }
+    },
+    {
+      "record_id": "e0204",
+      "patient_group": "edb_e0204",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11593,
+      "symbols": {
+        "+": 1,
+        "N": 11466,
+        "~": 108,
+        "s": 9,
+        "T": 3,
+        "S": 6
+      },
+      "classes": {
+        "unmapped": 121,
+        "N": 11466,
+        "S": 6
+      }
+    },
+    {
+      "record_id": "e0205",
+      "patient_group": "edb_e0205",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 12080,
+      "symbols": {
+        "+": 1,
+        "N": 11803,
+        "~": 246,
+        "|": 6,
+        "T": 14,
+        "s": 6,
+        "S": 4
+      },
+      "classes": {
+        "unmapped": 273,
+        "N": 11803,
+        "S": 4
+      }
+    },
+    {
+      "record_id": "e0206",
+      "patient_group": "edb_e0206",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11014,
+      "symbols": {
+        "+": 1,
+        "N": 10741,
+        "V": 164,
+        "s": 18,
+        "T": 15,
+        "~": 64,
+        "S": 11
+      },
+      "classes": {
+        "unmapped": 98,
+        "N": 10741,
+        "V": 164,
+        "S": 11
+      }
+    },
+    {
+      "record_id": "e0207",
+      "patient_group": "edb_e0207",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7252,
+      "symbols": {
+        "+": 1,
+        "N": 7164,
+        "V": 31,
+        "~": 33,
+        "S": 2,
+        "s": 18,
+        "T": 3
+      },
+      "classes": {
+        "unmapped": 55,
+        "N": 7164,
+        "V": 31,
+        "S": 2
+      }
+    },
+    {
+      "record_id": "e0208",
+      "patient_group": "edb_e0208",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8832,
+      "symbols": {
+        "+": 1,
+        "N": 8695,
+        "~": 125,
+        "s": 9,
+        "|": 2
+      },
+      "classes": {
+        "unmapped": 137,
+        "N": 8695
+      }
+    },
+    {
+      "record_id": "e0210",
+      "patient_group": "edb_e0210",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8804,
+      "symbols": {
+        "+": 1,
+        "N": 8738,
+        "~": 58,
+        "s": 6,
+        "V": 1
+      },
+      "classes": {
+        "unmapped": 65,
+        "N": 8738,
+        "V": 1
+      }
+    },
+    {
+      "record_id": "e0211",
+      "patient_group": "edb_e0211",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 15152,
+      "symbols": {
+        "+": 1,
+        "N": 14955,
+        "~": 156,
+        "V": 15,
+        "s": 6,
+        "T": 19
+      },
+      "classes": {
+        "unmapped": 182,
+        "N": 14955,
+        "V": 15
+      }
+    },
+    {
+      "record_id": "e0212",
+      "patient_group": "edb_e0212",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10957,
+      "symbols": {
+        "+": 1,
+        "N": 10829,
+        "~": 121,
+        "s": 6
+      },
+      "classes": {
+        "unmapped": 128,
+        "N": 10829
+      }
+    },
+    {
+      "record_id": "e0213",
+      "patient_group": "edb_e0213",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11268,
+      "symbols": {
+        "+": 1,
+        "N": 10784,
+        "V": 286,
+        "~": 187,
+        "|": 1,
+        "s": 9
+      },
+      "classes": {
+        "unmapped": 198,
+        "N": 10784,
+        "V": 286
+      }
+    },
+    {
+      "record_id": "e0302",
+      "patient_group": "edb_e0302",
+      "fs": 250,
+      "lead_names": [
+        "V3",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10431,
+      "symbols": {
+        "+": 1,
+        "N": 10338,
+        "~": 75,
+        "s": 15,
+        "S": 2
+      },
+      "classes": {
+        "unmapped": 91,
+        "N": 10338,
+        "S": 2
+      }
+    },
+    {
+      "record_id": "e0303",
+      "patient_group": "edb_e0303",
+      "fs": 250,
+      "lead_names": [
+        "V2",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8954,
+      "symbols": {
+        "+": 3,
+        "N": 8867,
+        "S": 3,
+        "~": 71,
+        "V": 4,
+        "s": 3,
+        "T": 3
+      },
+      "classes": {
+        "unmapped": 80,
+        "N": 8867,
+        "S": 3,
+        "V": 4
+      }
+    },
+    {
+      "record_id": "e0304",
+      "patient_group": "edb_e0304",
+      "fs": 250,
+      "lead_names": [
+        "V3",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8386,
+      "symbols": {
+        "+": 1,
+        "N": 8303,
+        "V": 55,
+        "T": 13,
+        "~": 11,
+        "s": 3
+      },
+      "classes": {
+        "unmapped": 28,
+        "N": 8303,
+        "V": 55
+      }
+    },
+    {
+      "record_id": "e0305",
+      "patient_group": "edb_e0305",
+      "fs": 250,
+      "lead_names": [
+        "V2",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9523,
+      "symbols": {
+        "+": 1,
+        "N": 9380,
+        "~": 82,
+        "T": 15,
+        "s": 6,
+        "S": 23,
+        "F": 6,
+        "V": 8,
+        "|": 2
+      },
+      "classes": {
+        "unmapped": 106,
+        "N": 9380,
+        "S": 23,
+        "F": 6,
+        "V": 8
+      }
+    },
+    {
+      "record_id": "e0306",
+      "patient_group": "edb_e0306",
+      "fs": 250,
+      "lead_names": [
+        "V2",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7990,
+      "symbols": {
+        "+": 1,
+        "N": 7715,
+        "T": 15,
+        "V": 188,
+        "~": 61,
+        "s": 9,
+        "|": 1
+      },
+      "classes": {
+        "unmapped": 87,
+        "N": 7715,
+        "V": 188
+      }
+    },
+    {
+      "record_id": "e0403",
+      "patient_group": "edb_e0403",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "V1"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9344,
+      "symbols": {
+        "+": 1,
+        "N": 9291,
+        "~": 22,
+        "V": 5,
+        "S": 1,
+        "T": 9,
+        "s": 15
+      },
+      "classes": {
+        "unmapped": 47,
+        "N": 9291,
+        "V": 5,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0404",
+      "patient_group": "edb_e0404",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7012,
+      "symbols": {
+        "+": 1,
+        "N": 6939,
+        "T": 32,
+        "~": 24,
+        "s": 15,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 72,
+        "N": 6939,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0405",
+      "patient_group": "edb_e0405",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "V1"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11214,
+      "symbols": {
+        "+": 1,
+        "N": 11088,
+        "~": 50,
+        "T": 55,
+        "s": 17,
+        "S": 3
+      },
+      "classes": {
+        "unmapped": 123,
+        "N": 11088,
+        "S": 3
+      }
+    },
+    {
+      "record_id": "e0406",
+      "patient_group": "edb_e0406",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9066,
+      "symbols": {
+        "+": 1,
+        "N": 8941,
+        "~": 102,
+        "S": 4,
+        "T": 9,
+        "s": 9
+      },
+      "classes": {
+        "unmapped": 121,
+        "N": 8941,
+        "S": 4
+      }
+    },
+    {
+      "record_id": "e0408",
+      "patient_group": "edb_e0408",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9087,
+      "symbols": {
+        "+": 1,
+        "N": 9037,
+        "~": 43,
+        "s": 6
+      },
+      "classes": {
+        "unmapped": 50,
+        "N": 9037
+      }
+    },
+    {
+      "record_id": "e0409",
+      "patient_group": "edb_e0409",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 12904,
+      "symbols": {
+        "+": 2,
+        "N": 12881,
+        "~": 13,
+        "s": 4,
+        "S": 3,
+        "V": 1
+      },
+      "classes": {
+        "unmapped": 19,
+        "N": 12881,
+        "S": 3,
+        "V": 1
+      }
+    },
+    {
+      "record_id": "e0410",
+      "patient_group": "edb_e0410",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7595,
+      "symbols": {
+        "+": 1,
+        "N": 7527,
+        "~": 52,
+        "T": 9,
+        "s": 6
+      },
+      "classes": {
+        "unmapped": 68,
+        "N": 7527
+      }
+    },
+    {
+      "record_id": "e0411",
+      "patient_group": "edb_e0411",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10027,
+      "symbols": {
+        "+": 1,
+        "N": 9467,
+        "V": 457,
+        "F": 7,
+        "~": 71,
+        "T": 15,
+        "s": 6,
+        "S": 3
+      },
+      "classes": {
+        "unmapped": 93,
+        "N": 9467,
+        "V": 457,
+        "F": 7,
+        "S": 3
+      }
+    },
+    {
+      "record_id": "e0413",
+      "patient_group": "edb_e0413",
+      "fs": 250,
+      "lead_names": [
+        "V2",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8215,
+      "symbols": {
+        "+": 45,
+        "N": 7488,
+        "V": 647,
+        "S": 12,
+        "~": 6,
+        "T": 9,
+        "F": 2,
+        "s": 6
+      },
+      "classes": {
+        "unmapped": 66,
+        "N": 7488,
+        "V": 647,
+        "S": 12,
+        "F": 2
+      }
+    },
+    {
+      "record_id": "e0415",
+      "patient_group": "edb_e0415",
+      "fs": 250,
+      "lead_names": [
+        "V2",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11792,
+      "symbols": {
+        "+": 1,
+        "N": 11377,
+        "~": 354,
+        "S": 13,
+        "V": 17,
+        "T": 21,
+        "s": 9
+      },
+      "classes": {
+        "unmapped": 385,
+        "N": 11377,
+        "S": 13,
+        "V": 17
+      }
+    },
+    {
+      "record_id": "e0417",
+      "patient_group": "edb_e0417",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9263,
+      "symbols": {
+        "+": 1,
+        "N": 9229,
+        "V": 23,
+        "s": 9,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 10,
+        "N": 9229,
+        "V": 23,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0418",
+      "patient_group": "edb_e0418",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLI"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11748,
+      "symbols": {
+        "+": 1,
+        "N": 11699,
+        "S": 7,
+        "~": 20,
+        "s": 21
+      },
+      "classes": {
+        "unmapped": 42,
+        "N": 11699,
+        "S": 7
+      }
+    },
+    {
+      "record_id": "e0501",
+      "patient_group": "edb_e0501",
+      "fs": 250,
+      "lead_names": [
+        "V2",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7888,
+      "symbols": {
+        "+": 1,
+        "N": 7753,
+        "~": 111,
+        "s": 18,
+        "S": 5
+      },
+      "classes": {
+        "unmapped": 130,
+        "N": 7753,
+        "S": 5
+      }
+    },
+    {
+      "record_id": "e0509",
+      "patient_group": "edb_e0509",
+      "fs": 250,
+      "lead_names": [
+        "V2",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8135,
+      "symbols": {
+        "+": 3,
+        "N": 7945,
+        "V": 140,
+        "F": 6,
+        "~": 22,
+        "\"": 19
+      },
+      "classes": {
+        "unmapped": 44,
+        "N": 7945,
+        "V": 140,
+        "F": 6
+      }
+    },
+    {
+      "record_id": "e0515",
+      "patient_group": "edb_e0515",
+      "fs": 250,
+      "lead_names": [
+        "V2",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10950,
+      "symbols": {
+        "+": 1,
+        "N": 10693,
+        "~": 200,
+        "T": 36,
+        "s": 18,
+        "|": 1,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 256,
+        "N": 10693,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0601",
+      "patient_group": "edb_e0601",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8963,
+      "symbols": {
+        "+": 1,
+        "N": 8763,
+        "~": 169,
+        "s": 6,
+        "T": 14,
+        "S": 6,
+        "\"": 4
+      },
+      "classes": {
+        "unmapped": 194,
+        "N": 8763,
+        "S": 6
+      }
+    },
+    {
+      "record_id": "e0602",
+      "patient_group": "edb_e0602",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11248,
+      "symbols": {
+        "+": 7,
+        "N": 10768,
+        "V": 339,
+        "S": 18,
+        "~": 88,
+        "s": 24,
+        "F": 3,
+        "\"": 1
+      },
+      "classes": {
+        "unmapped": 120,
+        "N": 10768,
+        "V": 339,
+        "S": 18,
+        "F": 3
+      }
+    },
+    {
+      "record_id": "e0603",
+      "patient_group": "edb_e0603",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "V2"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8005,
+      "symbols": {
+        "+": 9,
+        "N": 7911,
+        "s": 24,
+        "T": 31,
+        "~": 4,
+        "\"": 2,
+        "S": 1,
+        "V": 17,
+        "n": 5,
+        "F": 1
+      },
+      "classes": {
+        "unmapped": 75,
+        "N": 7911,
+        "S": 1,
+        "V": 17,
+        "F": 1
+      }
+    },
+    {
+      "record_id": "e0604",
+      "patient_group": "edb_e0604",
+      "fs": 250,
+      "lead_names": [
+        "V2",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7998,
+      "symbols": {
+        "+": 1,
+        "N": 7805,
+        "s": 60,
+        "T": 69,
+        "~": 48,
+        "S": 9,
+        "|": 3,
+        "V": 1,
+        "\"": 2
+      },
+      "classes": {
+        "unmapped": 183,
+        "N": 7805,
+        "S": 9,
+        "V": 1
+      }
+    },
+    {
+      "record_id": "e0605",
+      "patient_group": "edb_e0605",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11726,
+      "symbols": {
+        "+": 315,
+        "N": 10449,
+        "s": 3,
+        "F": 224,
+        "V": 713,
+        "~": 20,
+        "\"": 2
+      },
+      "classes": {
+        "unmapped": 340,
+        "N": 10449,
+        "F": 224,
+        "V": 713
+      }
+    },
+    {
+      "record_id": "e0606",
+      "patient_group": "edb_e0606",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9763,
+      "symbols": {
+        "+": 3,
+        "N": 9591,
+        "~": 106,
+        "V": 23,
+        "T": 23,
+        "s": 6,
+        "F": 7,
+        "Q": 3,
+        "\"": 1
+      },
+      "classes": {
+        "unmapped": 142,
+        "N": 9591,
+        "V": 23,
+        "F": 7
+      }
+    },
+    {
+      "record_id": "e0607",
+      "patient_group": "edb_e0607",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "V4"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10397,
+      "symbols": {
+        "+": 5,
+        "N": 10218,
+        "~": 107,
+        "S": 46,
+        "s": 18,
+        "V": 2,
+        "|": 1
+      },
+      "classes": {
+        "unmapped": 131,
+        "N": 10218,
+        "S": 46,
+        "V": 2
+      }
+    },
+    {
+      "record_id": "e0609",
+      "patient_group": "edb_e0609",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9445,
+      "symbols": {
+        "+": 1,
+        "N": 9287,
+        "V": 19,
+        "~": 80,
+        "\"": 31,
+        "F": 7,
+        "s": 12,
+        "S": 8
+      },
+      "classes": {
+        "unmapped": 124,
+        "N": 9287,
+        "V": 19,
+        "F": 7,
+        "S": 8
+      }
+    },
+    {
+      "record_id": "e0610",
+      "patient_group": "edb_e0610",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8071,
+      "symbols": {
+        "+": 1,
+        "N": 7986,
+        "S": 11,
+        "~": 49,
+        "T": 11,
+        "V": 2,
+        "s": 9,
+        "\"": 2
+      },
+      "classes": {
+        "unmapped": 72,
+        "N": 7986,
+        "S": 11,
+        "V": 2
+      }
+    },
+    {
+      "record_id": "e0611",
+      "patient_group": "edb_e0611",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 5957,
+      "symbols": {
+        "+": 1,
+        "N": 5812,
+        "~": 128,
+        "\"": 15,
+        "|": 1
+      },
+      "classes": {
+        "unmapped": 145,
+        "N": 5812
+      }
+    },
+    {
+      "record_id": "e0612",
+      "patient_group": "edb_e0612",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7103,
+      "symbols": {
+        "+": 11,
+        "N": 6858,
+        "~": 183,
+        "s": 9,
+        "S": 3,
+        "\"": 7,
+        "T": 6,
+        "V": 26
+      },
+      "classes": {
+        "unmapped": 216,
+        "N": 6858,
+        "S": 3,
+        "V": 26
+      }
+    },
+    {
+      "record_id": "e0613",
+      "patient_group": "edb_e0613",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8079,
+      "symbols": {
+        "+": 16,
+        "N": 7725,
+        "~": 246,
+        "\"": 14,
+        "s": 27,
+        "T": 50,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 353,
+        "N": 7725,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0614",
+      "patient_group": "edb_e0614",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "V1"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11425,
+      "symbols": {
+        "+": 97,
+        "N": 10110,
+        "V": 891,
+        "~": 185,
+        "F": 82,
+        "s": 36,
+        "S": 24
+      },
+      "classes": {
+        "unmapped": 318,
+        "N": 10110,
+        "V": 891,
+        "F": 82,
+        "S": 24
+      }
+    },
+    {
+      "record_id": "e0615",
+      "patient_group": "edb_e0615",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "MLIII"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7302,
+      "symbols": {
+        "+": 23,
+        "N": 7027,
+        "V": 142,
+        "~": 70,
+        "S": 23,
+        "\"": 7,
+        "a": 1,
+        "T": 6,
+        "s": 3
+      },
+      "classes": {
+        "unmapped": 109,
+        "N": 7027,
+        "V": 142,
+        "S": 24
+      }
+    },
+    {
+      "record_id": "e0704",
+      "patient_group": "edb_e0704",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "V1"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9838,
+      "symbols": {
+        "+": 1,
+        "N": 9718,
+        "~": 93,
+        "s": 8,
+        "T": 18
+      },
+      "classes": {
+        "unmapped": 120,
+        "N": 9718
+      }
+    },
+    {
+      "record_id": "e0801",
+      "patient_group": "edb_e0801",
+      "fs": 250,
+      "lead_names": [
+        "V1",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 9682,
+      "symbols": {
+        "+": 1,
+        "N": 9385,
+        "~": 278,
+        "T": 9,
+        "s": 6,
+        "V": 2,
+        "S": 1
+      },
+      "classes": {
+        "unmapped": 294,
+        "N": 9385,
+        "V": 2,
+        "S": 1
+      }
+    },
+    {
+      "record_id": "e0808",
+      "patient_group": "edb_e0808",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "V1"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 11353,
+      "symbols": {
+        "+": 1,
+        "N": 11075,
+        "~": 244,
+        "T": 15,
+        "s": 18
+      },
+      "classes": {
+        "unmapped": 278,
+        "N": 11075
+      }
+    },
+    {
+      "record_id": "e0817",
+      "patient_group": "edb_e0817",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "V1"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7878,
+      "symbols": {
+        "+": 1,
+        "N": 7554,
+        "~": 314,
+        "s": 6,
+        "T": 3
+      },
+      "classes": {
+        "unmapped": 324,
+        "N": 7554
+      }
+    },
+    {
+      "record_id": "e0818",
+      "patient_group": "edb_e0818",
+      "fs": 250,
+      "lead_names": [
+        "V5",
+        "V1"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 10354,
+      "symbols": {
+        "+": 1,
+        "N": 10129,
+        "~": 212,
+        "s": 9,
+        "T": 3
+      },
+      "classes": {
+        "unmapped": 225,
+        "N": 10129
+      }
+    },
+    {
+      "record_id": "e1301",
+      "patient_group": "edb_e1301",
+      "fs": 250,
+      "lead_names": [
+        "V1",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8791,
+      "symbols": {
+        "+": 2,
+        "N": 8730,
+        "S": 1,
+        "V": 9,
+        "~": 28,
+        "T": 15,
+        "s": 6
+      },
+      "classes": {
+        "unmapped": 51,
+        "N": 8730,
+        "S": 1,
+        "V": 9
+      }
+    },
+    {
+      "record_id": "e1302",
+      "patient_group": "edb_e1302",
+      "fs": 250,
+      "lead_names": [
+        "V1",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 8461,
+      "symbols": {
+        "+": 1,
+        "N": 8345,
+        "~": 86,
+        "T": 12,
+        "s": 12,
+        "S": 2,
+        "V": 3
+      },
+      "classes": {
+        "unmapped": 111,
+        "N": 8345,
+        "S": 2,
+        "V": 3
+      }
+    },
+    {
+      "record_id": "e1304",
+      "patient_group": "edb_e1304",
+      "fs": 250,
+      "lead_names": [
+        "V1",
+        "V5"
+      ],
+      "lead_ii_indices": [],
+      "annotation_events": 7980,
+      "symbols": {
+        "+": 5,
+        "N": 7830,
+        "~": 87,
+        "T": 18,
+        "s": 6,
+        "S": 28,
+        "V": 6
+      },
+      "classes": {
+        "unmapped": 116,
+        "N": 7830,
+        "S": 28,
+        "V": 6
+      }
+    }
+  ],
+  "subjects": {
+    "edb_e0103": {
+      "records": [
+        "e0103"
+      ],
+      "classes": {
+        "unmapped": 40,
+        "N": 7212,
+        "V": 82,
+        "F": 2
+      }
+    },
+    "edb_e0104": {
+      "records": [
+        "e0104"
+      ],
+      "classes": {
+        "unmapped": 128,
+        "N": 7670,
+        "V": 10,
+        "S": 16
+      }
+    },
+    "edb_e0105": {
+      "records": [
+        "e0105"
+      ],
+      "classes": {
+        "unmapped": 75,
+        "N": 6627,
+        "S": 2
+      }
+    },
+    "edb_e0106": {
+      "records": [
+        "e0106"
+      ],
+      "classes": {
+        "unmapped": 65,
+        "N": 7147,
+        "S": 5
+      }
+    },
+    "edb_e0107": {
+      "records": [
+        "e0107"
+      ],
+      "classes": {
+        "unmapped": 212,
+        "N": 7015,
+        "S": 5,
+        "V": 8
+      }
+    },
+    "edb_e0108": {
+      "records": [
+        "e0108"
+      ],
+      "classes": {
+        "unmapped": 113,
+        "N": 6593,
+        "V": 4
+      }
+    },
+    "edb_e0110": {
+      "records": [
+        "e0110"
+      ],
+      "classes": {
+        "unmapped": 124,
+        "N": 6970,
+        "S": 1
+      }
+    },
+    "edb_e0111": {
+      "records": [
+        "e0111"
+      ],
+      "classes": {
+        "unmapped": 119,
+        "N": 7534,
+        "S": 1
+      }
+    },
+    "edb_e0112": {
+      "records": [
+        "e0112"
+      ],
+      "classes": {
+        "unmapped": 170,
+        "N": 5119,
+        "S": 380,
+        "V": 7
+      }
+    },
+    "edb_e0113": {
+      "records": [
+        "e0113"
+      ],
+      "classes": {
+        "unmapped": 227,
+        "N": 8928,
+        "V": 10,
+        "S": 8
+      }
+    },
+    "edb_e0114": {
+      "records": [
+        "e0114"
+      ],
+      "classes": {
+        "unmapped": 121,
+        "N": 5366,
+        "S": 175,
+        "V": 2
+      }
+    },
+    "edb_e0115": {
+      "records": [
+        "e0115"
+      ],
+      "classes": {
+        "unmapped": 52,
+        "N": 11312,
+        "S": 1
+      }
+    },
+    "edb_e0116": {
+      "records": [
+        "e0116"
+      ],
+      "classes": {
+        "unmapped": 113,
+        "N": 4491,
+        "S": 1
+      }
+    },
+    "edb_e0118": {
+      "records": [
+        "e0118",
+        "e0119",
+        "e0121",
+        "e0122"
+      ],
+      "classes": {
+        "unmapped": 740,
+        "N": 36769,
+        "S": 8,
+        "V": 10,
+        "F": 3
+      }
+    },
+    "edb_e0123": {
+      "records": [
+        "e0123",
+        "e0124",
+        "e0125",
+        "e0126"
+      ],
+      "classes": {
+        "unmapped": 249,
+        "N": 35723,
+        "V": 9,
+        "S": 13
+      }
+    },
+    "edb_e0127": {
+      "records": [
+        "e0127"
+      ],
+      "classes": {
+        "unmapped": 96,
+        "N": 9391
+      }
+    },
+    "edb_e0129": {
+      "records": [
+        "e0129",
+        "e0133"
+      ],
+      "classes": {
+        "unmapped": 278,
+        "N": 12134,
+        "S": 4
+      }
+    },
+    "edb_e0136": {
+      "records": [
+        "e0136",
+        "e0139"
+      ],
+      "classes": {
+        "unmapped": 256,
+        "N": 17675
+      }
+    },
+    "edb_e0147": {
+      "records": [
+        "e0147",
+        "e0148"
+      ],
+      "classes": {
+        "unmapped": 184,
+        "N": 13033,
+        "S": 7,
+        "V": 10
+      }
+    },
+    "edb_e0151": {
+      "records": [
+        "e0151"
+      ],
+      "classes": {
+        "unmapped": 141,
+        "N": 7545,
+        "S": 1
+      }
+    },
+    "edb_e0154": {
+      "records": [
+        "e0154",
+        "e0155"
+      ],
+      "classes": {
+        "unmapped": 377,
+        "N": 14906,
+        "S": 1
+      }
+    },
+    "edb_e0159": {
+      "records": [
+        "e0159"
+      ],
+      "classes": {
+        "unmapped": 291,
+        "N": 9147,
+        "S": 24,
+        "V": 25
+      }
+    },
+    "edb_e0161": {
+      "records": [
+        "e0161"
+      ],
+      "classes": {
+        "unmapped": 88,
+        "N": 8853,
+        "S": 5
+      }
+    },
+    "edb_e0162": {
+      "records": [
+        "e0162",
+        "e0163"
+      ],
+      "classes": {
+        "unmapped": 241,
+        "N": 18207,
+        "V": 20,
+        "S": 5
+      }
+    },
+    "edb_e0166": {
+      "records": [
+        "e0166"
+      ],
+      "classes": {
+        "unmapped": 57,
+        "N": 6396,
+        "S": 3
+      }
+    },
+    "edb_e0170": {
+      "records": [
+        "e0170"
+      ],
+      "classes": {
+        "unmapped": 336,
+        "N": 8795,
+        "S": 28,
+        "V": 1
+      }
+    },
+    "edb_e0202": {
+      "records": [
+        "e0202"
+      ],
+      "classes": {
+        "unmapped": 187,
+        "N": 9804,
+        "V": 30,
+        "S": 15,
+        "F": 1
+      }
+    },
+    "edb_e0203": {
+      "records": [
+        "e0203"
+      ],
+      "classes": {
+        "unmapped": 64,
+        "N": 10062,
+        "S": 98,
+        "F": 3,
+        "V": 2
+      }
+    },
+    "edb_e0204": {
+      "records": [
+        "e0204"
+      ],
+      "classes": {
+        "unmapped": 121,
+        "N": 11466,
+        "S": 6
+      }
+    },
+    "edb_e0205": {
+      "records": [
+        "e0205"
+      ],
+      "classes": {
+        "unmapped": 273,
+        "N": 11803,
+        "S": 4
+      }
+    },
+    "edb_e0206": {
+      "records": [
+        "e0206"
+      ],
+      "classes": {
+        "unmapped": 98,
+        "N": 10741,
+        "V": 164,
+        "S": 11
+      }
+    },
+    "edb_e0207": {
+      "records": [
+        "e0207"
+      ],
+      "classes": {
+        "unmapped": 55,
+        "N": 7164,
+        "V": 31,
+        "S": 2
+      }
+    },
+    "edb_e0208": {
+      "records": [
+        "e0208"
+      ],
+      "classes": {
+        "unmapped": 137,
+        "N": 8695
+      }
+    },
+    "edb_e0210": {
+      "records": [
+        "e0210"
+      ],
+      "classes": {
+        "unmapped": 65,
+        "N": 8738,
+        "V": 1
+      }
+    },
+    "edb_e0211": {
+      "records": [
+        "e0211"
+      ],
+      "classes": {
+        "unmapped": 182,
+        "N": 14955,
+        "V": 15
+      }
+    },
+    "edb_e0212": {
+      "records": [
+        "e0212"
+      ],
+      "classes": {
+        "unmapped": 128,
+        "N": 10829
+      }
+    },
+    "edb_e0213": {
+      "records": [
+        "e0213"
+      ],
+      "classes": {
+        "unmapped": 198,
+        "N": 10784,
+        "V": 286
+      }
+    },
+    "edb_e0302": {
+      "records": [
+        "e0302"
+      ],
+      "classes": {
+        "unmapped": 91,
+        "N": 10338,
+        "S": 2
+      }
+    },
+    "edb_e0303": {
+      "records": [
+        "e0303"
+      ],
+      "classes": {
+        "unmapped": 80,
+        "N": 8867,
+        "S": 3,
+        "V": 4
+      }
+    },
+    "edb_e0304": {
+      "records": [
+        "e0304"
+      ],
+      "classes": {
+        "unmapped": 28,
+        "N": 8303,
+        "V": 55
+      }
+    },
+    "edb_e0305": {
+      "records": [
+        "e0305"
+      ],
+      "classes": {
+        "unmapped": 106,
+        "N": 9380,
+        "S": 23,
+        "F": 6,
+        "V": 8
+      }
+    },
+    "edb_e0306": {
+      "records": [
+        "e0306"
+      ],
+      "classes": {
+        "unmapped": 87,
+        "N": 7715,
+        "V": 188
+      }
+    },
+    "edb_e0403": {
+      "records": [
+        "e0403"
+      ],
+      "classes": {
+        "unmapped": 47,
+        "N": 9291,
+        "V": 5,
+        "S": 1
+      }
+    },
+    "edb_e0404": {
+      "records": [
+        "e0404"
+      ],
+      "classes": {
+        "unmapped": 72,
+        "N": 6939,
+        "S": 1
+      }
+    },
+    "edb_e0405": {
+      "records": [
+        "e0405"
+      ],
+      "classes": {
+        "unmapped": 123,
+        "N": 11088,
+        "S": 3
+      }
+    },
+    "edb_e0406": {
+      "records": [
+        "e0406"
+      ],
+      "classes": {
+        "unmapped": 121,
+        "N": 8941,
+        "S": 4
+      }
+    },
+    "edb_e0408": {
+      "records": [
+        "e0408"
+      ],
+      "classes": {
+        "unmapped": 50,
+        "N": 9037
+      }
+    },
+    "edb_e0409": {
+      "records": [
+        "e0409"
+      ],
+      "classes": {
+        "unmapped": 19,
+        "N": 12881,
+        "S": 3,
+        "V": 1
+      }
+    },
+    "edb_e0410": {
+      "records": [
+        "e0410"
+      ],
+      "classes": {
+        "unmapped": 68,
+        "N": 7527
+      }
+    },
+    "edb_e0411": {
+      "records": [
+        "e0411"
+      ],
+      "classes": {
+        "unmapped": 93,
+        "N": 9467,
+        "V": 457,
+        "F": 7,
+        "S": 3
+      }
+    },
+    "edb_e0413": {
+      "records": [
+        "e0413"
+      ],
+      "classes": {
+        "unmapped": 66,
+        "N": 7488,
+        "V": 647,
+        "S": 12,
+        "F": 2
+      }
+    },
+    "edb_e0415": {
+      "records": [
+        "e0415"
+      ],
+      "classes": {
+        "unmapped": 385,
+        "N": 11377,
+        "S": 13,
+        "V": 17
+      }
+    },
+    "edb_e0417": {
+      "records": [
+        "e0417"
+      ],
+      "classes": {
+        "unmapped": 10,
+        "N": 9229,
+        "V": 23,
+        "S": 1
+      }
+    },
+    "edb_e0418": {
+      "records": [
+        "e0418"
+      ],
+      "classes": {
+        "unmapped": 42,
+        "N": 11699,
+        "S": 7
+      }
+    },
+    "edb_e0501": {
+      "records": [
+        "e0501"
+      ],
+      "classes": {
+        "unmapped": 130,
+        "N": 7753,
+        "S": 5
+      }
+    },
+    "edb_e0509": {
+      "records": [
+        "e0509"
+      ],
+      "classes": {
+        "unmapped": 44,
+        "N": 7945,
+        "V": 140,
+        "F": 6
+      }
+    },
+    "edb_e0515": {
+      "records": [
+        "e0515"
+      ],
+      "classes": {
+        "unmapped": 256,
+        "N": 10693,
+        "S": 1
+      }
+    },
+    "edb_e0601": {
+      "records": [
+        "e0601"
+      ],
+      "classes": {
+        "unmapped": 194,
+        "N": 8763,
+        "S": 6
+      }
+    },
+    "edb_e0602": {
+      "records": [
+        "e0602"
+      ],
+      "classes": {
+        "unmapped": 120,
+        "N": 10768,
+        "V": 339,
+        "S": 18,
+        "F": 3
+      }
+    },
+    "edb_e0603": {
+      "records": [
+        "e0603"
+      ],
+      "classes": {
+        "unmapped": 75,
+        "N": 7911,
+        "S": 1,
+        "V": 17,
+        "F": 1
+      }
+    },
+    "edb_e0604": {
+      "records": [
+        "e0604"
+      ],
+      "classes": {
+        "unmapped": 183,
+        "N": 7805,
+        "S": 9,
+        "V": 1
+      }
+    },
+    "edb_e0605": {
+      "records": [
+        "e0605"
+      ],
+      "classes": {
+        "unmapped": 340,
+        "N": 10449,
+        "F": 224,
+        "V": 713
+      }
+    },
+    "edb_e0606": {
+      "records": [
+        "e0606"
+      ],
+      "classes": {
+        "unmapped": 142,
+        "N": 9591,
+        "V": 23,
+        "F": 7
+      }
+    },
+    "edb_e0607": {
+      "records": [
+        "e0607"
+      ],
+      "classes": {
+        "unmapped": 131,
+        "N": 10218,
+        "S": 46,
+        "V": 2
+      }
+    },
+    "edb_e0609": {
+      "records": [
+        "e0609"
+      ],
+      "classes": {
+        "unmapped": 124,
+        "N": 9287,
+        "V": 19,
+        "F": 7,
+        "S": 8
+      }
+    },
+    "edb_e0610": {
+      "records": [
+        "e0610"
+      ],
+      "classes": {
+        "unmapped": 72,
+        "N": 7986,
+        "S": 11,
+        "V": 2
+      }
+    },
+    "edb_e0611": {
+      "records": [
+        "e0611"
+      ],
+      "classes": {
+        "unmapped": 145,
+        "N": 5812
+      }
+    },
+    "edb_e0612": {
+      "records": [
+        "e0612"
+      ],
+      "classes": {
+        "unmapped": 216,
+        "N": 6858,
+        "S": 3,
+        "V": 26
+      }
+    },
+    "edb_e0613": {
+      "records": [
+        "e0613"
+      ],
+      "classes": {
+        "unmapped": 353,
+        "N": 7725,
+        "S": 1
+      }
+    },
+    "edb_e0614": {
+      "records": [
+        "e0614"
+      ],
+      "classes": {
+        "unmapped": 318,
+        "N": 10110,
+        "V": 891,
+        "F": 82,
+        "S": 24
+      }
+    },
+    "edb_e0615": {
+      "records": [
+        "e0615"
+      ],
+      "classes": {
+        "unmapped": 109,
+        "N": 7027,
+        "V": 142,
+        "S": 24
+      }
+    },
+    "edb_e0704": {
+      "records": [
+        "e0704"
+      ],
+      "classes": {
+        "unmapped": 120,
+        "N": 9718
+      }
+    },
+    "edb_e0801": {
+      "records": [
+        "e0801"
+      ],
+      "classes": {
+        "unmapped": 294,
+        "N": 9385,
+        "V": 2,
+        "S": 1
+      }
+    },
+    "edb_e0808": {
+      "records": [
+        "e0808"
+      ],
+      "classes": {
+        "unmapped": 278,
+        "N": 11075
+      }
+    },
+    "edb_e0817": {
+      "records": [
+        "e0817"
+      ],
+      "classes": {
+        "unmapped": 324,
+        "N": 7554
+      }
+    },
+    "edb_e0818": {
+      "records": [
+        "e0818"
+      ],
+      "classes": {
+        "unmapped": 225,
+        "N": 10129
+      }
+    },
+    "edb_e1301": {
+      "records": [
+        "e1301"
+      ],
+      "classes": {
+        "unmapped": 51,
+        "N": 8730,
+        "S": 1,
+        "V": 9
+      }
+    },
+    "edb_e1302": {
+      "records": [
+        "e1302"
+      ],
+      "classes": {
+        "unmapped": 111,
+        "N": 8345,
+        "S": 2,
+        "V": 3
+      }
+    },
+    "edb_e1304": {
+      "records": [
+        "e1304"
+      ],
+      "classes": {
+        "unmapped": 116,
+        "N": 7830,
+        "S": 28,
+        "V": 6
+      }
+    }
+  },
+  "symbol_mapping": {
+    "N": "N",
+    "a": "S",
+    "J": "S",
+    "S": "S",
+    "V": "V",
+    "F": "F"
+  },
+  "symbols": {
+    "+": 765,
+    "N": 784633,
+    "s": 1100,
+    "V": 4467,
+    "F": 354,
+    "~": 8918,
+    "|": 78,
+    "T": 1361,
+    "S": 1093,
+    "Q": 11,
+    "\"": 122,
+    "J": 1,
+    "n": 5,
+    "a": 1
+  },
+  "classes": {
+    "unmapped": 12360,
+    "N": 784633,
+    "V": 4467,
+    "F": 354,
+    "S": 1095
+  },
+  "lead_counts": {
+    "V4": 34,
+    "MLIII": 47,
+    "V3": 7,
+    "D3": 1,
+    "V5": 51,
+    "MLI": 19,
+    "V2": 10,
+    "V1": 11
+  },
+  "records_with_II_or_MLII": 0,
+  "rare_class_concentration": {
+    "S": {
+      "subjects_with_class": 58,
+      "total": 1095,
+      "by_subject": [
+        [
+          "edb_e0112",
+          380
+        ],
+        [
+          "edb_e0114",
+          175
+        ],
+        [
+          "edb_e0203",
+          98
+        ],
+        [
+          "edb_e0607",
+          46
+        ],
+        [
+          "edb_e0170",
+          28
+        ],
+        [
+          "edb_e1304",
+          28
+        ],
+        [
+          "edb_e0159",
+          24
+        ],
+        [
+          "edb_e0614",
+          24
+        ],
+        [
+          "edb_e0615",
+          24
+        ],
+        [
+          "edb_e0305",
+          23
+        ],
+        [
+          "edb_e0602",
+          18
+        ],
+        [
+          "edb_e0104",
+          16
+        ],
+        [
+          "edb_e0202",
+          15
+        ],
+        [
+          "edb_e0123",
+          13
+        ],
+        [
+          "edb_e0415",
+          13
+        ],
+        [
+          "edb_e0413",
+          12
+        ],
+        [
+          "edb_e0206",
+          11
+        ],
+        [
+          "edb_e0610",
+          11
+        ],
+        [
+          "edb_e0604",
+          9
+        ],
+        [
+          "edb_e0113",
+          8
+        ],
+        [
+          "edb_e0118",
+          8
+        ],
+        [
+          "edb_e0609",
+          8
+        ],
+        [
+          "edb_e0147",
+          7
+        ],
+        [
+          "edb_e0418",
+          7
+        ],
+        [
+          "edb_e0204",
+          6
+        ],
+        [
+          "edb_e0601",
+          6
+        ],
+        [
+          "edb_e0106",
+          5
+        ],
+        [
+          "edb_e0107",
+          5
+        ],
+        [
+          "edb_e0161",
+          5
+        ],
+        [
+          "edb_e0162",
+          5
+        ],
+        [
+          "edb_e0501",
+          5
+        ],
+        [
+          "edb_e0129",
+          4
+        ],
+        [
+          "edb_e0205",
+          4
+        ],
+        [
+          "edb_e0406",
+          4
+        ],
+        [
+          "edb_e0166",
+          3
+        ],
+        [
+          "edb_e0303",
+          3
+        ],
+        [
+          "edb_e0405",
+          3
+        ],
+        [
+          "edb_e0409",
+          3
+        ],
+        [
+          "edb_e0411",
+          3
+        ],
+        [
+          "edb_e0612",
+          3
+        ],
+        [
+          "edb_e0105",
+          2
+        ],
+        [
+          "edb_e0207",
+          2
+        ],
+        [
+          "edb_e0302",
+          2
+        ],
+        [
+          "edb_e1302",
+          2
+        ],
+        [
+          "edb_e0110",
+          1
+        ],
+        [
+          "edb_e0111",
+          1
+        ],
+        [
+          "edb_e0115",
+          1
+        ],
+        [
+          "edb_e0116",
+          1
+        ],
+        [
+          "edb_e0151",
+          1
+        ],
+        [
+          "edb_e0154",
+          1
+        ],
+        [
+          "edb_e0403",
+          1
+        ],
+        [
+          "edb_e0404",
+          1
+        ],
+        [
+          "edb_e0417",
+          1
+        ],
+        [
+          "edb_e0515",
+          1
+        ],
+        [
+          "edb_e0603",
+          1
+        ],
+        [
+          "edb_e0613",
+          1
+        ],
+        [
+          "edb_e0801",
+          1
+        ],
+        [
+          "edb_e1301",
+          1
+        ]
+      ],
+      "largest_subject_fraction": 0.3470319634703196
+    },
+    "F": {
+      "subjects_with_class": 14,
+      "total": 354,
+      "by_subject": [
+        [
+          "edb_e0605",
+          224
+        ],
+        [
+          "edb_e0614",
+          82
+        ],
+        [
+          "edb_e0411",
+          7
+        ],
+        [
+          "edb_e0606",
+          7
+        ],
+        [
+          "edb_e0609",
+          7
+        ],
+        [
+          "edb_e0305",
+          6
+        ],
+        [
+          "edb_e0509",
+          6
+        ],
+        [
+          "edb_e0118",
+          3
+        ],
+        [
+          "edb_e0203",
+          3
+        ],
+        [
+          "edb_e0602",
+          3
+        ],
+        [
+          "edb_e0103",
+          2
+        ],
+        [
+          "edb_e0413",
+          2
+        ],
+        [
+          "edb_e0202",
+          1
+        ],
+        [
+          "edb_e0603",
+          1
+        ]
+      ],
+      "largest_subject_fraction": 0.632768361581921
+    }
+  },
+  "wfdb_version": "4.3.1",
+  "source_listing_sha256": "de1c434adb8ba723755b64b0c659850506a321009b4ceb9b125d1810362cdd5c",
+  "limits": "Metadata only, all source annotations before waveform/window/lead exclusions. Counts are beats/events, not patients. EDB role unassigned; no signals, scores, cross-source identity guarantee or SVDB access."
+}

@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "records": 51,
+  "classes": {
+    "N": 481822,
+    "S": 388,
+    "V": 4128,
+    "F": 343
+  },
+  "constant_window_counts": {},
+  "std_mv_quantiles": {
+    "N": {
+      "min": 0.016963966033500928,
+      "p05": 0.13118924549688424,
+      "median": 0.2240939751011872,
+      "p95": 0.3871256452318683,
+      "max": 2.729225412914994
+    },
+    "S": {
+      "min": 0.13273651424999797,
+      "p05": 0.1675545325993161,
+      "median": 0.2592515788900118,
+      "p95": 0.49176120663209744,
+      "max": 0.6851161971992643
+    },
+    "V": {
+      "min": 0.14412979192879014,
+      "p05": 0.29215046055805216,
+      "median": 0.4385093559550909,
+      "p95": 0.9403491336810782,
+      "max": 1.4407754450324972
+    },
+    "F": {
+      "min": 0.12683870203099054,
+      "p05": 0.18855667776358925,
+      "median": 0.30798397896577295,
+      "p95": 0.7161649106813419,
+      "max": 1.214912387736403
+    }
+  },
+  "exact_duplicate_window_groups": 0,
+  "duplicate_excess_windows": 0,
+  "cross_documented_group_duplicate_groups": 0,
+  "elapsed_seconds": 9.9769133739901,
+  "no_filtering": true,
+  "limits": "Exact resampled float32 V5 model-input duplicates and amplitude spread only. One beat cannot establish same recorded episode or person. Negative exact hashes cannot exclude approximate/cross-lead/re-encoded recordings. No train normalization, filtering, model scores or SVDB access.",
+  "result_sha256": "f89d3b53e0aa3ea25da12e61ccda7ac3ef2c5ec8bb0ecb15fd9bb3137725d506",
+  "local_audit_limits": "Local per-file hash/count and summary consistency; remote full-array rehash/finiteness/std/duplicate scan not independently repeated."
+}

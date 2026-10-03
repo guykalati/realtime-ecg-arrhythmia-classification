@@ -1,0 +1,176 @@
+{
+  "seed": 20260928,
+  "candidate_permutations": 50000,
+  "selection_uses": "annotated group class counts only; no signal values or model scores",
+  "constraints": "43 groups: 30 train, 6 validation, 7 test; 213 train/208 test in A; at least 5 validation F beats; each class present in each split",
+  "objective": "squared N/S/V class-fraction deviation from group-count targets",
+  "score_a": 0.00018018545836906788,
+  "folds": {
+    "a": {
+      "csv": "split_candidates/candidate_split_a.csv",
+      "validation": {
+        "records": 48,
+        "patients": 47,
+        "records_by_split": {
+          "train": 33,
+          "validation": 7,
+          "test": 8
+        }
+      },
+      "primary_class_counts": {
+        "train": {
+          "F": 403,
+          "N": 62639,
+          "S": 1963,
+          "V": 4899
+        },
+        "validation": {
+          "F": 15,
+          "N": 12336,
+          "S": 389,
+          "V": 980
+        },
+        "test": {
+          "F": 384,
+          "N": 15101,
+          "S": 429,
+          "V": 1129
+        }
+      },
+      "primary_subject_groups": {
+        "train": [
+          "101",
+          "103",
+          "106",
+          "108",
+          "109",
+          "111",
+          "112",
+          "113",
+          "114",
+          "116",
+          "118",
+          "119",
+          "121",
+          "123",
+          "124",
+          "200",
+          "201-202",
+          "203",
+          "210",
+          "212",
+          "213",
+          "215",
+          "220",
+          "221",
+          "228",
+          "230",
+          "231",
+          "232",
+          "233",
+          "234"
+        ],
+        "validation": [
+          "105",
+          "115",
+          "207",
+          "214",
+          "222",
+          "223"
+        ],
+        "test": [
+          "100",
+          "117",
+          "122",
+          "205",
+          "208",
+          "209",
+          "219"
+        ]
+      }
+    },
+    "b": {
+      "csv": "split_candidates/candidate_split_b.csv",
+      "validation": {
+        "records": 48,
+        "patients": 47,
+        "records_by_split": {
+          "train": 33,
+          "validation": 7,
+          "test": 8
+        }
+      },
+      "primary_class_counts": {
+        "train": {
+          "F": 413,
+          "N": 61585,
+          "S": 1937,
+          "V": 5671
+        },
+        "validation": {
+          "F": 15,
+          "N": 12336,
+          "S": 389,
+          "V": 980
+        },
+        "test": {
+          "F": 374,
+          "N": 16155,
+          "S": 455,
+          "V": 357
+        }
+      },
+      "primary_subject_groups": {
+        "train": [
+          "101",
+          "103",
+          "106",
+          "108",
+          "109",
+          "111",
+          "112",
+          "113",
+          "114",
+          "116",
+          "118",
+          "119",
+          "121",
+          "123",
+          "124",
+          "200",
+          "201-202",
+          "203",
+          "208",
+          "210",
+          "212",
+          "215",
+          "220",
+          "221",
+          "228",
+          "230",
+          "231",
+          "232",
+          "233",
+          "234"
+        ],
+        "validation": [
+          "105",
+          "115",
+          "207",
+          "214",
+          "222",
+          "223"
+        ],
+        "test": [
+          "100",
+          "117",
+          "122",
+          "205",
+          "209",
+          "213",
+          "219"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "epochs": 100,
+  "internal_seconds": 660,
+  "windows_dir": "/home/guykalat/codex_ecg_baseline_20260928/windows_360",
+  "incart_windows_dir": "/home/guykalat/codex_ecg_incart_external_20260929/windows_360",
+  "source_sha256": {
+    "ecg_baseline.py": "e977a776e965312c6a98a47c3948e54e1e0042fe647f05096197b02b6e559c51",
+    "ecg_context_compare.py": "8940c48a740ae3b4f79240344cf726b23eb894aedaa26d5cd1169ae474cd87fd",
+    "ecg_multiscale_compare.py": "56462aa406157be862d6186c4cf94037494d4e8be10b9c1896990a75ca564e28",
+    "ecg_robustness_compare.py": "fab9945c2646f5db0e9710326270050dacefd7fb080d626d29a72c1ed4ce0ed3",
+    "ecg_waveform_transform.py": "377c29762ab2aede062f6c580181a565775a84b07f0c8002cf7ffcb04e3c77ae",
+    "ecg_selection_compare.py": "8240a3caa97f6ab0fa96a8eb3bb2b5776bc7caa0f5baf8f7a6e4632fcb97d8b5",
+    "run_ecg_selection.sbatch": "8e4a1dca1a4a8141a302bf6a495c8e6a01baf4585c071972397084f03d8e3c2f"
+  },
+  "cells": [
+    {
+      "id": "a_cnn_20260928",
+      "model": "cnn",
+      "seed": 20260928,
+      "expected": {
+        "train": 69842,
+        "validation": 13708,
+        "test": 17029
+      },
+      "context": "/home/guykalat/codex_ecg_longrun_20260929/past_context_a.csv",
+      "context_sha256": "94d5d9c7064f5c9e4c33921f8f140670f4a1e8605b807cd21259c9865562d089",
+      "split": "/home/guykalat/codex_ecg_longrun_20260929/candidate_split_a.csv",
+      "split_sha256": "192f31b83654a6779e1fd79bb97e6b47646709097695d9ca2a449652f9d0e6b3",
+      "incart_manifest": "/home/guykalat/codex_ecg_incart_external_20260929/window_manifest.csv",
+      "incart_manifest_sha256": "03074e47abfa84ce101ab93db1c1085cfd29407689e5393e602f57b3134d432a"
+    },
+    {
+      "id": "a_cnn_20260929",
+      "model": "cnn",
+      "seed": 20260929,
+      "expected": {
+        "train": 69842,
+        "validation": 13708,
+        "test": 17029
+      },
+      "context": "/home/guykalat/codex_ecg_longrun_20260929/past_context_a.csv",
+      "context_sha256": "94d5d9c7064f5c9e4c33921f8f140670f4a1e8605b807cd21259c9865562d089",
+      "split": "/home/guykalat/codex_ecg_longrun_20260929/candidate_split_a.csv",
+      "split_sha256": "192f31b83654a6779e1fd79bb97e6b47646709097695d9ca2a449652f9d0e6b3",
+      "incart_manifest": "/home/guykalat/codex_ecg_incart_external_20260929/window_manifest.csv",
+      "incart_manifest_sha256": "03074e47abfa84ce101ab93db1c1085cfd29407689e5393e602f57b3134d432a"
+    },
+    {
+      "id": "a_cnn_20260930",
+      "model": "cnn",
+      "seed": 20260930,
+      "expected": {
+        "train": 69842,
+        "validation": 13708,
+        "test": 17029
+      },
+      "context": "/home/guykalat/codex_ecg_longrun_20260929/past_context_a.csv",
+      "context_sha256": "94d5d9c7064f5c9e4c33921f8f140670f4a1e8605b807cd21259c9865562d089",
+      "split": "/home/guykalat/codex_ecg_longrun_20260929/candidate_split_a.csv",
+      "split_sha256": "192f31b83654a6779e1fd79bb97e6b47646709097695d9ca2a449652f9d0e6b3",
+      "incart_manifest": "/home/guykalat/codex_ecg_incart_external_20260929/window_manifest.csv",
+      "incart_manifest_sha256": "03074e47abfa84ce101ab93db1c1085cfd29407689e5393e602f57b3134d432a"
+    },
+    {
+      "id": "a_multiscale_20260928",
+      "model": "multiscale",
+      "seed": 20260928,
+      "expected": {
+        "train": 69842,
+        "validation": 13708,
+        "test": 17029
+      },
+      "context": "/home/guykalat/codex_ecg_longrun_20260929/past_context_a.csv",
+      "context_sha256": "94d5d9c7064f5c9e4c33921f8f140670f4a1e8605b807cd21259c9865562d089",
+      "split": "/home/guykalat/codex_ecg_longrun_20260929/candidate_split_a.csv",
+      "split_sha256": "192f31b83654a6779e1fd79bb97e6b47646709097695d9ca2a449652f9d0e6b3",
+      "incart_manifest": "/home/guykalat/codex_ecg_incart_external_20260929/window_manifest.csv",
+      "incart_manifest_sha256": "03074e47abfa84ce101ab93db1c1085cfd29407689e5393e602f57b3134d432a"
+    },
+    {
+      "id": "a_multiscale_20260929",
+      "model": "multiscale",
+      "seed": 20260929,
+      "expected": {
+        "train": 69842,
+        "validation": 13708,
+        "test": 17029
+      },
+      "context": "/home/guykalat/codex_ecg_longrun_20260929/past_context_a.csv",
+      "context_sha256": "94d5d9c7064f5c9e4c33921f8f140670f4a1e8605b807cd21259c9865562d089",
+      "split": "/home/guykalat/codex_ecg_longrun_20260929/candidate_split_a.csv",
+      "split_sha256": "192f31b83654a6779e1fd79bb97e6b47646709097695d9ca2a449652f9d0e6b3",
+      "incart_manifest": "/home/guykalat/codex_ecg_incart_external_20260929/window_manifest.csv",
+      "incart_manifest_sha256": "03074e47abfa84ce101ab93db1c1085cfd29407689e5393e602f57b3134d432a"
+    },
+    {
+      "id": "a_multiscale_20260930",
+      "model": "multiscale",
+      "seed": 20260930,
+      "expected": {
+        "train": 69842,
+        "validation": 13708,
+        "test": 17029
+      },
+      "context": "/home/guykalat/codex_ecg_longrun_20260929/past_context_a.csv",
+      "context_sha256": "94d5d9c7064f5c9e4c33921f8f140670f4a1e8605b807cd21259c9865562d089",
+      "split": "/home/guykalat/codex_ecg_longrun_20260929/candidate_split_a.csv",
+      "split_sha256": "192f31b83654a6779e1fd79bb97e6b47646709097695d9ca2a449652f9d0e6b3",
+      "incart_manifest": "/home/guykalat/codex_ecg_incart_external_20260929/window_manifest.csv",
+      "incart_manifest_sha256": "03074e47abfa84ce101ab93db1c1085cfd29407689e5393e602f57b3134d432a"
+    }
+  ]
+}

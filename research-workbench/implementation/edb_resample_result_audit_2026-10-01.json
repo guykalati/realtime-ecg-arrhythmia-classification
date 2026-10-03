@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "records": 51,
+  "windows": 486681,
+  "classes": {
+    "N": 481822,
+    "S": 388,
+    "V": 4128,
+    "F": 343
+  },
+  "waveform_bytes": 700827168,
+  "manifest_sha256": "3fea120f82529ef3b47db66e7cca2162430e090dac17b2f1f9d06a3670ca157f",
+  "summary_sha256": "b341227636bb3aad0a8d51dbb547c00d9ae6164465d5b222987e242bab3678e4",
+  "metadata_and_quality_flags_preserved": true,
+  "local_waveform_download": false,
+  "limits": "Local CSV/source-count/flag agreement audit; remote generation validated shape/finiteness and3individual resampling checks per record. Full arrays/hash reread remains on cluster; no independent signal-quality or model evaluation."
+}

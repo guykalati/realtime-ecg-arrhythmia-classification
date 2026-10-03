@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "records": 51,
+  "documented_subject_groups": 51,
+  "signal_bytes": 275400000,
+  "all_release_sha256_verified": true,
+  "source_and_metadata_hashes_verified": true,
+  "waveform_decode_or_model_scores": false,
+  "cross_source_identity": "unresolved",
+  "role": "development only"
+}

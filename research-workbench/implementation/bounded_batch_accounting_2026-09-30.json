@@ -1,0 +1,31 @@
+{
+  "verified_completion": true,
+  "ecg_selection": {
+    "job": 21890695,
+    "cells_completed": 6,
+    "policies_audited": 12,
+    "gpu_allocation_seconds": 837
+  },
+  "agent_pilot": {
+    "job": 21894420,
+    "candidate_attempts": 2,
+    "gpu_runs_completed": 1,
+    "gpu_allocation_seconds": 1219,
+    "decision": "discard"
+  },
+  "token_inventory": {
+    "job": 21906909,
+    "cpu_wall_seconds": 55,
+    "gpu_allocation_seconds": 0
+  },
+  "gpu_allocation_seconds_total": 2097,
+  "gpu_allocation_minutes_total": 34.95,
+  "max_rss": "Unavailable in sacct; no memory rightsizing claim",
+  "cluster_queue": "No jobs reported in latest live squeue",
+  "qa_inference_smoke": {
+    "job": 21919291,
+    "gpu_allocation_seconds": 41,
+    "exit_code": "0:0",
+    "status": "COMPLETED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "result_sha256": "bfdcaa98dd3dd01948d5d30aec266e06295a937269c360db702a6e532f064af9",
+  "source_sha256": "8740bc8e741814b9efdd6ce1bee7379bb78163c340bdce517645bf9720cee1a0",
+  "signal_plan_sha256": "fd94178c0b3109d81ea05574fecd53d02ba021bb9e8a849bc715e9d4b31ada5e",
+  "records": 51,
+  "segments": 102,
+  "decoded_samples": 255000,
+  "all_finite": true,
+  "runtime_seconds": 7.208701964002103,
+  "allocated_cpu_seconds": 11,
+  "gpu_seconds": 0,
+  "limits": "Source gain/channel decoding and annotation bounds on two10-second segments. Not full-record signal-quality validation, resampling/window cohort, recording-duplicate screen or cross-source identity proof."
+}

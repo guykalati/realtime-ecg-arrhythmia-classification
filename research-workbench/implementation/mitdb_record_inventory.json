@@ -1,0 +1,916 @@
+{
+  "source": "PhysioNet MIT-BIH Arrhythmia Database 1.0.0",
+  "inspected_at_utc": "2026-09-27T20:39:52.625736+00:00",
+  "records": [
+    {
+      "record_id": "100",
+      "subject_group": "100",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V5"
+      ],
+      "annotations": 2274,
+      "symbols": {
+        "+": 1,
+        "A": 33,
+        "N": 2239,
+        "V": 1
+      }
+    },
+    {
+      "record_id": "101",
+      "subject_group": "101",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 1874,
+      "symbols": {
+        "+": 1,
+        "A": 3,
+        "N": 1860,
+        "Q": 2,
+        "|": 4,
+        "~": 4
+      }
+    },
+    {
+      "record_id": "102",
+      "subject_group": "102",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "V5",
+        "V2"
+      ],
+      "annotations": 2192,
+      "symbols": {
+        "+": 5,
+        "/": 2028,
+        "N": 99,
+        "V": 4,
+        "f": 56
+      }
+    },
+    {
+      "record_id": "103",
+      "subject_group": "103",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V2"
+      ],
+      "annotations": 2091,
+      "symbols": {
+        "+": 1,
+        "A": 2,
+        "N": 2082,
+        "~": 6
+      }
+    },
+    {
+      "record_id": "104",
+      "subject_group": "104",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "V5",
+        "V2"
+      ],
+      "annotations": 2311,
+      "symbols": {
+        "+": 45,
+        "/": 1380,
+        "N": 163,
+        "Q": 18,
+        "V": 2,
+        "f": 666,
+        "~": 37
+      }
+    },
+    {
+      "record_id": "105",
+      "subject_group": "105",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2691,
+      "symbols": {
+        "+": 1,
+        "N": 2526,
+        "Q": 5,
+        "V": 41,
+        "|": 30,
+        "~": 88
+      }
+    },
+    {
+      "record_id": "106",
+      "subject_group": "106",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2098,
+      "symbols": {
+        "+": 41,
+        "N": 1507,
+        "V": 520,
+        "~": 30
+      }
+    },
+    {
+      "record_id": "107",
+      "subject_group": "107",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2140,
+      "symbols": {
+        "+": 1,
+        "/": 2078,
+        "V": 59,
+        "~": 2
+      }
+    },
+    {
+      "record_id": "108",
+      "subject_group": "108",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 1824,
+      "symbols": {
+        "+": 1,
+        "A": 4,
+        "F": 2,
+        "N": 1739,
+        "V": 17,
+        "j": 1,
+        "x": 11,
+        "|": 8,
+        "~": 41
+      }
+    },
+    {
+      "record_id": "109",
+      "subject_group": "109",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2535,
+      "symbols": {
+        "+": 1,
+        "F": 2,
+        "L": 2492,
+        "V": 38,
+        "~": 2
+      }
+    },
+    {
+      "record_id": "111",
+      "subject_group": "111",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2133,
+      "symbols": {
+        "+": 1,
+        "L": 2123,
+        "V": 1,
+        "~": 8
+      }
+    },
+    {
+      "record_id": "112",
+      "subject_group": "112",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2550,
+      "symbols": {
+        "+": 1,
+        "A": 2,
+        "N": 2537,
+        "~": 10
+      }
+    },
+    {
+      "record_id": "113",
+      "subject_group": "113",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 1796,
+      "symbols": {
+        "+": 1,
+        "N": 1789,
+        "a": 6
+      }
+    },
+    {
+      "record_id": "114",
+      "subject_group": "114",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "V5",
+        "MLII"
+      ],
+      "annotations": 1890,
+      "symbols": {
+        "+": 3,
+        "A": 10,
+        "F": 4,
+        "J": 2,
+        "N": 1820,
+        "V": 43,
+        "|": 1,
+        "~": 7
+      }
+    },
+    {
+      "record_id": "115",
+      "subject_group": "115",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 1962,
+      "symbols": {
+        "+": 1,
+        "N": 1953,
+        "|": 6,
+        "~": 2
+      }
+    },
+    {
+      "record_id": "116",
+      "subject_group": "116",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2421,
+      "symbols": {
+        "+": 1,
+        "A": 1,
+        "N": 2302,
+        "V": 109,
+        "~": 8
+      }
+    },
+    {
+      "record_id": "117",
+      "subject_group": "117",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V2"
+      ],
+      "annotations": 1539,
+      "symbols": {
+        "+": 1,
+        "A": 1,
+        "N": 1534,
+        "~": 3
+      }
+    },
+    {
+      "record_id": "118",
+      "subject_group": "118",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2301,
+      "symbols": {
+        "+": 1,
+        "A": 96,
+        "R": 2166,
+        "V": 16,
+        "x": 10,
+        "~": 12
+      }
+    },
+    {
+      "record_id": "119",
+      "subject_group": "119",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2094,
+      "symbols": {
+        "+": 103,
+        "N": 1543,
+        "V": 444,
+        "~": 4
+      }
+    },
+    {
+      "record_id": "121",
+      "subject_group": "121",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 1876,
+      "symbols": {
+        "+": 1,
+        "A": 1,
+        "N": 1861,
+        "V": 1,
+        "~": 12
+      }
+    },
+    {
+      "record_id": "122",
+      "subject_group": "122",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2479,
+      "symbols": {
+        "+": 1,
+        "N": 2476,
+        "|": 2
+      }
+    },
+    {
+      "record_id": "123",
+      "subject_group": "123",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V5"
+      ],
+      "annotations": 1519,
+      "symbols": {
+        "+": 1,
+        "N": 1515,
+        "V": 3
+      }
+    },
+    {
+      "record_id": "124",
+      "subject_group": "124",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V4"
+      ],
+      "annotations": 1634,
+      "symbols": {
+        "+": 13,
+        "A": 2,
+        "F": 5,
+        "J": 29,
+        "R": 1531,
+        "V": 47,
+        "j": 5,
+        "~": 2
+      }
+    },
+    {
+      "record_id": "200",
+      "subject_group": "200",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2792,
+      "symbols": {
+        "+": 148,
+        "A": 30,
+        "F": 2,
+        "N": 1743,
+        "V": 826,
+        "~": 43
+      }
+    },
+    {
+      "record_id": "201",
+      "subject_group": "201-202",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2039,
+      "symbols": {
+        "+": 35,
+        "A": 30,
+        "F": 2,
+        "J": 1,
+        "N": 1625,
+        "V": 198,
+        "a": 97,
+        "j": 10,
+        "x": 37,
+        "~": 4
+      }
+    },
+    {
+      "record_id": "202",
+      "subject_group": "201-202",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2146,
+      "symbols": {
+        "+": 8,
+        "A": 36,
+        "F": 1,
+        "N": 2061,
+        "V": 19,
+        "a": 19,
+        "|": 2
+      }
+    },
+    {
+      "record_id": "203",
+      "subject_group": "203",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 3108,
+      "symbols": {
+        "+": 45,
+        "F": 1,
+        "N": 2529,
+        "Q": 4,
+        "V": 444,
+        "a": 2,
+        "|": 26,
+        "~": 57
+      }
+    },
+    {
+      "record_id": "205",
+      "subject_group": "205",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2672,
+      "symbols": {
+        "+": 13,
+        "A": 3,
+        "F": 11,
+        "N": 2571,
+        "V": 71,
+        "|": 1,
+        "~": 2
+      }
+    },
+    {
+      "record_id": "207",
+      "subject_group": "207",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2385,
+      "symbols": {
+        "!": 472,
+        "+": 24,
+        "A": 107,
+        "E": 105,
+        "L": 1457,
+        "R": 86,
+        "V": 105,
+        "[": 6,
+        "]": 6,
+        "|": 2,
+        "~": 15
+      }
+    },
+    {
+      "record_id": "208",
+      "subject_group": "208",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 3040,
+      "symbols": {
+        "+": 53,
+        "F": 373,
+        "N": 1586,
+        "Q": 2,
+        "S": 2,
+        "V": 992,
+        "|": 8,
+        "~": 24
+      }
+    },
+    {
+      "record_id": "209",
+      "subject_group": "209",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 3052,
+      "symbols": {
+        "+": 21,
+        "A": 383,
+        "N": 2621,
+        "V": 1,
+        "|": 7,
+        "~": 19
+      }
+    },
+    {
+      "record_id": "210",
+      "subject_group": "210",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2685,
+      "symbols": {
+        "+": 17,
+        "E": 1,
+        "F": 10,
+        "N": 2423,
+        "V": 194,
+        "a": 22,
+        "|": 1,
+        "~": 17
+      }
+    },
+    {
+      "record_id": "212",
+      "subject_group": "212",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2763,
+      "symbols": {
+        "+": 1,
+        "N": 923,
+        "R": 1825,
+        "|": 1,
+        "~": 13
+      }
+    },
+    {
+      "record_id": "213",
+      "subject_group": "213",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 3294,
+      "symbols": {
+        "+": 43,
+        "A": 25,
+        "F": 362,
+        "N": 2641,
+        "V": 220,
+        "a": 3
+      }
+    },
+    {
+      "record_id": "214",
+      "subject_group": "214",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2297,
+      "symbols": {
+        "\"": 1,
+        "+": 25,
+        "F": 1,
+        "L": 2003,
+        "Q": 2,
+        "V": 256,
+        "|": 5,
+        "~": 4
+      }
+    },
+    {
+      "record_id": "215",
+      "subject_group": "215",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 3400,
+      "symbols": {
+        "\"": 2,
+        "+": 5,
+        "A": 3,
+        "F": 1,
+        "N": 3195,
+        "V": 164,
+        "~": 30
+      }
+    },
+    {
+      "record_id": "217",
+      "subject_group": "217",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2280,
+      "symbols": {
+        "+": 67,
+        "/": 1542,
+        "N": 244,
+        "V": 162,
+        "f": 260,
+        "|": 1,
+        "~": 4
+      }
+    },
+    {
+      "record_id": "219",
+      "subject_group": "219",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2312,
+      "symbols": {
+        "\"": 4,
+        "+": 21,
+        "A": 7,
+        "F": 1,
+        "N": 2082,
+        "V": 64,
+        "x": 133
+      }
+    },
+    {
+      "record_id": "220",
+      "subject_group": "220",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2069,
+      "symbols": {
+        "+": 17,
+        "A": 94,
+        "N": 1954,
+        "~": 4
+      }
+    },
+    {
+      "record_id": "221",
+      "subject_group": "221",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2462,
+      "symbols": {
+        "+": 23,
+        "N": 2031,
+        "V": 396,
+        "~": 12
+      }
+    },
+    {
+      "record_id": "222",
+      "subject_group": "222",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2634,
+      "symbols": {
+        "+": 136,
+        "A": 208,
+        "J": 1,
+        "N": 2062,
+        "j": 212,
+        "~": 15
+      }
+    },
+    {
+      "record_id": "223",
+      "subject_group": "223",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2643,
+      "symbols": {
+        "+": 28,
+        "A": 72,
+        "F": 14,
+        "N": 2029,
+        "V": 473,
+        "a": 1,
+        "e": 16,
+        "~": 10
+      }
+    },
+    {
+      "record_id": "228",
+      "subject_group": "228",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2141,
+      "symbols": {
+        "\"": 3,
+        "+": 41,
+        "A": 3,
+        "N": 1688,
+        "V": 362,
+        "|": 24,
+        "~": 20
+      }
+    },
+    {
+      "record_id": "230",
+      "subject_group": "230",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2466,
+      "symbols": {
+        "+": 207,
+        "N": 2255,
+        "V": 1,
+        "|": 1,
+        "~": 2
+      }
+    },
+    {
+      "record_id": "231",
+      "subject_group": "231",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2011,
+      "symbols": {
+        "\"": 427,
+        "+": 11,
+        "A": 1,
+        "N": 314,
+        "R": 1254,
+        "V": 2,
+        "x": 2
+      }
+    },
+    {
+      "record_id": "232",
+      "subject_group": "232",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 1816,
+      "symbols": {
+        "+": 1,
+        "A": 1382,
+        "R": 397,
+        "j": 1,
+        "~": 35
+      }
+    },
+    {
+      "record_id": "233",
+      "subject_group": "233",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 3152,
+      "symbols": {
+        "+": 71,
+        "A": 7,
+        "F": 11,
+        "N": 2230,
+        "V": 831,
+        "|": 2
+      }
+    },
+    {
+      "record_id": "234",
+      "subject_group": "234",
+      "sampling_hz": 360,
+      "samples": 650000,
+      "leads": [
+        "MLII",
+        "V1"
+      ],
+      "annotations": 2764,
+      "symbols": {
+        "+": 3,
+        "J": 50,
+        "N": 2700,
+        "V": 3,
+        "~": 8
+      }
+    }
+  ],
+  "total_annotations": 112647,
+  "subject_groups": 47,
+  "note": "All annotation symbols counted; beat-class mapping and train/test split are not assigned."
+}
