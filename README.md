@@ -27,3 +27,7 @@ The HTML walkthrough and earlier reports remain historical snapshots.
 `research-workbench/implementation` holds project code and compact evidence. Shared foundation helpers and cross-project reports preserve dependencies and the original audit trail. Large raw datasets, checkpoints, model caches, and virtual environments remain external.
 
 Historical reports record earlier stopping points. Read the current status before interpreting older pending statements. The new work does not establish clinical deployment, autonomous-research superiority, or unpublished benchmark claims.
+
+## Project page and interview guide
+
+See the [project landing page](showcase/index.html) and [technical interview guide](showcase/guide.html). Download the HTML files and open them in a browser; GitHub displays their source.
